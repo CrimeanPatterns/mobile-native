@@ -1,0 +1,21 @@
+{
+  "name": "react-native-render-html",
+  "version": "5.1.1",
+  "summary": "React Native component that renders HTML as native views",
+  "license": "BSD-2-Clause",
+  "authors": "Meliorence <contact@meliorence.com> (github.com/meliorence)",
+  "homepage": "https://github.com/meliorence/react-native-render-html",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/meliorence/react-native-render-html.git",
+    "tag": "v5.1.1"
+  },
+  "source_files": "ios/**/*.{h,m}",
+  "dependencies": {
+    "React-Core": [
+
+    ]
+  }
+}

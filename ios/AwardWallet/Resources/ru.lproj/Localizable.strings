@@ -1,0 +1,10 @@
+"push-notifications.native-app.call-action.button"="Позвонить";
+"delete"="Удалить";
+"cancel"="Отменить";
+"confirm.delete.picture"="Пожалуйста, подтвердите удаление этой фотографии";
+"camera.scan.barcode"="Держите Вашу карту перед\nкамерой, чтобы отсканировать штрихкод";
+"buttons.back"="Назад";
+"button.ok"="ОК";
+"settings"="Настройки";
+"location.enable-service"="Вы можете подключить доступ к сервису, отметив \"Всегда\" в настройках: Настройки -> Местоположение.";
+"location.enable-service.title"="У этого приложения нет доступа к сервису геолокации";

@@ -1,0 +1,9 @@
+NSCameraUsageDescription="para que você possa escanear seus cartões de fidelidade físicos e armazená-los no AwardWallet";
+NSPhotoLibraryUsageDescription="para que você possa escanear seus cartões de fidelidade físicos e armazená-los no AwardWallet";
+"menu.button.accounts"="Contas";
+"menu.button.bookings"="Reservas";
+"menu.button.trips"="Viagens";
+"menu.button.covid19"="Covid 19 Vaccine Card";
+NSLocationAlwaysUsageDescription="Isto é necessário para que possamos mostrar na sua tela inicial os cartões de fidelidade de lojas (com códigos de barra) quando você estiver na loja.";
+NSLocationAlwaysAndWhenInUseUsageDescription="Isto é necessário para que possamos mostrar na sua tela inicial os cartões de fidelidade de lojas (com códigos de barra) quando você estiver na loja.";
+NSLocationWhenInUseUsageDescription="Isto é necessário para que possamos mostrar na sua tela inicial os cartões de fidelidade de lojas (com códigos de barra) quando você estiver na loja.";

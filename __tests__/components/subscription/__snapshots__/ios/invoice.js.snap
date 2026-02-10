@@ -1,0 +1,1196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentInvoice/>, dark theme 1`] = `
+<View
+  collapsable={false}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "flex": 1,
+        },
+        Object {
+          "backgroundColor": "#000",
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "column",
+            "flexWrap": "nowrap",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderBottomColor": "#bec2cc",
+                  "borderBottomWidth": 2,
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "marginTop": 10,
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 10,
+                },
+                Object {
+                  "borderBottomColor": "#2e2e31",
+                  "borderBottomWidth": 1,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 20,
+                  },
+                  Object {
+                    "color": "#fff",
+                  },
+                ]
+              }
+            >
+              Successfully paid
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderBottomColor": "#dfe1e6",
+                  "borderBottomWidth": 1,
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 10,
+                },
+                Object {
+                  "borderBottomColor": "#2e2e31",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "color": "#fff",
+                  },
+                ]
+              }
+            >
+              Test product description
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  Object {
+                    "color": "#fff",
+                  },
+                ]
+              }
+            >
+              999$
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderBottomColor": "#dfe1e6",
+                  "borderBottomWidth": 1,
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 10,
+                },
+                Object {
+                  "borderBottomColor": "#2e2e31",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  Object {
+                    "color": "#fff",
+                  },
+                  Object {
+                    "color": "#cc3d5e",
+                  },
+                  Object {
+                    "color": "#EA3C48",
+                  },
+                ]
+              }
+            >
+              Discount
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  Object {
+                    "color": "#fff",
+                  },
+                  Object {
+                    "color": "#cc3d5e",
+                  },
+                  Object {
+                    "color": "#EA3C48",
+                  },
+                ]
+              }
+            >
+              -
+              99
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderBottomColor": "#dfe1e6",
+                  "borderBottomWidth": 1,
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 10,
+                },
+                Object {
+                  "borderBottomColor": "#2e2e31",
+                },
+                Object {
+                  "borderBottomWidth": 0,
+                  "marginTop": 20,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  Object {
+                    "color": "#fff",
+                  },
+                ]
+              }
+            >
+              Total
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "fontSize": 20,
+                  },
+                  Object {
+                    "color": "#fff",
+                  },
+                ]
+              }
+            >
+              900$
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "flexWrap": "nowrap",
+              "justifyContent": "center",
+              "paddingHorizontal": 10,
+              "paddingVertical": 20,
+            }
+          }
+        >
+          <View
+            accessibilityLabel="Continue"
+            accessibilityRole="button"
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="submit"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "rgb(255, 255, 255)",
+                    "marginHorizontal": 5,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                disabled={false}
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 13,
+                    "height": 48,
+                    "lineHeight": 48,
+                    "paddingHorizontal": 35,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Continue
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`<PaymentInvoice/>, dark theme, with customStyles 1`] = `
+<View
+  collapsable={false}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "red",
+        },
+        false,
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "blue",
+          }
+        }
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderBottomColor": "#bec2cc",
+                  "borderBottomWidth": 2,
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "marginTop": 10,
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 10,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 20,
+                  },
+                  false,
+                ]
+              }
+            >
+              Successfully paid
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#ccc",
+                  "borderColor": "#eee",
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "orange",
+                  },
+                  false,
+                ]
+              }
+            >
+              Test product description
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "orange",
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  false,
+                ]
+              }
+            >
+              999$
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#ccc",
+                  "borderColor": "#eee",
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "orange",
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  false,
+                  Object {
+                    "color": "yellow",
+                  },
+                  false,
+                ]
+              }
+            >
+              Discount
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "orange",
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  false,
+                  Object {
+                    "color": "yellow",
+                  },
+                  false,
+                ]
+              }
+            >
+              -
+              99
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#ccc",
+                  "borderColor": "#eee",
+                },
+                false,
+                Object {
+                  "borderBottomWidth": 0,
+                  "marginTop": 20,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "orange",
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  false,
+                ]
+              }
+            >
+              Total
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "orange",
+                  },
+                  Object {
+                    "fontSize": 20,
+                  },
+                  false,
+                ]
+              }
+            >
+              900$
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "flexWrap": "nowrap",
+              "justifyContent": "center",
+              "paddingHorizontal": 10,
+              "paddingVertical": 20,
+            }
+          }
+        >
+          <View
+            accessibilityLabel="Continue"
+            accessibilityRole="button"
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="submit"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "rgb(255, 255, 255)",
+                    "marginHorizontal": 5,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                disabled={false}
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 13,
+                    "height": 48,
+                    "lineHeight": 48,
+                    "paddingHorizontal": 35,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Continue
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`<PaymentInvoice/>, light theme 1`] = `
+<View
+  collapsable={false}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "flex": 1,
+        },
+        false,
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "column",
+            "flexWrap": "nowrap",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderBottomColor": "#bec2cc",
+                  "borderBottomWidth": 2,
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "marginTop": 10,
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 10,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 20,
+                  },
+                  false,
+                ]
+              }
+            >
+              Successfully paid
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderBottomColor": "#dfe1e6",
+                  "borderBottomWidth": 1,
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 10,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 15,
+                  },
+                  false,
+                ]
+              }
+            >
+              Test product description
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  false,
+                ]
+              }
+            >
+              999$
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderBottomColor": "#dfe1e6",
+                  "borderBottomWidth": 1,
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 10,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  false,
+                  Object {
+                    "color": "#cc3d5e",
+                  },
+                  false,
+                ]
+              }
+            >
+              Discount
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  false,
+                  Object {
+                    "color": "#cc3d5e",
+                  },
+                  false,
+                ]
+              }
+            >
+              -
+              99
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderBottomColor": "#dfe1e6",
+                  "borderBottomWidth": 1,
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "justifyContent": "space-between",
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 10,
+                },
+                false,
+                Object {
+                  "borderBottomWidth": 0,
+                  "marginTop": 20,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  false,
+                ]
+              }
+            >
+              Total
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "fontSize": 20,
+                  },
+                  false,
+                ]
+              }
+            >
+              900$
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "flexWrap": "nowrap",
+              "justifyContent": "center",
+              "paddingHorizontal": 10,
+              "paddingVertical": 20,
+            }
+          }
+        >
+          <View
+            accessibilityLabel="Continue"
+            accessibilityRole="button"
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="submit"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "rgb(255, 255, 255)",
+                    "marginHorizontal": 5,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                disabled={false}
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 13,
+                    "height": 48,
+                    "lineHeight": 48,
+                    "paddingHorizontal": 35,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Continue
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`<PaymentInvoice/>, light theme, with customStyles 1`] = `
+<View
+  collapsable={false}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "red",
+        },
+        false,
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "blue",
+          }
+        }
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderBottomColor": "#bec2cc",
+                  "borderBottomWidth": 2,
+                  "flexDirection": "row",
+                  "flexWrap": "nowrap",
+                  "marginTop": 10,
+                  "paddingHorizontal": 15,
+                  "paddingVertical": 10,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#5c6373",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 20,
+                  },
+                  false,
+                ]
+              }
+            >
+              Successfully paid
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#ccc",
+                  "borderColor": "#eee",
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "orange",
+                  },
+                  false,
+                ]
+              }
+            >
+              Test product description
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "orange",
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  false,
+                ]
+              }
+            >
+              999$
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#ccc",
+                  "borderColor": "#eee",
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "orange",
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  false,
+                  Object {
+                    "color": "yellow",
+                  },
+                  false,
+                ]
+              }
+            >
+              Discount
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "orange",
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  false,
+                  Object {
+                    "color": "yellow",
+                  },
+                  false,
+                ]
+              }
+            >
+              -
+              99
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#ccc",
+                  "borderColor": "#eee",
+                },
+                false,
+                Object {
+                  "borderBottomWidth": 0,
+                  "marginTop": 20,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "orange",
+                  },
+                  Object {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontWeight": "bold",
+                  },
+                  false,
+                ]
+              }
+            >
+              Total
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "orange",
+                  },
+                  Object {
+                    "fontSize": 20,
+                  },
+                  false,
+                ]
+              }
+            >
+              900$
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "flexWrap": "nowrap",
+              "justifyContent": "center",
+              "paddingHorizontal": 10,
+              "paddingVertical": 20,
+            }
+          }
+        >
+          <View
+            accessibilityLabel="Continue"
+            accessibilityRole="button"
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="submit"
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "rgb(255, 255, 255)",
+                    "marginHorizontal": 5,
+                  },
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                disabled={false}
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 13,
+                    "height": 48,
+                    "lineHeight": 48,
+                    "paddingHorizontal": 35,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Continue
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

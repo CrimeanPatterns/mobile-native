@@ -1,0 +1,45 @@
+ext {
+    minSdkVersion = 23
+    compileSdkVersion = 34
+    targetSdkVersion = 34
+    buildToolsVersion = "34.0.0"
+    supportLibVersion   = "28.0.0"
+    googlePlayServicesVersion = "21.0.1"
+    googlePlayServicesIidVersion = "17.+"
+    ndkVersion = "25.1.8937393"
+    firebaseMessagingVersion = "21.1.0"
+    kotlinVersion = '1.8.0'
+    kotlin_version = '1.8.0' // fallback
+    versionCode = 4440009
+    versionName = "4.44.9"
+}
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath 'com.google.gms:google-services:4.4.0' // https://rnfirebase.io/#configure-firebase-with-android-credentials
+        classpath 'com.bugsnag:bugsnag-android-gradle-plugin:7.+'
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+    }
+}
+allprojects {
+    repositories {
+        maven {
+            // Google's Maven repository
+            url "https://maven.google.com"
+        }
+        maven { url "https://jitpack.io" }
+    }
+    configurations.configureEach {
+        resolutionStrategy {
+            // https://stackoverflow.com/questions/68884589/caused-by-java-lang-exception-no-native-library-is-found-for-os-name-mac-and-o
+            force 'org.xerial:sqlite-jdbc:3.34.0'
+        }
+    }
+}
+apply plugin: "com.facebook.react.rootproject"

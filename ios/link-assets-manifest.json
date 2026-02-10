@@ -1,0 +1,1513 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/favicons/aa.png",
+      "sha1": "698e6731dc240b4166951e83ad0c75ff9d03364e"
+    },
+    {
+      "path": "assets/favicons/ace.png",
+      "sha1": "79bb7b40decbd99d4d6edc66604359c0ac691da7"
+    },
+    {
+      "path": "assets/favicons/acmoore.png",
+      "sha1": "49ab2dd33d3bb5e11e71c7156ffdd8c9dd69cd68"
+    },
+    {
+      "path": "assets/favicons/aegean.png",
+      "sha1": "c5360a646a068f3427854b2f4daa22f23d4110f9"
+    },
+    {
+      "path": "assets/favicons/aerlingus.png",
+      "sha1": "9d9d0a8f441213ef43fdf17f08e878bd5d6b2fe2"
+    },
+    {
+      "path": "assets/favicons/aeroflot.png",
+      "sha1": "3dcca6fe5ac8c351c8370aec56388227b41b4623"
+    },
+    {
+      "path": "assets/favicons/aerolineas.png",
+      "sha1": "21a5504013ce0438012412c2e34bed6cceada573"
+    },
+    {
+      "path": "assets/favicons/aeromexico.png",
+      "sha1": "d9b5459a42b2e31f6e976d3fce948bc38b1253e2"
+    },
+    {
+      "path": "assets/favicons/aeroplan.png",
+      "sha1": "78b17b22a062088210bb16a950eefd08e1fc796f"
+    },
+    {
+      "path": "assets/favicons/agoda.png",
+      "sha1": "1da81708694b1d0fd01f6cddedc0509cc447a2f1"
+    },
+    {
+      "path": "assets/favicons/airasia.png",
+      "sha1": "a96bad60a31b320d2cdaf650513d40fd288ef90b"
+    },
+    {
+      "path": "assets/favicons/airbnb.png",
+      "sha1": "6d91c5cbfbc038c87d0c6a249e490617c9bcf793"
+    },
+    {
+      "path": "assets/favicons/airchina.png",
+      "sha1": "d5d7acb6843158e065e16e5f6a7f70da2dba458b"
+    },
+    {
+      "path": "assets/favicons/aireuropa.png",
+      "sha1": "6c9f58d1f0138b772264006ab8808715e38af98e"
+    },
+    {
+      "path": "assets/favicons/airfrance.png",
+      "sha1": "73c27d4336cb912b00c218e2aea357e694f05ab8"
+    },
+    {
+      "path": "assets/favicons/airindia.png",
+      "sha1": "fd2cd2fd92f6034990badf8f3218549a885eed3e"
+    },
+    {
+      "path": "assets/favicons/airmaroc.png",
+      "sha1": "b0d2d16029b21c58cd150544798d0030dea9fec4"
+    },
+    {
+      "path": "assets/favicons/airmiles.png",
+      "sha1": "4660f5177949176446bc9741d8ed81435b76f5c7"
+    },
+    {
+      "path": "assets/favicons/airmilesca.png",
+      "sha1": "4660f5177949176446bc9741d8ed81435b76f5c7"
+    },
+    {
+      "path": "assets/favicons/airnewzealand.png",
+      "sha1": "a9c24ef18d071de997837838e2cc0c14de71e502"
+    },
+    {
+      "path": "assets/favicons/alamo.png",
+      "sha1": "461d750bfdb72cfe6af0248cfe26fcbfc9bc92c7"
+    },
+    {
+      "path": "assets/favicons/alaskaair.png",
+      "sha1": "0e34ca5b034029ff17f04fc01d81da55776ef9b9"
+    },
+    {
+      "path": "assets/favicons/alitalia.png",
+      "sha1": "ba2416a6b32c9695247424b42cb74e5ca38de82d"
+    },
+    {
+      "path": "assets/favicons/allegiant.png",
+      "sha1": "62ecab792b97125d5f8a08d6ca2961a6df8eae3e"
+    },
+    {
+      "path": "assets/favicons/amazongift.png",
+      "sha1": "abf8bba96a68f8826877b62ab7972cab21825cc1"
+    },
+    {
+      "path": "assets/favicons/amc.png",
+      "sha1": "ca1ea88a17d960d3b76e8246fecdeda04a496ede"
+    },
+    {
+      "path": "assets/favicons/americaneagle.png",
+      "sha1": "620f0b1bec615a004e9b8d24ef80e7454983d6c3"
+    },
+    {
+      "path": "assets/favicons/amex.png",
+      "sha1": "75b5f033c53095658281b8d37fcc5104f1e14434"
+    },
+    {
+      "path": "assets/favicons/amexbb.png",
+      "sha1": "c139652e98a5753d6ccbb5750269c9f33397c54e"
+    },
+    {
+      "path": "assets/favicons/amtrak.png",
+      "sha1": "4c236672e67fe2b71603bb99fcf89724f42ab1a1"
+    },
+    {
+      "path": "assets/favicons/ana.png",
+      "sha1": "35fd38181651fc21f9d4babd8fcf613f5ac6f335"
+    },
+    {
+      "path": "assets/favicons/ap.png",
+      "sha1": "f3cbbb44b37f8472e3f66473cdbc9b328dbe2a08"
+    },
+    {
+      "path": "assets/favicons/aplus.png",
+      "sha1": "5cdd2a843b749e5bc28f84e1330d2faa1b8b83e3"
+    },
+    {
+      "path": "assets/favicons/aquire.png",
+      "sha1": "fde76ecc62d17d484f3f1bbcc13dd469dadbc311"
+    },
+    {
+      "path": "assets/favicons/asia.png",
+      "sha1": "715f8a5b022b306ad00b199ffb7f5f7cc310ac53"
+    },
+    {
+      "path": "assets/favicons/asiana.png",
+      "sha1": "1c631262e389c4453394c8cc81194788aeab961f"
+    },
+    {
+      "path": "assets/favicons/auchan.png",
+      "sha1": "05e13ecf75b7fb4d08c3c48c4e4165be8634838c"
+    },
+    {
+      "path": "assets/favicons/austinreed.png",
+      "sha1": "3fee9f48e76cb5091cac60f79f00fef8087efdbb"
+    },
+    {
+      "path": "assets/favicons/austrian.png",
+      "sha1": "66b726c471e97e4846161bb33d5b0e490866b966"
+    },
+    {
+      "path": "assets/favicons/autozone.png",
+      "sha1": "7333306a93054a70b475ec2751104b866ef208c9"
+    },
+    {
+      "path": "assets/favicons/aveda.png",
+      "sha1": "aed442e76dd52123473b8a2358168ef07542435a"
+    },
+    {
+      "path": "assets/favicons/aviancataca.png",
+      "sha1": "99b0cda7f75d7649927d6d16a535c40da892dbc6"
+    },
+    {
+      "path": "assets/favicons/avis.png",
+      "sha1": "07ecb1ad66f2f0856779557747718407e55c5455"
+    },
+    {
+      "path": "assets/favicons/azul.png",
+      "sha1": "aace362dc2eef5562c1205ab760efa2e9f75b4f0"
+    },
+    {
+      "path": "assets/favicons/bahn.png",
+      "sha1": "ad94796b5c3f5a64f587cd2ab7930a0b4bb967bf"
+    },
+    {
+      "path": "assets/favicons/bananarepublic.png",
+      "sha1": "2b58c5973f72ecf1d2af274ac4197b0eebccd08c"
+    },
+    {
+      "path": "assets/favicons/bankofamerica.png",
+      "sha1": "62f78a105137c020dbb5b8fc671e41d6785567e9"
+    },
+    {
+      "path": "assets/favicons/barclaycard.png",
+      "sha1": "8de26834f6deb7a92c487898d5794863c14bf337"
+    },
+    {
+      "path": "assets/favicons/bashneft.png",
+      "sha1": "a78170ad4a8fc6fcd0ac9d2b24d712d0209b21ab"
+    },
+    {
+      "path": "assets/favicons/befrugal.png",
+      "sha1": "fbeeacd798ead515ee67fe85b5251e322658023e"
+    },
+    {
+      "path": "assets/favicons/bestbuy.png",
+      "sha1": "a9388fe81d5fea7d039f7bc3b4084c58b442328d"
+    },
+    {
+      "path": "assets/favicons/bevmo.png",
+      "sha1": "63c7ea9304a7abf54fd97f8cd9379ede86afbf51"
+    },
+    {
+      "path": "assets/favicons/biglots.png",
+      "sha1": "5ccb09e0aeb0ba046092e1003ceec47799247843"
+    },
+    {
+      "path": "assets/favicons/bing.png",
+      "sha1": "6c0b201044e48c49ad4ba9b30fd5fd581df9193e"
+    },
+    {
+      "path": "assets/favicons/bjspremier.png",
+      "sha1": "2c99dfd87614f434b819137b8da4cfc3ef66c1b4"
+    },
+    {
+      "path": "assets/favicons/blooming.png",
+      "sha1": "27e1d1ccf5ff539a167fc75394556c9b130b6468"
+    },
+    {
+      "path": "assets/favicons/booking.png",
+      "sha1": "dc7bd1ffe45305ffe77aba473af8a9c3a32c5aab"
+    },
+    {
+      "path": "assets/favicons/boots.png",
+      "sha1": "a9514862a85ebd69d7909a5965f3cdc7c9a0e19e"
+    },
+    {
+      "path": "assets/favicons/bradesco.png",
+      "sha1": "ebdbb8f4b794d7c2a6ea6cf8894676cc172a73d3"
+    },
+    {
+      "path": "assets/favicons/british.png",
+      "sha1": "15fbaf56dc8057034c131cab57b15dc0b5eee11c"
+    },
+    {
+      "path": "assets/favicons/brussels.png",
+      "sha1": "6fdc52a4f1d866fa0ba798b05cb4b938327400a4"
+    },
+    {
+      "path": "assets/favicons/buildabear.png",
+      "sha1": "0ac1693781c82d818f50563aa9e9eb2033a7c745"
+    },
+    {
+      "path": "assets/favicons/calvinklein.png",
+      "sha1": "d2ccc8575688bc57831e1b42723183aa23cdc6bc"
+    },
+    {
+      "path": "assets/favicons/capitalcards.png",
+      "sha1": "3221f171a40c28a62770b2bc5ef6d6c73902cd37"
+    },
+    {
+      "path": "assets/favicons/caprabo.png",
+      "sha1": "84d863f64e32be28b30df1e87886591b05656435"
+    },
+    {
+      "path": "assets/favicons/carlson.png",
+      "sha1": "fbcee268f47a5b370cfda62e8f7b0b12e5fb61a2"
+    },
+    {
+      "path": "assets/favicons/carnival.png",
+      "sha1": "92a7377d4cb0a115da024348ed5981bbb8e6ac46"
+    },
+    {
+      "path": "assets/favicons/carrefour.png",
+      "sha1": "f77fd354438865d54fb44eab74440d571dd21df6"
+    },
+    {
+      "path": "assets/favicons/cartwheel.png",
+      "sha1": "73a96fabcba99e997155bd7ee6e310eae2c1da0c"
+    },
+    {
+      "path": "assets/favicons/celebritycruises.png",
+      "sha1": "f8cab04ccd1d567f51b56e756306052029b4a071"
+    },
+    {
+      "path": "assets/favicons/changi.png",
+      "sha1": "7d359536bb63a15b5582c1c8623e644dba024904"
+    },
+    {
+      "path": "assets/favicons/chase.png",
+      "sha1": "aecc81855a498f44095bbadd8eae857be8b48708"
+    },
+    {
+      "path": "assets/favicons/cheapoair.png",
+      "sha1": "8fd1e0c62dffd3e25935430294226b3dcc7edabc"
+    },
+    {
+      "path": "assets/favicons/checkout.png",
+      "sha1": "3ca84bbb0ea4d5584e204ea7285b14ba7a3c927e"
+    },
+    {
+      "path": "assets/favicons/chickfil.png",
+      "sha1": "5ee9c1e7abd9eaf3e407e494e1c2bf66d2a1a664"
+    },
+    {
+      "path": "assets/favicons/china.png",
+      "sha1": "15bae98a97c688cb02e08250ac36292738c12a6b"
+    },
+    {
+      "path": "assets/favicons/chinaeastern.png",
+      "sha1": "d8a68f03ae56033d5e9d99429924e6ba6c55270a"
+    },
+    {
+      "path": "assets/favicons/chinasouthern.png",
+      "sha1": "3c4297b06799770c998787decbc6ced68be34023"
+    },
+    {
+      "path": "assets/favicons/chipotle.png",
+      "sha1": "06acd509395ebf44fdf14b0ab6010d9361201109"
+    },
+    {
+      "path": "assets/favicons/choice.png",
+      "sha1": "413a5f7c12cd3a2fd893825b3f3550e46ea0b683"
+    },
+    {
+      "path": "assets/favicons/citybank.png",
+      "sha1": "85f8d2385234706bd661a2779f16e3f63d4f4154"
+    },
+    {
+      "path": "assets/favicons/columbia.png",
+      "sha1": "fd502be825a3e42d50323bfec651046b8f3d14a5"
+    },
+    {
+      "path": "assets/favicons/coop.png",
+      "sha1": "10c92c6b5147d27ad11f72ce771709c24ceed9d9"
+    },
+    {
+      "path": "assets/favicons/cooperative.png",
+      "sha1": "47e2fe62f72f2f3ca5a726b949e715837088ed59"
+    },
+    {
+      "path": "assets/favicons/copaair.png",
+      "sha1": "9418743233ce0d1389b746ce1063c5b7a4a978ca"
+    },
+    {
+      "path": "assets/favicons/costco.png",
+      "sha1": "50937849839a729d6e790860c19bbb737b52681c"
+    },
+    {
+      "path": "assets/favicons/costravel.png",
+      "sha1": "0d49473f942c9c43d4627e44b16230972dbd4bfe"
+    },
+    {
+      "path": "assets/favicons/croatia.png",
+      "sha1": "68c2916eb3e52ae8270c803a1919a9718c3fbe42"
+    },
+    {
+      "path": "assets/favicons/ctrip.png",
+      "sha1": "6bdb9dc353a270e7d0f10b8c8b641f03fe016b3e"
+    },
+    {
+      "path": "assets/favicons/cvs.png",
+      "sha1": "c9e24d14cac0a91d223d149d5407abd8f3baaec8"
+    },
+    {
+      "path": "assets/favicons/czech.png",
+      "sha1": "dfe5eb3ffaf100b09be14181a4cd00b1bdc0a622"
+    },
+    {
+      "path": "assets/favicons/debenhams.png",
+      "sha1": "6cb44b1c2699570114666c9c06950a25a150aa10"
+    },
+    {
+      "path": "assets/favicons/dell.png",
+      "sha1": "22dc74a1b35fccf689b762321b1be85a3ff06afa"
+    },
+    {
+      "path": "assets/favicons/delta.png",
+      "sha1": "2d0a4213e2f07cdb90fc3b4e8aa48a1d86c4b341"
+    },
+    {
+      "path": "assets/favicons/deltacorp.png",
+      "sha1": "2d0a4213e2f07cdb90fc3b4e8aa48a1d86c4b341"
+    },
+    {
+      "path": "assets/favicons/dicks.png",
+      "sha1": "2f83b66f292cfcdb95d078068d104ea18169a1fb"
+    },
+    {
+      "path": "assets/favicons/dischem.png",
+      "sha1": "40ace963f11ce67cd0042c4086246016167bffc2"
+    },
+    {
+      "path": "assets/favicons/discover.png",
+      "sha1": "7dff19c5f571c9118127a9cae38f06e97671869b"
+    },
+    {
+      "path": "assets/favicons/disney.png",
+      "sha1": "2d7a429a948c5c93fafa6782246e2ed0f9b64779"
+    },
+    {
+      "path": "assets/favicons/disneyresort.png",
+      "sha1": "a7b7772d5108ea6b6e84ae9db81620c69ae65747"
+    },
+    {
+      "path": "assets/favicons/disneyvacation.png",
+      "sha1": "41ec241f4884e39b2766dc2f23a37e77b4372138"
+    },
+    {
+      "path": "assets/favicons/dollar.png",
+      "sha1": "29f96b884e390b838f49950ff264256f96a5b9c1"
+    },
+    {
+      "path": "assets/favicons/dominos.png",
+      "sha1": "a75bfc4e9218902d2f6423e8b221eb8cb7b44bab"
+    },
+    {
+      "path": "assets/favicons/dotz.png",
+      "sha1": "1aa983a33f2f884533b818f2a713cd862e65ccda"
+    },
+    {
+      "path": "assets/favicons/drury.png",
+      "sha1": "c946ae0f7d27b0f11f563ff5d8f695074cf8593c"
+    },
+    {
+      "path": "assets/favicons/dsw.png",
+      "sha1": "78d3ab77b8f7698bfa98c496c370e2432bd04a2f"
+    },
+    {
+      "path": "assets/favicons/dunkin.png",
+      "sha1": "fc178ef348c836120e412a7064296554758f72b5"
+    },
+    {
+      "path": "assets/favicons/easyjet.png",
+      "sha1": "d17b0a7e1f3f2c5d45d2b4f6395442997a333f2e"
+    },
+    {
+      "path": "assets/favicons/ebates.png",
+      "sha1": "eac9482343eeae6915a4c9b3c4aab9dd998e280e"
+    },
+    {
+      "path": "assets/favicons/ebay.png",
+      "sha1": "90e293d2577ac22cbb75494ebb01f0fa57b6a1e8"
+    },
+    {
+      "path": "assets/favicons/eddiebauer.png",
+      "sha1": "72df65c2489e205b0a8b312b25ce1548dde0dd00"
+    },
+    {
+      "path": "assets/favicons/egyptair.png",
+      "sha1": "3361455034d0e50f477caed1fe7833c58edc8d46"
+    },
+    {
+      "path": "assets/favicons/eldorado.png",
+      "sha1": "c29404c758b95d9e5ee2dbcf4ea8075fb3764f8a"
+    },
+    {
+      "path": "assets/favicons/eni.png",
+      "sha1": "c1d12bd1ddb6d48a49bfc3132a91fa29eab7147f"
+    },
+    {
+      "path": "assets/favicons/erewards.png",
+      "sha1": "03d948e8d049617cea9d813ee6795b2d529afa8c"
+    },
+    {
+      "path": "assets/favicons/ethiopian.png",
+      "sha1": "6b2d6ff2eb915de6f638f397f1fdd010c30b29e5"
+    },
+    {
+      "path": "assets/favicons/etihad.png",
+      "sha1": "f61165aa183738065bd6c46270b2c7193903d359"
+    },
+    {
+      "path": "assets/favicons/eurobonus.png",
+      "sha1": "21e3e14f90ce185d868108cb2f027d9e67d100ee"
+    },
+    {
+      "path": "assets/favicons/europcar.png",
+      "sha1": "0e14e6a3d0ccb626f6f3a2dfa2d0cbf8b0074016"
+    },
+    {
+      "path": "assets/favicons/eurostar.png",
+      "sha1": "5d46a5e8bfc78688c126c2d3ba7422a6f121ca14"
+    },
+    {
+      "path": "assets/favicons/eva.png",
+      "sha1": "d7d16a074ab441bbc7a17e0674145cbe016d987c"
+    },
+    {
+      "path": "assets/favicons/expedia.png",
+      "sha1": "6dc06e1da4947881666b8901ab6deddfb1aa5cd2"
+    },
+    {
+      "path": "assets/favicons/express.png",
+      "sha1": "c2026dbfea6da55036723787f75b5999ee1eef95"
+    },
+    {
+      "path": "assets/favicons/famousfootwear.png",
+      "sha1": "6581090edba2faed2092179deecd17ee40cec3ab"
+    },
+    {
+      "path": "assets/favicons/fandango.png",
+      "sha1": "762816b75cc85e7a35972f0492473103e026750c"
+    },
+    {
+      "path": "assets/favicons/fiji.png",
+      "sha1": "10d064edfbaaee52c52694652ad389e97c74ac60"
+    },
+    {
+      "path": "assets/favicons/finishline.png",
+      "sha1": "3a3e92733d67fa9be647ff7938c0b9ae2a16e752"
+    },
+    {
+      "path": "assets/favicons/finnair.png",
+      "sha1": "74dd7bc10a0308fdc61dc9faae96d8b79374bf02"
+    },
+    {
+      "path": "assets/favicons/flybuys.png",
+      "sha1": "b541b25b9ee354b6f71b9d57b3d2bbc0ed9d0d1e"
+    },
+    {
+      "path": "assets/favicons/flyerbonus.png",
+      "sha1": "1254127ef1bf69f7f753a1315688308f402b24a2"
+    },
+    {
+      "path": "assets/favicons/flysaa.png",
+      "sha1": "da0fc3b58a2cd1df0346239e43db882eecca3d2e"
+    },
+    {
+      "path": "assets/favicons/foodlion.png",
+      "sha1": "7ed6227f38234bc42c78ba660116721ad725f563"
+    },
+    {
+      "path": "assets/favicons/foyles.png",
+      "sha1": "4e74b1ed231d8de78e583b8bf316914c903c4c1e"
+    },
+    {
+      "path": "assets/favicons/fredmeyer.png",
+      "sha1": "d5b0b102b47900b464f3094633a8541e90f397ff"
+    },
+    {
+      "path": "assets/favicons/freebees.png",
+      "sha1": "2ef4e92a52a7a6213f2e8f93f214a8857fef6938"
+    },
+    {
+      "path": "assets/favicons/frontierairlines.png",
+      "sha1": "efc9316152a2adfd19e1f9105235f81503a01723"
+    },
+    {
+      "path": "assets/favicons/fuelrewards.png",
+      "sha1": "12f2d86ee99fc72e36ec1b8ec95957d8db9bf585"
+    },
+    {
+      "path": "assets/favicons/gamestop.png",
+      "sha1": "d1e2b59924f2a0f3f8a3d56f057abce3a37bf5c0"
+    },
+    {
+      "path": "assets/favicons/gap.png",
+      "sha1": "ad3f3ddea9c9e74897e81ef8bbd4f74f95c611b6"
+    },
+    {
+      "path": "assets/favicons/garuda.png",
+      "sha1": "816b7941c454abfbda26e5214b84d035d74dd647"
+    },
+    {
+      "path": "assets/favicons/gha.png",
+      "sha1": "9d1c9f4c7af790e62beb70ece2a88c814a6a3078"
+    },
+    {
+      "path": "assets/favicons/gnc.png",
+      "sha1": "d8f66c1a2cc0c5c1962bc0faa3e99fc776835466"
+    },
+    {
+      "path": "assets/favicons/golair.png",
+      "sha1": "da89662d66d925a40eb80263866cca0a881eafff"
+    },
+    {
+      "path": "assets/favicons/goldcrown.png",
+      "sha1": "9df7b294708a8c93194c4ae31fb479d80d84a927"
+    },
+    {
+      "path": "assets/favicons/goldpassport.png",
+      "sha1": "456c70897ede51c3062ec6d6a21fa338b3c8843b"
+    },
+    {
+      "path": "assets/favicons/groupon.png",
+      "sha1": "7701fc663fdbf7a3146a92e66a373e0f387e07f0"
+    },
+    {
+      "path": "assets/favicons/guess.png",
+      "sha1": "fa6c2fd93e1dc26d6e296baef4006fb197d07cbd"
+    },
+    {
+      "path": "assets/favicons/gymboree.png",
+      "sha1": "690b0bb1a7491670137c31d089dd69b4615edb11"
+    },
+    {
+      "path": "assets/favicons/hainan.png",
+      "sha1": "296c5f27302d8fe3f03274eb4548d9c3acbe54c3"
+    },
+    {
+      "path": "assets/favicons/hallmark.png",
+      "sha1": "5981f6536a55f325292ec1b842c949eafb4ae2ee"
+    },
+    {
+      "path": "assets/favicons/harrah.png",
+      "sha1": "92cfd5ff3cf80912a47caafa9855b1d0885956b9"
+    },
+    {
+      "path": "assets/favicons/harristeeter.png",
+      "sha1": "07591a1be655167be9ff0fb87104d73fd80ab3ed"
+    },
+    {
+      "path": "assets/favicons/harrods.png",
+      "sha1": "a5e38b4f9c61dee2b8d422af5a5920f5a2baf8be"
+    },
+    {
+      "path": "assets/favicons/hawaiian.png",
+      "sha1": "d43d23e037081c94ef792d2c963b31b9cddfc548"
+    },
+    {
+      "path": "assets/favicons/heb.png",
+      "sha1": "937b93d9313eb6503990181ef9709ab5a5f5e101"
+    },
+    {
+      "path": "assets/favicons/heinemann.png",
+      "sha1": "2dc03e4d37518f9549dcf95f3244992fdb832564"
+    },
+    {
+      "path": "assets/favicons/hertz.png",
+      "sha1": "fdbb8761140e54ace3ec4a59ff9b1d005e4a76a7"
+    },
+    {
+      "path": "assets/favicons/hhonors.png",
+      "sha1": "3991a41da93aa75511f9730eb1e411c8001a8f49"
+    },
+    {
+      "path": "assets/favicons/hollandamerica.png",
+      "sha1": "7161e1ce78b629df6e0714fdd49b74d510e2f4ac"
+    },
+    {
+      "path": "assets/favicons/honeygold.png",
+      "sha1": "62acc6df3d94275922c3b854a3b8b063bacc2aa9"
+    },
+    {
+      "path": "assets/favicons/hotels.png",
+      "sha1": "be68774d2c4ae45a6f0ba9f9e80c8b027ed9ead1"
+    },
+    {
+      "path": "assets/favicons/hottopic.png",
+      "sha1": "488a5efbd2ebefa35de56d4f030a4ae63bb0efb5"
+    },
+    {
+      "path": "assets/favicons/hotwire.png",
+      "sha1": "92d195f0f0262e8cd3f51bb463f02702f765a83f"
+    },
+    {
+      "path": "assets/favicons/hsbc.png",
+      "sha1": "d8ea10fd86581c6a0fac36bbd3699e8ef61a7854"
+    },
+    {
+      "path": "assets/favicons/hyvee.png",
+      "sha1": "141af02f96f6b0ef6653d920b133cf93a0c6b2da"
+    },
+    {
+      "path": "assets/favicons/iberia.png",
+      "sha1": "c49ab9067ae92b15b7b412a0c1a032094b2ae884"
+    },
+    {
+      "path": "assets/favicons/icelandair.png",
+      "sha1": "91b99275b1d82a103262126b014695079d102925"
+    },
+    {
+      "path": "assets/favicons/ichotelsgroup.png",
+      "sha1": "3ec94cf5936652d6ef97326404a1e876f962f736"
+    },
+    {
+      "path": "assets/favicons/ikea.png",
+      "sha1": "2899b2f4d1335152f1d81ef28fb99e8af456f88f"
+    },
+    {
+      "path": "assets/favicons/ipiranga.png",
+      "sha1": "c3a0d7cfc7fe3b8c626dc7644a54fbb38080a723"
+    },
+    {
+      "path": "assets/favicons/israel.png",
+      "sha1": "eb7070b4d2188e1da911307a60711fdf2cb81795"
+    },
+    {
+      "path": "assets/favicons/iupp.png",
+      "sha1": "7a95035dc5d4df8f3a6fbf4dac4a70cd4b448dac"
+    },
+    {
+      "path": "assets/favicons/izod.png",
+      "sha1": "40f7da670002f13e30e14866785ce93726800561"
+    },
+    {
+      "path": "assets/favicons/japanair.png",
+      "sha1": "6d6e7b2be44cce6c6391ab41312d849bb01512b7"
+    },
+    {
+      "path": "assets/favicons/jetairways.png",
+      "sha1": "770fb724b890ba8d12d24bcdab81151f83deacd0"
+    },
+    {
+      "path": "assets/favicons/jetblue.png",
+      "sha1": "701473d7a2eac3bd9cf4746bb47db2f22e878617"
+    },
+    {
+      "path": "assets/favicons/jordanian.png",
+      "sha1": "055e87a4568bdfa7e45fe43054f1debca9640db9"
+    },
+    {
+      "path": "assets/favicons/karusel.png",
+      "sha1": "0948848fa27448cf5add6450554f30720300b494"
+    },
+    {
+      "path": "assets/favicons/kayak.png",
+      "sha1": "1b4b85f37957cebc30b2e26b19c1b54bf6598a8b"
+    },
+    {
+      "path": "assets/favicons/kingsoopers.png",
+      "sha1": "dd1212160591cfb0258a83744c9f9c77191a5dad"
+    },
+    {
+      "path": "assets/favicons/klm.png",
+      "sha1": "7cbc0e7dd3b38c90b2856af2e99413788b582424"
+    },
+    {
+      "path": "assets/favicons/korean.png",
+      "sha1": "c348cc51c9ca98b2fb4ad9ebe0fe831ff04f8378"
+    },
+    {
+      "path": "assets/favicons/kroger.png",
+      "sha1": "87a153259f8652728c9cda259a1c7c1900870ca3"
+    },
+    {
+      "path": "assets/favicons/landrys.png",
+      "sha1": "c9dd93ab25b66b0581ae9af5285157c268cd43b3"
+    },
+    {
+      "path": "assets/favicons/lanpass.png",
+      "sha1": "58cf062916ccd17ca3e55b790786b09cd17014ac"
+    },
+    {
+      "path": "assets/favicons/legovip.png",
+      "sha1": "068c25a991831cb899396c26e42e401bf0156098"
+    },
+    {
+      "path": "assets/favicons/letoile.png",
+      "sha1": "58281a785137036213c64a5e7a0441fb89b5900f"
+    },
+    {
+      "path": "assets/favicons/lids.png",
+      "sha1": "937d09a323a23b70c649f111d65017c44589ad98"
+    },
+    {
+      "path": "assets/favicons/livingsocial.png",
+      "sha1": "3fb98c21ac6b6ca2e804b1f10681ae65827b7098"
+    },
+    {
+      "path": "assets/favicons/livrariacultura.png",
+      "sha1": "a70eca2b350433cc815cc2178c4e5de5626983ff"
+    },
+    {
+      "path": "assets/favicons/localiza.png",
+      "sha1": "9d2425b4f3db6ad97b6dceb3d9d3265463f532a5"
+    },
+    {
+      "path": "assets/favicons/loews.png",
+      "sha1": "b981415d9e57d707eb29cfef3637553d34996c3a"
+    },
+    {
+      "path": "assets/favicons/londondrugs.png",
+      "sha1": "cd30c58738c507a00fed00372e82783e3e34db0a"
+    },
+    {
+      "path": "assets/favicons/longos.png",
+      "sha1": "548bbeffef9c68165d6160578a7f744feed1a3c5"
+    },
+    {
+      "path": "assets/favicons/lotpair.png",
+      "sha1": "4af913e187a08c129233fafddce26b2a8f538be8"
+    },
+    {
+      "path": "assets/favicons/loves.png",
+      "sha1": "fb40a7a672ed22c639e9e928aed9ec391462aa21"
+    },
+    {
+      "path": "assets/favicons/lowes.png",
+      "sha1": "3b339e64f9691573b7d3e46d2ac548b871d88806"
+    },
+    {
+      "path": "assets/favicons/lufthansa.png",
+      "sha1": "aa0a93f4f3af9b7d952e6ee8267042ac47a543c8"
+    },
+    {
+      "path": "assets/favicons/lukoil.png",
+      "sha1": "7e7b3a7cb0b73dfe5942832ec69dcdee4bae9d50"
+    },
+    {
+      "path": "assets/favicons/mabuhay.png",
+      "sha1": "d474c276d10eb8d5ac2fd8bc88c0c28abcaceecb"
+    },
+    {
+      "path": "assets/favicons/macy.png",
+      "sha1": "f766c94424d9a154fbb0dbebad12aac7e5b94f00"
+    },
+    {
+      "path": "assets/favicons/malaysia.png",
+      "sha1": "2fe4fb4cc3bfdd6cbf25583363f2360b2651ea8d"
+    },
+    {
+      "path": "assets/favicons/marketexplorer.png",
+      "sha1": "903a9a3d647f4a24c416780aa4a211376f751165"
+    },
+    {
+      "path": "assets/favicons/marriott.png",
+      "sha1": "8287e369cfa08591542336825b06b98f31c98573"
+    },
+    {
+      "path": "assets/favicons/marsh.png",
+      "sha1": "aedc7c5fd47c3c4919994467bd94426e983bd176"
+    },
+    {
+      "path": "assets/favicons/mea.png",
+      "sha1": "37ceba8ba8286e6051ff0e00a2688cecad222d4e"
+    },
+    {
+      "path": "assets/favicons/mediamarkt.png",
+      "sha1": "348a478c7de332ab530e69502192d9eb49098f65"
+    },
+    {
+      "path": "assets/favicons/menswearhouse.png",
+      "sha1": "2c865dc8bf62dadf5c48698f0037b86586d21fd8"
+    },
+    {
+      "path": "assets/favicons/metro.png",
+      "sha1": "9431771e5701991c7c09ca7cba02837a39663bdd"
+    },
+    {
+      "path": "assets/favicons/michaels.png",
+      "sha1": "1cf712a3713e46f03d000489f5d353e5911b3af5"
+    },
+    {
+      "path": "assets/favicons/migros.png",
+      "sha1": "fd1ace295e2b3154bef72e26bd71b7f365521c71"
+    },
+    {
+      "path": "assets/favicons/mileageplus.png",
+      "sha1": "e44b97e39b3932e84912cada2e41e2c930b562a1"
+    },
+    {
+      "path": "assets/favicons/milleniumnclc.png",
+      "sha1": "5d2f877e29c488d76871ed33192db3c557bc7f7c"
+    },
+    {
+      "path": "assets/favicons/milliplein.png",
+      "sha1": "09504076def4aa3ef61bb23b31d7583c30b63d72"
+    },
+    {
+      "path": "assets/favicons/mirage.png",
+      "sha1": "750ebe6546927222170baadaf1c6586ab6dcfdbe"
+    },
+    {
+      "path": "assets/favicons/moneyback.png",
+      "sha1": "370d0f8e145cf039649ef83e5b89cfa6b4ecce20"
+    },
+    {
+      "path": "assets/favicons/monsoon.png",
+      "sha1": "40103ed4cc587695993fd103c0b3384a3856f729"
+    },
+    {
+      "path": "assets/favicons/morrisons.png",
+      "sha1": "94976858ecbe70bb4aa853a3e122ea96e7888df2"
+    },
+    {
+      "path": "assets/favicons/multiplus.png",
+      "sha1": "0eb6bbcae4e6c4fe48050b40d778d98af3b64fbf"
+    },
+    {
+      "path": "assets/favicons/mvideo.png",
+      "sha1": "f278728fa9f97aaca706a5e1adf307dca20d831e"
+    },
+    {
+      "path": "assets/favicons/mycoke.png",
+      "sha1": "00f73c468972c08f8c207609ab958884d5ef4606"
+    },
+    {
+      "path": "assets/favicons/mypoints.png",
+      "sha1": "e1fee99ac982ac3bc11d5a0ae86ca8b2568444fb"
+    },
+    {
+      "path": "assets/favicons/national.png",
+      "sha1": "c460c94f4c14c754264fc3a8134492e6e32ac12e"
+    },
+    {
+      "path": "assets/favicons/navy.png",
+      "sha1": "62983a10f19f4dd83ec887927ea25abb118d0c7e"
+    },
+    {
+      "path": "assets/favicons/nectar.png",
+      "sha1": "1b89cc70677b1538b9df8f4e765d30e23e5de789"
+    },
+    {
+      "path": "assets/favicons/nhhotels.png",
+      "sha1": "f7bc8c3ab1a099b991ff70feca7f42fcb21c15df"
+    },
+    {
+      "path": "assets/favicons/nordic.png",
+      "sha1": "36a7963acb52fc1629aa22757b7cacb7409cdde8"
+    },
+    {
+      "path": "assets/favicons/nordstrom.png",
+      "sha1": "b08fc8628ec00c7fe40e27c7b60fbfa7eaeafacc"
+    },
+    {
+      "path": "assets/favicons/norwegian.png",
+      "sha1": "76b0f4c0e9286f9707da3c1fa0047b9e4f2e9206"
+    },
+    {
+      "path": "assets/favicons/norwegiancruise.png",
+      "sha1": "1879ca8deb825c8e60d7f676ace63fde74e07848"
+    },
+    {
+      "path": "assets/favicons/officedepot.png",
+      "sha1": "4e5cab81b2f773e0588644f5bfc36b235954a73f"
+    },
+    {
+      "path": "assets/favicons/officemax.png",
+      "sha1": "b2ca403bce160df681890376062963cc47e064da"
+    },
+    {
+      "path": "assets/favicons/omnihotels.png",
+      "sha1": "1d273326fda8ce44dda5ba6e8700737d88a4f36e"
+    },
+    {
+      "path": "assets/favicons/opentable.png",
+      "sha1": "8fa5f4082e058f5dc1feaf29e9b547c40091944e"
+    },
+    {
+      "path": "assets/favicons/orbitz.png",
+      "sha1": "ae74b7031b566784f03f37c218da8d244d097ece"
+    },
+    {
+      "path": "assets/favicons/panera.png",
+      "sha1": "d5568c8769d0edf4956fd02a4e474465be62a24f"
+    },
+    {
+      "path": "assets/favicons/panvel.png",
+      "sha1": "1a4b8bed907cea4a173afdaf81107cde72c2c6fe"
+    },
+    {
+      "path": "assets/favicons/papajohns.png",
+      "sha1": "2c637dc6ceab70f399b1cffa3e21baf4d3a6d66c"
+    },
+    {
+      "path": "assets/favicons/parkingspot.png",
+      "sha1": "f0df2cea7c0cb64859bd585a478cb28e898c12f2"
+    },
+    {
+      "path": "assets/favicons/paybackgerman.png",
+      "sha1": "8925112a74a842155da3097f49f18330221f821b"
+    },
+    {
+      "path": "assets/favicons/pcpoints.png",
+      "sha1": "4e13e8cc533b1ebbba16d1047a1444328808d426"
+    },
+    {
+      "path": "assets/favicons/penfed.png",
+      "sha1": "ee052f988111762a42695212a400dac323f983a0"
+    },
+    {
+      "path": "assets/favicons/pepboys.png",
+      "sha1": "031cd79493c788acd406b96b6937c6d8afe0605a"
+    },
+    {
+      "path": "assets/favicons/perekrestok.png",
+      "sha1": "6fcd199e29fe0bf1848dba845202cb7bff965c7b"
+    },
+    {
+      "path": "assets/favicons/perfectdrive.png",
+      "sha1": "d94526bb994901d032265989b2e46015489e3d3f"
+    },
+    {
+      "path": "assets/favicons/petco.png",
+      "sha1": "bce18aa5911ae5ea4996956fbfd8d9ed7fca88e8"
+    },
+    {
+      "path": "assets/favicons/petperks.png",
+      "sha1": "e0f6ec70c4de746505b31ceb952f90597b0d44da"
+    },
+    {
+      "path": "assets/favicons/petrobras.png",
+      "sha1": "29c920bdcd5753b9ed81b1006b873c1177006889"
+    },
+    {
+      "path": "assets/favicons/petrocanada.png",
+      "sha1": "14ca8875182d10182902a4445d078507ef29f52b"
+    },
+    {
+      "path": "assets/favicons/picknpay.png",
+      "sha1": "f2d9b7a7044868f7344bc6217cb75df4686001e6"
+    },
+    {
+      "path": "assets/favicons/plenti.png",
+      "sha1": "f15040591092a5f8b369a9d775a2b6759875e85e"
+    },
+    {
+      "path": "assets/favicons/porter.png",
+      "sha1": "709a215a24b735eb43d0417bfa27c2b97152e4fb"
+    },
+    {
+      "path": "assets/favicons/preferred.png",
+      "sha1": "501a91913b31bc00acfbff2ccc2959b2401723a7"
+    },
+    {
+      "path": "assets/favicons/priceline.png",
+      "sha1": "8744eb4f0cc6e8e3fc6006e4ba99845560397f97"
+    },
+    {
+      "path": "assets/favicons/princess.png",
+      "sha1": "a5b1cddef34347a637a2f67ecd6a194e8277abf1"
+    },
+    {
+      "path": "assets/favicons/purehmv.png",
+      "sha1": "377faeb6b3f5c589f372fdd01d33f6464485243f"
+    },
+    {
+      "path": "assets/favicons/qantas.png",
+      "sha1": "fde76ecc62d17d484f3f1bbcc13dd469dadbc311"
+    },
+    {
+      "path": "assets/favicons/qdoba.png",
+      "sha1": "3e6b57bd9953f3acd40d7502a11fd3584ac1e8d1"
+    },
+    {
+      "path": "assets/favicons/qmiles.png",
+      "sha1": "5322cab66c755d1f36229f72dd9c2e0d066af765"
+    },
+    {
+      "path": "assets/favicons/quidco.png",
+      "sha1": "4a20a292ab8bd68bcaa9c7456ca6f1e1894dc221"
+    },
+    {
+      "path": "assets/favicons/raleys.png",
+      "sha1": "54efaef96f3aea15e7ecb2e31a818a7478e57712"
+    },
+    {
+      "path": "assets/favicons/ralphs.png",
+      "sha1": "d39a291eab1034342cce5c56b18be3562a37de16"
+    },
+    {
+      "path": "assets/favicons/rapidrewards.png",
+      "sha1": "40884a40fcee928fcf85ba8c7453987836c8a5e1"
+    },
+    {
+      "path": "assets/favicons/rbcbank.png",
+      "sha1": "06403c7fd029c0ccf15a75bf33e715a1a748d16b"
+    },
+    {
+      "path": "assets/favicons/rebates.png",
+      "sha1": "adaee4246650ea0621cb373a7da69a6fe76d6127"
+    },
+    {
+      "path": "assets/favicons/redcard.png",
+      "sha1": "73a96fabcba99e997155bd7ee6e310eae2c1da0c"
+    },
+    {
+      "path": "assets/favicons/redcube.png",
+      "sha1": "e50de8c46fbcbba123f3dfc96691c230eba2bfa3"
+    },
+    {
+      "path": "assets/favicons/redroof.png",
+      "sha1": "787676b1a780b1ce3b6e2535254ae243d4f33f1c"
+    },
+    {
+      "path": "assets/favicons/regal.png",
+      "sha1": "9b5efc61a638138832fd4cc1c48662f7ced115a7"
+    },
+    {
+      "path": "assets/favicons/rei.png",
+      "sha1": "882f05b5ef40c6e203b60c00aee693e86e120d87"
+    },
+    {
+      "path": "assets/favicons/rentacar.png",
+      "sha1": "49545e169af51d932a687e82f75a5a0b292124de"
+    },
+    {
+      "path": "assets/favicons/restaurant.png",
+      "sha1": "dffe4e61e3b0c926a554c091a058575d464a0262"
+    },
+    {
+      "path": "assets/favicons/retailmenot.png",
+      "sha1": "d0f71041e955fe56a5b11d2ff15a5d7d10e1e062"
+    },
+    {
+      "path": "assets/favicons/rewardsnet.png",
+      "sha1": "1da68b25ee6a7eed0e15b9b48a512f8c8957428c"
+    },
+    {
+      "path": "assets/favicons/riteaid.png",
+      "sha1": "dfcfa22958716b501842a6ee11be156f129c599d"
+    },
+    {
+      "path": "assets/favicons/rivegauche.png",
+      "sha1": "653d5eb20fac53e41428f25bb3726f96192fa034"
+    },
+    {
+      "path": "assets/favicons/royalcaribbean.png",
+      "sha1": "189e624b37549a7766080eaa2d6f21d545f872f8"
+    },
+    {
+      "path": "assets/favicons/ryanair.png",
+      "sha1": "6551239277ffd4e6a3271d3c2d531103a46eae53"
+    },
+    {
+      "path": "assets/favicons/s7.png",
+      "sha1": "ae224613a5c40401ce264c18d6cd8732177d9747"
+    },
+    {
+      "path": "assets/favicons/safeway.png",
+      "sha1": "dcb2ed307d6756b57a0b5349e82fc477e74e325e"
+    },
+    {
+      "path": "assets/favicons/samsclub.png",
+      "sha1": "aa11217c141b62d7a1236466fbc56c7ab190ecdc"
+    },
+    {
+      "path": "assets/favicons/santander.png",
+      "sha1": "2589983714ad6a39133419b40377a7e8bf0f09bf"
+    },
+    {
+      "path": "assets/favicons/saraiva.png",
+      "sha1": "6ade9098087bb3900f75cc7fd6267e2c337e34b4"
+    },
+    {
+      "path": "assets/favicons/sas.png",
+      "sha1": "21e3e14f90ce185d868108cb2f027d9e67d100ee"
+    },
+    {
+      "path": "assets/favicons/saudisrabianairlin.png",
+      "sha1": "7b2b9284f187db31303876c21df9758cffbc9f5e"
+    },
+    {
+      "path": "assets/favicons/scandichotels.png",
+      "sha1": "54b028cfb0b36ca90a539e57e379e17dc6cd3fc0"
+    },
+    {
+      "path": "assets/favicons/scene.png",
+      "sha1": "574b89eca9f33870616acc1530fc45f502e352f5"
+    },
+    {
+      "path": "assets/favicons/searsshop.png",
+      "sha1": "2156f23b5ad4b315db76c776e98205eabaf196d5"
+    },
+    {
+      "path": "assets/favicons/sephora.png",
+      "sha1": "a54644568a7bf0eaa14d54f5f40c10fdcfc95fe4"
+    },
+    {
+      "path": "assets/favicons/shangrila.png",
+      "sha1": "388a8c42be17b42bee49b2cfdc7fa8603ba4306c"
+    },
+    {
+      "path": "assets/favicons/shell.png",
+      "sha1": "c7657e598b512e3e75d0807301fd6f775df1e763"
+    },
+    {
+      "path": "assets/favicons/shenzhenairlines.png",
+      "sha1": "d70381e9d5b891e969c1c5c467a89cf8de5c9970"
+    },
+    {
+      "path": "assets/favicons/shoppersdrugmart.png",
+      "sha1": "b8fc47eb338a968dc9f104995c5574da9b020915"
+    },
+    {
+      "path": "assets/favicons/shoprite.png",
+      "sha1": "7871a95b0e96743fa6b1eb2fe0c35ba720989782"
+    },
+    {
+      "path": "assets/favicons/showpoints.png",
+      "sha1": "5b522681b3162cad71fd02f312576ffcd06246cd"
+    },
+    {
+      "path": "assets/favicons/silpo.png",
+      "sha1": "668c8d48351ae8397b95c10d7cebfd4e5028fd6c"
+    },
+    {
+      "path": "assets/favicons/singaporeair.png",
+      "sha1": "6b640901cedd7fc6df36663db137cc7775f3891a"
+    },
+    {
+      "path": "assets/favicons/singaporecorp.png",
+      "sha1": "6b640901cedd7fc6df36663db137cc7775f3891a"
+    },
+    {
+      "path": "assets/favicons/sixt.png",
+      "sha1": "5b57791aeecd0059d0742f15c57718fc0c851b24"
+    },
+    {
+      "path": "assets/favicons/skywards.png",
+      "sha1": "1131acd6b867cf2c04779d99aa4d10eeef54fab2"
+    },
+    {
+      "path": "assets/favicons/slh.png",
+      "sha1": "2f11b416dd1b01af9c0fb49010a3594e10aca23d"
+    },
+    {
+      "path": "assets/favicons/smiles.png",
+      "sha1": "a0626bd62cf2e819c67d5487696a1f31a21e8d34"
+    },
+    {
+      "path": "assets/favicons/sobeys.png",
+      "sha1": "2c7a62e648f302ff5dc7e5477e24bf7bb0f0ed01"
+    },
+    {
+      "path": "assets/favicons/solmelia.png",
+      "sha1": "e7a0e0a612819b8bfd02b15dacb17017252b3ade"
+    },
+    {
+      "path": "assets/favicons/sony.png",
+      "sha1": "1bb6c4516f1b8f1a76e0de840098fa1d47a90e22"
+    },
+    {
+      "path": "assets/favicons/speedway.png",
+      "sha1": "d046ac676de02573952bc656c22db692b7fce519"
+    },
+    {
+      "path": "assets/favicons/spirit.png",
+      "sha1": "1ca9c11f78a5270e93258822ee56370fbea36149"
+    },
+    {
+      "path": "assets/favicons/sportmaster.png",
+      "sha1": "aa0917d71ff157feb1e6712d5ed4a3c844609a8d"
+    },
+    {
+      "path": "assets/favicons/srilankan.png",
+      "sha1": "a62ee8f135e3ff8107728ed043458e12239eac14"
+    },
+    {
+      "path": "assets/favicons/stadium.png",
+      "sha1": "58e1cf51a4d3e6df8ca0de18c309729f2f77bcea"
+    },
+    {
+      "path": "assets/favicons/staples.png",
+      "sha1": "a9a2a2f5a47ad6bde89b5e07465594cde09b9230"
+    },
+    {
+      "path": "assets/favicons/starbucks.png",
+      "sha1": "66f277d79f67234beeb14c79d934fd64c2d71144"
+    },
+    {
+      "path": "assets/favicons/stash.png",
+      "sha1": "51fdb5bc9874c3a7700b717cfd96057b2e39670f"
+    },
+    {
+      "path": "assets/favicons/subway.png",
+      "sha1": "044753f1aaaabb60788a52f80fc6315638e0f64a"
+    },
+    {
+      "path": "assets/favicons/sunoco.png",
+      "sha1": "8c99b5b2cdbaddfe5f76339e30570cefdfcf14d2"
+    },
+    {
+      "path": "assets/favicons/superdrug.png",
+      "sha1": "6e8405bb3fd8536ca2649f80a978fe7eb3083cfb"
+    },
+    {
+      "path": "assets/favicons/swagbucks.png",
+      "sha1": "122a9ee530c5e74f4993585c375d50f281c6aef0"
+    },
+    {
+      "path": "assets/favicons/swissair.png",
+      "sha1": "44d9ff58ea1e6a39f7d2cd02b6e4311ba79749b2"
+    },
+    {
+      "path": "assets/favicons/tahitinui.png",
+      "sha1": "8891b637020223b428611d4dc9c233654d5665a7"
+    },
+    {
+      "path": "assets/favicons/taj.png",
+      "sha1": "6644d5449b5671b885db03b69ab975d60b9d4aee"
+    },
+    {
+      "path": "assets/favicons/tapportugal.png",
+      "sha1": "24f715e930aba2111d74dd63f133ea3f3e96e452"
+    },
+    {
+      "path": "assets/favicons/target.png",
+      "sha1": "73a96fabcba99e997155bd7ee6e310eae2c1da0c"
+    },
+    {
+      "path": "assets/favicons/tarom.png",
+      "sha1": "750b551d6df88652b97a8380161685259a551860"
+    },
+    {
+      "path": "assets/favicons/tcase.png",
+      "sha1": "fdc1a8e4e92b2010b31b7313ac239a99e001d7c6"
+    },
+    {
+      "path": "assets/favicons/tesco.png",
+      "sha1": "1719ae020beaf19043f219f0edc1f4c9afd443ee"
+    },
+    {
+      "path": "assets/favicons/texaco.png",
+      "sha1": "2852096915fc7a508351998d332f8e0d12a15673"
+    },
+    {
+      "path": "assets/favicons/tgifridays.png",
+      "sha1": "a318905c2cb26118cfd3122140d5cdfca924754a"
+    },
+    {
+      "path": "assets/favicons/thaiair.png",
+      "sha1": "4a40272841a02d930b1630edcc81e2b88aafad4b"
+    },
+    {
+      "path": "assets/favicons/thankyou.png",
+      "sha1": "85f8d2385234706bd661a2779f16e3f63d4f4154"
+    },
+    {
+      "path": "assets/favicons/thrifty.png",
+      "sha1": "0ce21f982bc95910486b889759bd47d314736acc"
+    },
+    {
+      "path": "assets/favicons/topcashback.png",
+      "sha1": "998c900003ebd0b3618b4cae4b429e88284b1942"
+    },
+    {
+      "path": "assets/favicons/tops.png",
+      "sha1": "ba1347896ec307fd2c51d260ed1b69bd64a35973"
+    },
+    {
+      "path": "assets/favicons/totalerg.png",
+      "sha1": "e82842a8feeec118d5be1b5482740a04bf030f1f"
+    },
+    {
+      "path": "assets/favicons/toysrus.png",
+      "sha1": "6540e3112231dd76a84da04887a4511a5c3b86f3"
+    },
+    {
+      "path": "assets/favicons/travelocity.png",
+      "sha1": "a64fbdd5971235c69453363c1915cec1e9d94190"
+    },
+    {
+      "path": "assets/favicons/travelzoo.png",
+      "sha1": "835d69a44e7300de2e1511d7c9361b24791ea234"
+    },
+    {
+      "path": "assets/favicons/tripadvisor.png",
+      "sha1": "bfc6399d650832c0338c889de8501b1aa28e341e"
+    },
+    {
+      "path": "assets/favicons/triprewards.png",
+      "sha1": "f54ffc9b7fd6001f29e282fc8506a34f865f078f"
+    },
+    {
+      "path": "assets/favicons/trumf.png",
+      "sha1": "9ac63e3c2b32a9bf52a1fea852a351c09a8040ab"
+    },
+    {
+      "path": "assets/favicons/turkish.png",
+      "sha1": "2956a2e2bdc524a92e84a5e2939aaf2d6bdb05e8"
+    },
+    {
+      "path": "assets/favicons/ufly.png",
+      "sha1": "20b7070b9a24d90d1fc2816ab268d774bdaf1a1c"
+    },
+    {
+      "path": "assets/favicons/ulta.png",
+      "sha1": "67f6510fdc4e477891712eb12f0003d1539577bd"
+    },
+    {
+      "path": "assets/favicons/upromise.png",
+      "sha1": "d6ba34fb44f1ca1479d54b57990df194c586ad4e"
+    },
+    {
+      "path": "assets/favicons/usaa.png",
+      "sha1": "3adc8ec53f8664a8d3aed134e778074c6f7dab75"
+    },
+    {
+      "path": "assets/favicons/usbank.png",
+      "sha1": "1d0b8d89773ee9bd40b9dd6de9390e61be86338b"
+    },
+    {
+      "path": "assets/favicons/velocity.png",
+      "sha1": "ee9ed3fd55743490dc8f7ca96df21b651e49d9c7"
+    },
+    {
+      "path": "assets/favicons/viarail.png",
+      "sha1": "ed64c25fd90cd4c5a93c33685ce9c34dea16762c"
+    },
+    {
+      "path": "assets/favicons/viator.png",
+      "sha1": "c5e9a8c9dc4be3d045d52fdb2d2de37bb3cb3f3e"
+    },
+    {
+      "path": "assets/favicons/vietnam.png",
+      "sha1": "c8cd124b459408503d71d14bffd5539310244114"
+    },
+    {
+      "path": "assets/favicons/virgin.png",
+      "sha1": "ee9ed3fd55743490dc8f7ca96df21b651e49d9c7"
+    },
+    {
+      "path": "assets/favicons/voila.png",
+      "sha1": "4b543e85503eb80282e39003a9fd288e35e5fc64"
+    },
+    {
+      "path": "assets/favicons/vons.png",
+      "sha1": "8720244dca583083982cd5bfcc96a70f163fd77e"
+    },
+    {
+      "path": "assets/favicons/vueling.png",
+      "sha1": "cf1ed6cbfdffcba301398355043b2c4a82ff8f8e"
+    },
+    {
+      "path": "assets/favicons/waitrose.png",
+      "sha1": "cb2b955cb31ea496be0def207ae8c3b767da816f"
+    },
+    {
+      "path": "assets/favicons/walgreens.png",
+      "sha1": "6b77b2497df2a63c583cd1e056002b6238cbe834"
+    },
+    {
+      "path": "assets/favicons/waterstones.png",
+      "sha1": "46cb350773477175b8fa2d7818990f858158e56c"
+    },
+    {
+      "path": "assets/favicons/wayfair.png",
+      "sha1": "006336b3eea48daa09dc17053df5ff1378252283"
+    },
+    {
+      "path": "assets/favicons/waze.png",
+      "sha1": "eacb7c61de7611722a2b36fdd0097e9d1fd02a59"
+    },
+    {
+      "path": "assets/favicons/wegmans.png",
+      "sha1": "8af6cc51957b56a65700f2c7dae84e1b324627f1"
+    },
+    {
+      "path": "assets/favicons/wellsfargo.png",
+      "sha1": "d359701d9268af00aa1bbd8db342d4734837f7b2"
+    },
+    {
+      "path": "assets/favicons/wendys.png",
+      "sha1": "2112156bdacabf61396072f6fde9c57ad5e4deef"
+    },
+    {
+      "path": "assets/favicons/westjet.png",
+      "sha1": "f07e4f053165b1b14cb435f5fc124d5cc1e87976"
+    },
+    {
+      "path": "assets/favicons/westmarine.png",
+      "sha1": "39f04dc8cf000e16f92b34feb4a2603ce42f8199"
+    },
+    {
+      "path": "assets/favicons/woolworths.png",
+      "sha1": "c85c041da0482a6e08c8ca46923f79d082bb428e"
+    },
+    {
+      "path": "assets/favicons/worldpoints.png",
+      "sha1": "4cdcb1a52bf73e6d7dd06e6cb2176d385f94d3c6"
+    },
+    {
+      "path": "assets/favicons/xiamen.png",
+      "sha1": "99465d8b9eaf5722a54f8e65522611d1c15960aa"
+    },
+    {
+      "path": "assets/favicons/yougov.png",
+      "sha1": "69da6854b0c520fb25b3c125db9638b0fb9118e6"
+    },
+    {
+      "path": "assets/fonts/aircrafts.ttf",
+      "sha1": "dd20bcf94c2ffcdb7c207d10b5f16590c3ee1ebd"
+    },
+    {
+      "path": "assets/fonts/awardwallet.ttf",
+      "sha1": "929669e2d55c232a357396a96c278eceaa293e5e"
+    },
+    {
+      "path": "assets/fonts/opensans-bold-italic.ttf",
+      "sha1": "508254f3ae9edb33159c601b349f0c813d66dfce"
+    },
+    {
+      "path": "assets/fonts/opensans-bold-webfont.ttf",
+      "sha1": "ee32d5170dfac93bf6bac61cfca0228ce6342b6b"
+    },
+    {
+      "path": "assets/fonts/opensans-italic.ttf",
+      "sha1": "01dbaae7500dc9244c68eb081cd5d4b61d4acb6b"
+    },
+    {
+      "path": "assets/fonts/opensans-regular-webfont.ttf",
+      "sha1": "b2df7d209e082aca1481d665e740ea2972245dc1"
+    },
+    {
+      "path": "assets/fonts/optimist-normal.ttf",
+      "sha1": "0baee969a256d57775fba6a6d92ce26a5ab80aec"
+    },
+    {
+      "path": "assets/jquery.min.js",
+      "sha1": "2a839527ca4407ec5097c0c8105fdbc4084f2488"
+    },
+    {
+      "path": "assets/sounds/new_message.mp3",
+      "sha1": "17ab0a1d88109b1882cf68390bceb774c588d487"
+    },
+    {
+      "path": "assets/sounds/online.mp3",
+      "sha1": "45da9c1ffb0ec8db09aff409df4e2f02f397b01d"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+export default {
+    'aircraft-default': '\ue900',
+    'aircraft-a380': '\ue901',
+    'aircraft-b748': '\ue902',
+    'aircraft-b752': '\ue903',
+    'aircraft-b739': '\ue904',
+    'aircraft-md90': '\ue905',
+    'aircraft-e170': '\ue906',
+    'aircraft-crj7': '\ue907',
+    'aircraft-rj1h': '\ue908',
+    'aircraft-a359': '\ue909',
+    'aircraft-a333': '\ue90a',
+    'aircraft-a346': '\ue90b',
+    'aircraft-at72': '\ue90c',
+} as const;

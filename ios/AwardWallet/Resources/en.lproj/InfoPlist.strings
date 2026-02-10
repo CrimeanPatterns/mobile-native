@@ -1,0 +1,9 @@
+NSCameraUsageDescription="so that you can scan your physical loyalty cards and save them in AwardWallet";
+NSPhotoLibraryUsageDescription="so that you can scan your physical loyalty cards and save them in AwardWallet";
+"menu.button.accounts"="Accounts";
+"menu.button.bookings"="Bookings";
+"menu.button.trips"="Trips";
+"menu.button.covid19"="Covid 19 Vaccine Card";
+NSLocationAlwaysUsageDescription="Needed to get your current location to show where you are on the map and to deliver retail shopping loyalty cards (with barcodes) to your home screen when you come to the store.";
+NSLocationAlwaysAndWhenInUseUsageDescription="Needed to get your current location to show where you are on the map and to deliver retail shopping loyalty cards (with barcodes) to your home screen when you come to the store.";
+NSLocationWhenInUseUsageDescription="Needed to get your current location to show where you are on the map and to deliver retail shopping loyalty cards (with barcodes) to your home screen when you come to the store.";

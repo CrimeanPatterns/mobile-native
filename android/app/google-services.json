@@ -1,0 +1,60 @@
+{
+  "project_info": {
+    "project_number": "23758098931",
+    "firebase_url": "https://vast-formula-824.firebaseio.com",
+    "project_id": "vast-formula-824",
+    "storage_bucket": "vast-formula-824.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23758098931:android:6551d4e0d0342dbd",
+        "android_client_info": {
+          "package_name": "com.itlogy.awardwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23758098931-236i2nno100p2caercl8187em98qdump.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itlogy.awardwallet",
+            "certificate_hash": "c63065ea7206266b25b68ee5d4383c5d52dfb8fd"
+          }
+        },
+        {
+          "client_id": "23758098931-9abhg0e4er9pe27bn3kd0g4arfob0crv.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "23758098931-9abhg0e4er9pe27bn3kd0g4arfob0crv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbHbfym4FBWJqv4lwymeOOcRUlms3HTsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23758098931-9abhg0e4er9pe27bn3kd0g4arfob0crv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "23758098931-03l6vdlm5m4nc3aco03rdq1ucjrpvjuo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.awardwallet.iphone",
+                "app_store_id": "388442727"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

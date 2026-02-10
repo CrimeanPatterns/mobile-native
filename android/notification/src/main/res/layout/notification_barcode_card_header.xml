@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/notification_barcode_card_width"
+    android:layout_height="@dimen/notification_barcode_header_height"
+    android:padding="@dimen/notification_barcode_header_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_toStartOf="@+id/imageview_notification_barcode_expanded_logo">
+        <TextView
+            android:id="@+id/textview_notification_barcode_expanded_displayname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:visibility="gone"
+            android:textSize="@dimen/notification_barcode_header_displayname_size"/>
+        <TextView
+            android:id="@+id/textview_notification_barcode_expanded_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:visibility="gone"
+            android:textAllCaps="true"
+            android:textSize="@dimen/notification_barcode_header_username_size"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageview_notification_barcode_expanded_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/notification_barcode_logo_width"
+        android:layout_marginStart="@dimen/notification_barcode_header_padding"
+        android:layout_alignParentEnd="true"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

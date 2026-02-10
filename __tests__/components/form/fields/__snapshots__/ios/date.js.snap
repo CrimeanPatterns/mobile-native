@@ -1,0 +1,1276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`date, renders custom styles: base 1`] = `
+<View
+  style={
+    Object {
+      "margin": 10,
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 16,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    DATE
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": 1,
+            "borderColor": "#d6dae6",
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "justifyContent": "space-between",
+            "marginTop": 5,
+            "paddingHorizontal": 16,
+            "paddingVertical": 13,
+          },
+          Object {
+            "height": 48,
+            "maxHeight": 48,
+          },
+        ]
+      }
+    >
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "rgba(0, 0, 0, 0.87)",
+            "fontFamily": "OpenSans",
+            "fontSize": 15,
+          }
+        }
+      >
+        January 1, 2018
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#828b99",
+            },
+            Object {
+              "fontSize": 24,
+              "lineHeight": 24,
+            },
+            Object {
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "#5c6373",
+        "fontFamily": "OpenSans",
+        "fontSize": 15,
+        "marginBottom": 5,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined hint"
+  >
+    Test hint
+  </Text>
+</View>
+`;
+
+exports[`date, renders custom styles: disabled 1`] = `
+<View
+  style={
+    Object {
+      "margin": 12,
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(0, 0, 0, 0.12)",
+          "fontFamily": "OpenSans",
+          "fontSize": 18,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    DATE
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomColor": "#cc3d5e",
+            "borderBottomWidth": 2,
+            "borderColor": "rgba(0, 0, 0, 0.12)",
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "justifyContent": "space-between",
+            "marginTop": 5,
+            "paddingHorizontal": 16,
+            "paddingVertical": 13,
+          },
+          Object {
+            "height": 48,
+            "maxHeight": 48,
+          },
+        ]
+      }
+    >
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "rgba(0, 0, 0, 0.12)",
+            "fontFamily": "OpenSans",
+            "fontSize": 15,
+          }
+        }
+      >
+        January 1, 2018
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "rgba(0, 0, 0, 0.12)",
+            },
+            Object {
+              "fontSize": 24,
+              "lineHeight": 24,
+            },
+            Object {
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "rgba(0, 0, 0, 0.12)",
+        "fontFamily": "OpenSans",
+        "fontSize": 17,
+        "marginBottom": 0,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined hint"
+  >
+    Test hint
+  </Text>
+  <Text
+    accessibilityLabel="Error"
+    style={
+      Object {
+        "color": "blue",
+        "fontSize": 12,
+        "marginVertical": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined error"
+  >
+    Error
+  </Text>
+</View>
+`;
+
+exports[`date, renders custom styles: errored 1`] = `
+<View
+  style={
+    Object {
+      "margin": 11,
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 17,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    DATE
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomColor": "#cc3d5e",
+            "borderBottomWidth": 2,
+            "borderColor": "#d6dae6",
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "justifyContent": "space-between",
+            "marginTop": 5,
+            "paddingHorizontal": 16,
+            "paddingVertical": 13,
+          },
+          Object {
+            "height": 48,
+            "maxHeight": 48,
+          },
+        ]
+      }
+    >
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "rgba(0, 0, 0, 0.87)",
+            "fontFamily": "OpenSans",
+            "fontSize": 15,
+          }
+        }
+      >
+        January 1, 2018
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#828b99",
+            },
+            Object {
+              "fontSize": 24,
+              "lineHeight": 24,
+            },
+            Object {
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "#5c6373",
+        "fontFamily": "OpenSans",
+        "fontSize": 16,
+        "marginBottom": 0,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined hint"
+  >
+    Test hint
+  </Text>
+  <Text
+    accessibilityLabel="Error"
+    style={
+      Object {
+        "color": "red",
+        "fontSize": 12,
+        "marginVertical": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined error"
+  >
+    Error
+  </Text>
+</View>
+`;
+
+exports[`date, renders default 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    DATE
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": 1,
+            "borderColor": "#d6dae6",
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "justifyContent": "space-between",
+            "marginTop": 5,
+            "paddingHorizontal": 16,
+            "paddingVertical": 13,
+          },
+          Object {
+            "height": 48,
+            "maxHeight": 48,
+          },
+        ]
+      }
+    >
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "rgba(0, 0, 0, 0.87)",
+            "fontFamily": "OpenSans",
+            "fontSize": 15,
+          }
+        }
+      >
+        January 1, 2018
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#828b99",
+            },
+            Object {
+              "fontSize": 24,
+              "lineHeight": 24,
+            },
+            Object {
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`date, renders disabled 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(0, 0, 0, 0.12)",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    DATE
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": 1,
+            "borderColor": "rgba(0, 0, 0, 0.12)",
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "justifyContent": "space-between",
+            "marginTop": 5,
+            "paddingHorizontal": 16,
+            "paddingVertical": 13,
+          },
+          Object {
+            "height": 48,
+            "maxHeight": 48,
+          },
+        ]
+      }
+    >
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "rgba(0, 0, 0, 0.12)",
+            "fontFamily": "OpenSans",
+            "fontSize": 15,
+          }
+        }
+      >
+        January 1, 2018
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "rgba(0, 0, 0, 0.12)",
+            },
+            Object {
+              "fontSize": 24,
+              "lineHeight": 24,
+            },
+            Object {
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`date, renders error 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    DATE
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomColor": "#cc3d5e",
+            "borderBottomWidth": 2,
+            "borderColor": "#d6dae6",
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "justifyContent": "space-between",
+            "marginTop": 5,
+            "paddingHorizontal": 16,
+            "paddingVertical": 13,
+          },
+          Object {
+            "height": 48,
+            "maxHeight": 48,
+          },
+        ]
+      }
+    >
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "rgba(0, 0, 0, 0.87)",
+            "fontFamily": "OpenSans",
+            "fontSize": 15,
+          }
+        }
+      >
+        January 1, 2018
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#828b99",
+            },
+            Object {
+              "fontSize": 24,
+              "lineHeight": 24,
+            },
+            Object {
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="This field is required!"
+    style={
+      Object {
+        "color": "#cc3d5e",
+        "fontSize": 12,
+        "marginVertical": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined error"
+  >
+    This field is required!
+  </Text>
+</View>
+`;
+
+exports[`date, renders error with hint 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    DATE
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomColor": "#cc3d5e",
+            "borderBottomWidth": 2,
+            "borderColor": "#d6dae6",
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "justifyContent": "space-between",
+            "marginTop": 5,
+            "paddingHorizontal": 16,
+            "paddingVertical": 13,
+          },
+          Object {
+            "height": 48,
+            "maxHeight": 48,
+          },
+        ]
+      }
+    >
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "rgba(0, 0, 0, 0.87)",
+            "fontFamily": "OpenSans",
+            "fontSize": 15,
+          }
+        }
+      >
+        January 1, 2018
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#828b99",
+            },
+            Object {
+              "fontSize": 24,
+              "lineHeight": 24,
+            },
+            Object {
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "#5c6373",
+        "fontFamily": "OpenSans",
+        "fontSize": 12,
+        "marginBottom": 0,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined hint"
+  >
+    Test hint
+  </Text>
+  <Text
+    accessibilityLabel="This field is required!"
+    style={
+      Object {
+        "color": "#cc3d5e",
+        "fontSize": 12,
+        "marginVertical": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined error"
+  >
+    This field is required!
+  </Text>
+</View>
+`;
+
+exports[`date, renders hint 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    DATE
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": 1,
+            "borderColor": "#d6dae6",
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "justifyContent": "space-between",
+            "marginTop": 5,
+            "paddingHorizontal": 16,
+            "paddingVertical": 13,
+          },
+          Object {
+            "height": 48,
+            "maxHeight": 48,
+          },
+        ]
+      }
+    >
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "rgba(0, 0, 0, 0.87)",
+            "fontFamily": "OpenSans",
+            "fontSize": 15,
+          }
+        }
+      >
+        January 1, 2018
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#828b99",
+            },
+            Object {
+              "fontSize": 24,
+              "lineHeight": 24,
+            },
+            Object {
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "#5c6373",
+        "fontFamily": "OpenSans",
+        "fontSize": 12,
+        "marginBottom": 5,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined hint"
+  >
+    Test hint
+  </Text>
+</View>
+`;
+
+exports[`date, renders not required 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    DATE
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": 1,
+            "borderColor": "#d6dae6",
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "justifyContent": "space-between",
+            "marginTop": 5,
+            "paddingHorizontal": 16,
+            "paddingVertical": 13,
+          },
+          Object {
+            "height": 48,
+            "maxHeight": 48,
+          },
+        ]
+      }
+    >
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "rgba(0, 0, 0, 0.87)",
+            "fontFamily": "OpenSans",
+            "fontSize": 15,
+          }
+        }
+      >
+        January 1, 2018
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#828b99",
+            },
+            Object {
+              "fontSize": 24,
+              "lineHeight": 24,
+            },
+            Object {
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`date, renders required 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    DATE
+    <Text
+      style={
+        Object {
+          "color": "#cc3d5e",
+          "fontFamily": "OpenSans",
+        }
+      }
+    >
+       *
+    </Text>
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": 1,
+            "borderColor": "#d6dae6",
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "justifyContent": "space-between",
+            "marginTop": 5,
+            "paddingHorizontal": 16,
+            "paddingVertical": 13,
+          },
+          Object {
+            "height": 48,
+            "maxHeight": 48,
+          },
+        ]
+      }
+    >
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "rgba(0, 0, 0, 0.87)",
+            "fontFamily": "OpenSans",
+            "fontSize": 15,
+          }
+        }
+      >
+        January 1, 2018
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#828b99",
+            },
+            Object {
+              "fontSize": 24,
+              "lineHeight": 24,
+            },
+            Object {
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`date, renders value 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    DATE
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": 1,
+            "borderColor": "#d6dae6",
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "flexWrap": "nowrap",
+            "justifyContent": "space-between",
+            "marginTop": 5,
+            "paddingHorizontal": 16,
+            "paddingVertical": 13,
+          },
+          Object {
+            "height": 48,
+            "maxHeight": 48,
+          },
+        ]
+      }
+    >
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "rgba(0, 0, 0, 0.87)",
+            "fontFamily": "OpenSans",
+            "fontSize": 15,
+          }
+        }
+      >
+        January 1, 2019
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#828b99",
+            },
+            Object {
+              "fontSize": 24,
+              "lineHeight": 24,
+            },
+            Object {
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;

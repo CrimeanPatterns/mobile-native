@@ -1,0 +1,10 @@
+"push-notifications.native-app.call-action.button"="Llamar";
+"delete"="Eliminar";
+"cancel"="Cancelar";
+"confirm.delete.picture"="Confirma si de verdad quieres borrar esta imagen";
+"camera.scan.barcode"="Sujeta la tarjeta en frente de la cámara para escanear el código de barras";
+"buttons.back"="Atrás";
+"button.ok"="Aceptar";
+"settings"="Configuraciones";
+"location.enable-service"="Puedes habilitar el acceso al servicio de localización marcando \"Siempre\" en tus configuraciones debajo de: Configuraciones -> Localización.";
+"location.enable-service.title"="Esta aplicación no tiene acceso al servicio de Localización.";

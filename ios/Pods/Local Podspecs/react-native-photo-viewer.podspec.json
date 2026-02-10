@@ -1,0 +1,22 @@
+{
+  "name": "react-native-photo-viewer",
+  "version": "1.0.0",
+  "summary": "React Native Photo Viewer",
+  "authors": "AwardWallet LLC",
+  "homepage": "https://gitlab.awardwallet.com/mobile/react-native-photo-viewer",
+  "license": "",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://gitlab.awardwallet.com/mobile/react-native-photo-viewer"
+  },
+  "source_files": "ios/**/*.{h,m,mm,swift}",
+  "swift_versions": "5.3",
+  "dependencies": {
+    "React-Core": [
+
+    ]
+  },
+  "swift_version": "5.3"
+}

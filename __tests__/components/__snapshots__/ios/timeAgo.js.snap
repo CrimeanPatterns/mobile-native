@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`timeAgo, render date future 1`] = `
+<Text
+  accessibilityLabel="in 1 year"
+>
+  in 1 year
+</Text>
+`;
+
+exports[`timeAgo, render date future, 9.9 years 1`] = `
+<Text
+  accessibilityLabel="in 10 years"
+  shortDate={true}
+>
+  in 10 years
+</Text>
+`;
+
+exports[`timeAgo, render date future, 10 years 1`] = `
+<Text
+  accessibilityLabel="in 10 years"
+>
+  in 10 years
+</Text>
+`;
+
+exports[`timeAgo, render date past 1`] = `
+<Text
+  accessibilityLabel="1 year ago"
+>
+  1 year ago
+</Text>
+`;
+
+exports[`timeAgo, render date, short date 1`] = `
+<Text
+  accessibilityLabel="4 years 3 months ago"
+  shortDate={true}
+>
+  4 years 3 months ago
+</Text>
+`;
+
+exports[`timeAgo, render date, short time 1`] = `
+<Text
+  accessibilityLabel="in 5 minutes"
+  shortTime={true}
+>
+  in 5 minutes
+</Text>
+`;
+
+exports[`timeAgo, render date, withoutSuffix 1`] = `
+<Text
+  accessibilityLabel="5 minutes"
+>
+  5 minutes
+</Text>
+`;

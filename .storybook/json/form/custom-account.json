@@ -1,0 +1,252 @@
+{
+  "Kind": 1,
+  "DisplayName": "Test Provider (Test)",
+  "formData": {
+    "children": [
+      {
+        "value": "",
+        "attr": [],
+        "name": "kind",
+        "full_name": "mobile_account[kind]",
+        "disabled": false,
+        "label": "Type",
+        "required": true,
+        "placeholder": "please-select",
+        "mapped": true,
+        "submitData": false,
+        "type": "choice",
+        "multiple": false,
+        "choices": [
+          {
+            "value": "",
+            "label": "Please select",
+            "selected": true
+          },
+          {
+            "value": "6",
+            "label": "Credit Cards"
+          },
+          {
+            "value": "1",
+            "label": "Airlines"
+          },
+          {
+            "value": "2",
+            "label": "Hotels"
+          },
+          {
+            "value": "3",
+            "label": "Rentals"
+          },
+          {
+            "value": "4",
+            "label": "Trains"
+          },
+          {
+            "value": "10",
+            "label": "Cruises"
+          },
+          {
+            "value": "7",
+            "label": "Shopping"
+          },
+          {
+            "value": "8",
+            "label": "Dining"
+          },
+          {
+            "value": "9",
+            "label": "Surveys"
+          },
+          {
+            "value": "12",
+            "label": "Parking"
+          },
+          {
+            "value": "5",
+            "label": "Other"
+          }
+        ]
+      },
+      {
+        "value": "",
+        "attr": [],
+        "name": "programname",
+        "full_name": "mobile_account[programname]",
+        "disabled": false,
+        "label": "Program Name",
+        "required": true,
+        "mapped": true,
+        "submitData": false,
+        "type": "text_completion",
+        "completionLink": "/providers/completion",
+        "attachedAccounts": [],
+        "providerKind": null,
+        "completionList": null
+      },
+      {
+        "value": "216310_292089",
+        "attr": {
+          "class": "js-useragent-select",
+          "notice": "Please choose whose loyalty program this is.\u003Cbr\u003EYou can \u003Ca href=\u0022#\u0022 class=\u0022js-add-new-person\u0022\u003Eadd a new person\u003C\/a\u003E if necessary."
+        },
+        "name": "owner",
+        "full_name": "mobile_account[owner]",
+        "disabled": false,
+        "label": "Account Owner",
+        "required": false,
+        "placeholder": null,
+        "mapped": true,
+        "submitData": false,
+        "type": "choice",
+        "multiple": false,
+        "choices": [
+          {
+            "value": "216310",
+            "label": "Aleksey Anikin"
+          },
+          {
+            "value": "216310_292089",
+            "label": "A A (Aleksey Anikin)",
+            "selected": true
+          },
+          {
+            "value": "216310_295132",
+            "label": "new person (Aleksey Anikin)"
+          },
+          {
+            "value": "216310_296340",
+            "label": "test last (Aleksey Anikin)"
+          },
+          {
+            "value": "216310_296399",
+            "label": "new test (Aleksey Anikin)"
+          },
+          {
+            "value": "626368",
+            "label": "aaaaaaaaaaaaaaaaa aaaaaaaaaa"
+          }
+        ]
+      },
+      {
+        "value": "",
+        "attr": [],
+        "name": "login",
+        "full_name": "mobile_account[login]",
+        "disabled": false,
+        "label": "Account",
+        "required": true,
+        "mapped": true,
+        "submitData": false,
+        "type": "text"
+      },
+      {
+        "value": "",
+        "name": "CustomBlock",
+        "full_name": "mobile_account[CustomBlock]",
+        "disabled": false,
+        "required": false,
+        "mapped": true,
+        "submitData": false,
+        "type": "customBlock"
+      },
+      {
+        "value": "",
+        "attr": [],
+        "name": "TestSecondLogin",
+        "full_name": "mobile_account[TestSecondLogin]",
+        "disabled": false,
+        "label": "Another login field",
+        "required": false,
+        "mapped": true,
+        "submitData": true,
+        "type": "text"
+      },
+      {
+        "value": "",
+        "attr": [],
+        "name": "TestPassword",
+        "full_name": "mobile_account[TestPassword]",
+        "disabled": false,
+        "label": "Password field",
+        "required": false,
+        "mapped": true,
+        "submitData": true,
+        "type": "passwordEdit"
+      },
+      {
+        "value": "",
+        "attr": {
+          "notice": "Optionally you can specify when these points are going to expire. AwardWallet will not retrieve and update this information for you automatically."
+        },
+        "name": "TestExpirationDate",
+        "full_name": "mobile_account[TestExpirationDate]",
+        "disabled": false,
+        "label": "Expiration",
+        "required": false,
+        "mapped": true,
+        "submitData": true,
+        "type": "date"
+      },
+      {
+        "value": "",
+        "attr": [],
+        "name": "TestEliteLevel",
+        "full_name": "mobile_account[TestEliteLevel]",
+        "disabled": false,
+        "label": "Elite level",
+        "required": false,
+        "mapped": true,
+        "submitData": true,
+        "type": "text"
+      },
+      {
+        "value": "",
+        "attr": {
+          "notice": "optional, up to 10,000 characters"
+        },
+        "name": "TestComment",
+        "full_name": "mobile_account[TestComment]",
+        "disabled": false,
+        "label": "Comment",
+        "required": false,
+        "mapped": true,
+        "submitData": true,
+        "type": "textarea"
+      },
+      {
+        "value": "",
+        "attr": {
+          "notice": "Number of points you wish to have"
+        },
+        "name": "TestGoal",
+        "full_name": "mobile_account[TestGoal]",
+        "disabled": false,
+        "label": "Goal",
+        "required": false,
+        "mapped": true,
+        "submitData": true,
+        "type": "text"
+      },
+
+      {
+        "value": "oNhOoVRZ55r-mZM9cFrj-BcjqM7nu5g2ZeN7VUsBz2Q",
+        "attr": [],
+        "name": "_token",
+        "full_name": "_token",
+        "disabled": false,
+        "label": null,
+        "required": false,
+        "submitData": false,
+        "mapped": true,
+        "type": "hidden"
+      }
+    ],
+    "jsFormInterface": " \/**\n * use this as base class for account edit form extensions (\/engine\/\u003CproviderCode\u003E\/form.js)\n * see FormInterface\n *\/\nfunction AbstractFormExtension() {}\n\n\/**\n * will be called on field change, field\n * @param {FormInterface} form\n * @param {string} fieldName in lower case\n *\/\nAbstractFormExtension.prototype.onFieldChange = function (form, fieldName){\n\n};\n\n\/**\n * will be called when form loaded and ready\n * @param {FormInterface} form\n * @param {string} fieldName in lower case\n *\/\nAbstractFormExtension.prototype.onFormReady = function (form, fieldName){\n\n};\n\n\n\n\/**\n * @implements {FormInterface}\n * @param {HTMLElement} form\n * @param {Array.\u003C{function}\u003E} extensions\n * @constructor\n *\/\nfunction MobileForm(form, extensions) {\n    \/**\n     * Form\n     * @property _form\n     * @private\n     * @type {object}\n     *\/\n    var _form = form || {};\n    \/**\n     * @param {object} form\n     * @returns {object}\n     *\/\n    this.setForm = function (form) {\n        _form = form;\n        return _form;\n    };\n    \/**\n     * @returns {object}\n     *\/\n    this.getForm = function () {\n        return _form;\n    };\n\n    this.mobile = true;\n\n    var formExtensions = [],\n        _this = this;\n\n    if (typeof extensions === \u0027function\u0027) {\n        extensions = [extensions];\n    }\n\n    extensions.map(function (extensionFunc) {\n        var formExtension = new AbstractFormExtension();\n\n        extensionFunc(formExtension);\n\n        formExtensions.push(formExtension);\n    });\n\n    form.on(\u0027change\u0027, \u0027input[type=text], input[type=checkbox], input[type=hidden], select\u0027, null, function (event) {\n        var fieldName = $(this).attr(\u0027name\u0027);\n\n        formExtensions.map(function (formExtension) {\n            if (typeof formExtension.onFieldChange !== \u0027undefined\u0027) {\n                formExtension.onFieldChange(_this, fieldName);\n            }\n        });\n    });\n\n    formExtensions.map(function (formExtension) {\n        if (typeof formExtension.onFormReady !== \u0027undefined\u0027) {\n            formExtension.onFormReady(_this);\n        }\n    });\n}\n\n\/**\n * returns current form field value\n * @param {string} fieldName\n * @returns {(string|null)}\n *\/\nMobileForm.prototype.getValue = function (fieldName) {\n    var input = this.getInput(fieldName);\n    if (input === null)\n        return null;\n    var scope = angular.element(input.get(0)).scope();\n    if (scope \u0026\u0026 scope.field) {\n        if (scope.type === \u0027choice\u0027)\n            return scope.field.selectedOption.value;\n        return scope.field.value;\n    }\n};\n\n\/**\n * set field value\n * @param {string} fieldName\n * @param {string} value\n * @param {string} [property] property name\n *\/\nMobileForm.prototype.setValue = function (fieldName, value, property) {\n    var input = this.getInput(fieldName);\n    if (input === null)\n        return;\n    var scope = angular.element(input.get(0)).scope();\n    if (scope \u0026\u0026 typeof scope.$apply === \u0027function\u0027 \u0026\u0026 scope.field) {\n        scope.$apply(function () {\n            if (scope.type === \u0027choice\u0027) {\n                property = property || \u0027value\u0027;\n                if ([\u0027label\u0027, \u0027value\u0027].indexOf(property) \u003E -1 \u0026\u0026 scope.field.choices.length \u003E 0) {\n                    for (var i in scope.field.choices) {\n                        if (scope.field.choices[i][property] === value)\n                            scope.field.selectedOption = scope.field.choices[i];\n                    }\n                }\n            } else {\n                scope.field.value = value;\n            }\n        });\n    }\n};\n\nfunction isEmpty(data) {\n    const type = typeof(data);\n\n    if (type === \u0027number\u0027 || type === \u0027boolean\u0027) {\n        return false;\n    }\n\n    if (type === \u0027undefined\u0027 || data === null) {\n        return true;\n    }\n\n    if (typeof(data.length) !== \u0027undefined\u0027) {\n        return data.length === 0;\n    }\n\n    return false;\n}\n\n\/**\n * set field options\n * @param {string} fieldName\n * @param {array} options\n *\/\nMobileForm.prototype.setOptions = function (fieldName, options) {\n    var input = this.getInput(fieldName);\n    if (input === null)\n        return;\n    var scope = angular.element(input.get(0)).scope();\n    if (scope \u0026\u0026 typeof scope.$apply === \u0027function\u0027 \u0026\u0026 scope.field) {\n        scope.$apply(function () {\n            scope.field.choices = options;\n\n            var oldValue;\n\n            if (scope.field.selectedOption) {\n                oldValue = scope.field.selectedOption.value;\n            }\n\n            var isEmptyValue = isEmpty(oldValue),\n                foundSimilar = false;\n\n            scope.field.selectedOption = null;\n            for (var i in scope.field.choices) {\n                if (\n                    scope.field.choices[i].selected === true\n                    || ( !foundSimilar \u0026\u0026 (scope.field.choices[i].value === oldValue || (isEmptyValue \u0026\u0026 isEmpty(scope.field.choices[i].value))) )\n                ) {\n                    scope.field.selectedOption = scope.field.choices[i];\n                    foundSimilar = true;\n                }\n            }\n            if (!scope.field.selectedOption) {\n                scope.field.selectedOption = scope.field.choices[0];\n            }\n        });\n    }\n};\n\n\/**\n * get field options\n * @param {(string|null)} fieldName\n *\/\nMobileForm.prototype.getOptions = function (fieldName) {\n    var input = this.getInput(fieldName);\n    if (input === null)\n        return null;\n    var scope = angular.element(input.get(0)).scope();\n    if (scope \u0026\u0026 scope.field) {\n        return scope.field.choices;\n    }\n};\n\n\/**\n * show\/hide field\n * @param {string} fieldName\n * @param {boolean} visible\n *\/\nMobileForm.prototype.showField = function (fieldName, visible) {\n    var form = this.getForm(),\n        field = form.find(\u0027.\u0027 + fieldName.toLowerCase()).closest(\u0027page-form-field\u0027);\n    if (visible) {\n        field.show();\n    } else {\n        field.hide();\n    }\n};\n\n\/**\n * mark field as required\n * @param {string} fieldName\n * @param {boolean} required\n *\/\nMobileForm.prototype.requireField = function (fieldName, required) {\n    var input = this.getInput(fieldName);\n    if (input === null)\n        return;\n    var scope = angular.element(input.get(0)).scope();\n    if (scope \u0026\u0026 typeof scope.$apply === \u0027function\u0027 \u0026\u0026 scope.field) {\n        scope.$apply(function () {\n            scope.field.required = required;\n        });\n    }\n};\n\n\/**\n * @param {string} fieldName\n * @returns {(object|null)}\n *\/\nMobileForm.prototype.getInput = function (fieldName) {\n    var form = this.getForm();\n    var obj = form.find(\u0027[name=\u0022\u0027 + fieldName + \u0027\u0022]\u0027);\n    if (typeof obj[0] === \u0027undefined\u0027)\n        return null;\n    return obj;\n};\n\n\/**\n * @param {string} fieldName\n * @returns {(object|null)}\n *\/\nMobileForm.prototype.getField = function (fieldName) {\n    var input = this.getInput(fieldName);\n    if (input === null)\n        return null;\n    var scope = angular.element(input.get(0)).scope();\n    if (scope) {\n        return scope.field;\n    }\n};\n\n\/**\n * disable field\n * @param {string} fieldName\n * @param {boolean} disable\n *\/\nMobileForm.prototype.disableField = function (fieldName, disable) {\n    var input = this.getInput(fieldName);\n    if (input === null)\n        return;\n    var scope = angular.element(input.get(0)).scope();\n    if (scope \u0026\u0026 typeof scope.$apply === \u0027function\u0027 \u0026\u0026 scope.field) {\n        scope.$apply(function () {\n            scope.field.disabled = disable;\n        });\n    }\n};\n\n\/**\n * set field caption\n * @param {string} fieldName\n * @param {string} caption\n *\/\nMobileForm.prototype.setFieldCaption = function (fieldName, caption) {\n    var input = this.getInput(fieldName);\n    if (input === null)\n        return;\n    var scope = angular.element(input.get(0)).scope();\n    if (scope \u0026\u0026 typeof scope.$apply === \u0027function\u0027 \u0026\u0026 scope.field \u0026\u0026 scope.field.label) {\n        scope.$apply(function () {\n            scope.field.label = caption;\n        });\n    }\n};\n\n\/**\n * set field notice\n * @param {string} fieldName\n * @param {string} notice\n *\/\nMobileForm.prototype.setFieldNotice = function (fieldName, notice) {\n    var input = this.getInput(fieldName);\n    if (input === null)\n        return;\n    var scope = angular.element(input.get(0)).scope();\n    if (scope \u0026\u0026 typeof scope.$apply === \u0027function\u0027 \u0026\u0026 scope.field \u0026\u0026 scope.field.attr) {\n        scope.$apply(function () {\n            scope.field.attr.notice = notice;\n        });\n    }\n};\n\n\/**\n * set field type\n * @param {string} fieldName\n * @param {string} type\n *\/\nMobileForm.prototype.setFieldType = function (fieldName, type) {\n    var input = this.getInput(fieldName);\n    if (input === null)\n        return;\n    input.prop(\u0027type\u0027, type);\n};\n\nMobileForm.prototype.getTranslator = function () {\n    return Translator;\n};\n\nMobileForm.prototype.navigate = function (url) {\n    window.open(url, \u0027_blank\u0027);\n};\n\nMobileForm.prototype.showDialog = function (config) {\n    var customPopup = btfModal({\n        controller: angular.noop,\n        templateUrl: \u0027templates\/directives\/popups\/custom-popup.html\u0027,\n        uid: \u0027formPopup\u0027\n    });\n    customPopup.open({\n        config: config,\n        hideModal: function() {\n            return customPopup.close();\n        },\n        noop: angular.noop\n    });\n};\n\n\/**\n * Submit form (only mobile)\n *\/\nMobileForm.prototype.submit = function () {\n    var form = this.getForm();\n\n    form.submit();\n};",
+    "jsProviderExtension": [
+      "\/**\n * @param {AbstractFormExtension} extension\n *\/\nfunction addFormExtension(extension) {\n\n  \/**\n   * will be called on field change\n   * @param {FormInterface} form\n   * @param {string} fieldName in lower case\n   *\/\n  extension.onFieldChange = function (form, fieldName) {\n    \/\/ testprovider form.js injected\n  };\n\n  \/**\n   * will be called when form loaded and ready\n   * @param {FormInterface} form\n   * @param {string} fieldName in lower case\n   *\/\n  extension.onFormReady = function (form, fieldName) {};\n\n}\n\n",
+      "\/**\n * @param {AbstractFormExtension} extension\n *\/\nfunction addFormExtension(extension) {\n    var fieldBalanceWatchToggle = function(form, state) {\n        var i, balanceWatchFields = [\u0027PointsSource\u0027, \u0027TransferRequestDate\u0027];\n        if (state) {\n            for (i in balanceWatchFields) {\n                form.showField(balanceWatchFields[i], true);\n                form.requireField(balanceWatchFields[i], true);\n            }\n            return;\n        }\n\n        form.setValue(\u0027BalanceWatch\u0027, false, \u0027checked\u0027);\n        balanceWatchFields = balanceWatchFields.concat([\u0027TransferFromProvider\u0027, \u0027ExpectedPoints\u0027]);\n        for (i in balanceWatchFields) {\n            form.showField(balanceWatchFields[i], false);\n            form.requireField(balanceWatchFields[i], false);\n        }\n    };\n\n    extension.onFieldChange = function(form, fieldName) {\n        if (null === form.getInput(\u0027BalanceWatch\u0027))\n            return;\n\n        switch (fieldName) {\n            case \u0027disabled\u0027:\n                if (form.getValue(fieldName)) {\n                    fieldBalanceWatchToggle(form, false);\n                }\n\n                break;\n            case \u0027savepassword\u0027:\n                if (\u00272\u0027 === form.getValue(fieldName) \u0026\u0026 \u0027true\u0027 !== form.getValue(\u0027IsBalanceWatchDisabled\u0027)) {\n                    fieldBalanceWatchToggle(form, false);\n                }\n\n                break;\n            case \u0027BalanceWatch\u0027:\n                if (false === form.getValue(fieldName))\n                    return fieldBalanceWatchToggle(form, false);\n\n                var dialogButtonsClose = function(buttons) {\n                    buttons || (buttons = []);\n                    buttons.unshift({\n                        \u0027text\u0027    : form.getTranslator().trans(\u0027button.close\u0027),\n                        \u0027style\u0027   : \u0027negative\u0027\n                    });\n                    return buttons;\n                };\n\n                if (\u0027false\u0027 === form.getValue(\u0027IsBalanceWatchAccountCanCheck\u0027)) {\n                    fieldBalanceWatchToggle(form, false);\n                    return form.showDialog({\n                        title   : form.getTranslator().trans(\u0027account.balancewatch.no-available\u0027),\n                        message : form.getTranslator().trans(\u0027account.balancewatch.not-available-not-cancheck\u0027),\n                        buttons : dialogButtonsClose()\n                    });\n                }\n                if (\u0027false\u0027 === form.getValue(\u0027IsBalanceWatchAwPlus\u0027)) {\n                    fieldBalanceWatchToggle(form, false);\n                    return form.showDialog({\n                        title   : form.getTranslator().trans(\u0027please-upgrade\u0027),\n                        message : form.getTranslator().trans(\u0027account.balancewatch.awplus-upgrade\u0027),\n                        buttons : dialogButtonsClose([{\n                            \u0027text\u0027    : form.getTranslator().trans(\/** @Desc(\u0022Upgrade\u0022) *\/\u0027button.upgrade\u0027),\n                            \u0027onPress\u0027 : function() {\n                                form.navigate(form.getValue(\u0027URL_PayAwPlus\u0027));\n                            },\n                            \u0027style\u0027   : \u0027positive\u0027\n                        }])\n                    });\n                }\n                if (\u00270\u0027 === form.getValue(\u0027IsBalanceWatchCredits\u0027)) {\n                    fieldBalanceWatchToggle(form, false);\n                    if (\u0027true\u0027 === form.getValue(\u0027IsBusiness\u0027)) {\n                        return form.showDialog({\n                            title   : form.getTranslator().trans(\u0027account.balancewatch.credits-no-available-label\u0027),\n                            message : form.getTranslator().trans(\u0027account.balancewatch.credits-no-available-notice-business\u0027),\n                            buttons : dialogButtonsClose([{\n                                \u0027text\u0027    : form.getTranslator().trans(\u0027add-funds\u0027),\n                                \u0027onPress\u0027 : function() {\n                                    form.navigate(form.getValue(\u0027URL_PayCredit\u0027));\n                                },\n                                \u0027style\u0027   : \u0027positive\u0027\n                            }])\n                        });\n                    }\n                    return form.showDialog({\n                        title   : form.getTranslator().trans(\u0027account.balancewatch.credits-no-available-label\u0027),\n                        message : form.getTranslator().trans(\u0027account.balancewatch.credits-no-available-notice\u0027),\n                        buttons : dialogButtonsClose([{\n                            \u0027text\u0027    : form.getTranslator().trans(\u0027buy\u0027),\n                            \u0027onPress\u0027 : function() {\n                                form.navigate(form.getValue(\u0027URL_PayCredit\u0027));\n                            },\n                            \u0027style\u0027   : \u0027positive\u0027\n                        }])\n                    });\n                }\n                if (\u00272\u0027 === form.getValue(\u0027savepassword\u0027) \u0026\u0026 \u0027true\u0027 !== form.getValue(\u0027IsBalanceWatchLocalPasswordExclude\u0027)) {\n                    fieldBalanceWatchToggle(form, false);\n                    return form.showDialog({\n                        title   : form.getTranslator().trans(\u0027account.balancewatch.not-available\u0027),\n                        message : form.getTranslator().trans(\u0027account.balancewatch.not-available-password-local\u0027),\n                        buttons : dialogButtonsClose()\n                    });\n                }\n                if (true === form.getValue(\u0027disabled\u0027)) {\n                    fieldBalanceWatchToggle(form, false);\n                    return form.showDialog({\n                        title   : form.getTranslator().trans(\u0027account.balancewatch.no-available\u0027),\n                        message : form.getTranslator().trans(\u0027account.balancewatch.not-available-account-disabled\u0027),\n                        buttons : dialogButtonsClose()\n                    });\n                }\n                if (\u00271\u0027 !== form.getValue(\u0027IsBalanceWatchAccountError\u0027)) {\n                    fieldBalanceWatchToggle(form, false);\n                    return form.showDialog({\n                        title   : form.getTranslator().trans(\u0027account.balancewatch.no-available\u0027),\n                        message : form.getTranslator().trans(\u0027account.balancewatch.not-available-account-error\u0027),\n                        buttons : dialogButtonsClose()\n                    });\n                }\n\n                extension.onFieldChange(form, \u0027PointsSource\u0027);\n                fieldBalanceWatchToggle(form, true);\n                break;\n            case \u0027TransferFromProvider\u0027:\n            case \u0027TransferProviderCurrency\u0027:\n                extension.onFieldChange(form, \u0027PointsSource\u0027);\n\n                break;\n            case \u0027PointsSource\u0027:\n                let expectedNumberCaption,\n                    currency = form.getValue(\u0027TransferProviderCurrency\u0027);\n                if (\u00271\u0027 === form.getValue(fieldName)) {\n                    form.showField(\u0027TransferFromProvider\u0027, true);\n                    form.requireField(\u0027TransferFromProvider\u0027, true);\n                    expectedNumberCaption = form.getTranslator().trans(\u0027account.balancewatch.expected-number-miles\u0027, {\u0027currency\u0027 : form.getValue(\u0027TransferProviderCurrency\u0027)});\n                    form.setFieldCaption(\u0027ExpectedPoints\u0027, expectedNumberCaption);\n                    form.setFieldNotice(\u0027ExpectedPoints\u0027, form.getTranslator().trans(\u0027account.balancewatch.expected-number-miles-notice\u0027, {\u0027expectedNumberCaption\u0027 : expectedNumberCaption}));\n                    form.showField(\u0027ExpectedPoints\u0027, true);\n                    form.setFieldCaption(\u0027TransferRequestDate\u0027, form.getTranslator().trans(\u0027account.balancewatch.transfer-requested\u0027));\n\n                } else if (\u00272\u0027 === form.getValue(fieldName)) {\n                    form.showField(\u0027TransferFromProvider\u0027, false);\n                    form.requireField(\u0027TransferFromProvider\u0027, false);\n                    expectedNumberCaption = form.getTranslator().trans(\u0027account.balancewatch.points-purchase\u0027, {\u0027currency\u0027 : currency.charAt(0).toUpperCase() + currency.slice(1)});\n                    form.setFieldCaption(\u0027ExpectedPoints\u0027, expectedNumberCaption);\n                    form.setFieldNotice(\u0027ExpectedPoints\u0027, form.getTranslator().trans(\u0027account.balancewatch.expected-number-miles-notice\u0027, {\u0027expectedNumberCaption\u0027 : expectedNumberCaption}));\n                    form.showField(\u0027ExpectedPoints\u0027, true);\n                    form.setFieldCaption(\u0027TransferRequestDate\u0027, form.getTranslator().trans(\u0027account.balancewatch.purchase-requested\u0027));\n\n                } else if (\u00273\u0027 === form.getValue(fieldName)) {\n                    expectedNumberCaption = form.getTranslator().trans(\u0027account.balancewatch.points-purchase\u0027, {\u0027currency\u0027 : currency.charAt(0).toUpperCase() + currency.slice(1)});\n                    form.showField(\u0027TransferFromProvider\u0027, false);\n                    form.setFieldNotice(\u0027ExpectedPoints\u0027, form.getTranslator().trans(\u0027account.balancewatch.expected-number-miles-notice\u0027, {\u0027expectedNumberCaption\u0027 : expectedNumberCaption}));\n                    form.setFieldNotice(\u0027ExpectedPoints\u0027, \u0027\u0027);\n                    form.showField(\u0027ExpectedPoints\u0027, true);\n                    form.setFieldCaption(\u0027TransferRequestDate\u0027, form.getTranslator().trans(\u0027applied\u0027));\n                }\n\n                break;\n        }\n    };\n\n    extension.onFormReady = function(form) {\n        if (null === form.getInput(\u0027BalanceWatch\u0027))\n            return;\n\n        fieldBalanceWatchToggle(form, form.getValue(\u0027BalanceWatch\u0027));\n        extension.onFieldChange(form, \u0027savepassword\u0027);\n        extension.onFieldChange(form, \u0027PointsSource\u0027);\n    };\n\n}\n"
+    ]
+  },
+  "Login": "1.subaccount"
+}

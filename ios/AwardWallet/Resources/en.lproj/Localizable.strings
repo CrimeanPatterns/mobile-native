@@ -1,0 +1,10 @@
+"push-notifications.native-app.call-action.button"="Call";
+"delete"="Delete";
+"cancel"="Cancel";
+"confirm.delete.picture"="Please confirm you want to delete this picture";
+"camera.scan.barcode"="Hold your card in front of the\ncamera to scan the barcode";
+"buttons.back"="Back";
+"button.ok"="OK";
+"settings"="Settings";
+"location.enable-service"="You can enable access to the location service by checking \"Always\" in your settings under: Settings -> Location.";
+"location.enable-service.title"="This app does not have access to Location service";

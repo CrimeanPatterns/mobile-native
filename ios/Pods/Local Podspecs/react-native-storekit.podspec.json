@@ -1,0 +1,20 @@
+{
+  "name": "react-native-storekit",
+  "version": "1.0.0",
+  "summary": "iOS In-App Purchase using the StoreKit framework",
+  "authors": "hansemannn",
+  "homepage": "https://gitlab.awardwallet.com/mobile/react-native-storekit",
+  "license": "",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://gitlab.awardwallet.com/mobile/react-native-storekit"
+  },
+  "source_files": "*.{h,m}",
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

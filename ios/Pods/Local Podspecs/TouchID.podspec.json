@@ -1,0 +1,23 @@
+{
+  "name": "TouchID",
+  "version": "4.0.2",
+  "summary": "A React Native library for authenticating users with Touch ID",
+  "homepage": "https://github.com/naoufal/react-native-touch-id",
+  "license": "MIT",
+  "authors": {
+    "Naoufal Kadhom": "naoufalkadhom@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/naoufal/react-native-touch-id.git"
+  },
+  "source_files": "*.{h,m}",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": "*.js",
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

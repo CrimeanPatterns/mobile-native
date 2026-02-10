@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`alert choice, renders default 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    SEX
+    <Text
+      style={
+        Object {
+          "color": "#cc3d5e",
+          "fontFamily": "OpenSans",
+        }
+      }
+    >
+       *
+    </Text>
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "justifyContent": "space-between",
+        "marginTop": 5,
+        "maxHeight": 160,
+        "minHeight": 48,
+        "paddingEnd": 10,
+        "paddingHorizontal": 16,
+        "paddingStart": 16,
+        "paddingVertical": 6,
+      }
+    }
+    testID="picker-sex-dropdown"
+  >
+    <Text
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "OpenSans",
+          "fontSize": 15,
+        }
+      }
+    >
+      Male
+    </Text>
+    <Text
+      allowFontScaling={false}
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "fontFamily": "awardwallet",
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#a6a9b3",
+          },
+          Object {
+            "fontSize": 24,
+            "lineHeight": 24,
+          },
+          Object {
+            "marginLeft": 5,
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <Modal
+    animationType="slide"
+    hardwareAccelerated={false}
+    testID="picker-sex-modal"
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flex": 1,
+              "width": 750,
+            }
+          }
+          testID="picker-sex-cancel"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#dfe1e6",
+            "justifyContent": "center",
+            "padding": 0,
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#f3f4f5",
+              "borderTopColor": "#dfe1e6",
+              "borderTopWidth": 1,
+              "flexDirection": "row",
+              "flexWrap": "nowrap",
+              "height": 40,
+              "justifyContent": "flex-end",
+              "width": 750,
+            }
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "height": 40,
+                "justifyContent": "center",
+                "opacity": 1,
+                "paddingHorizontal": 15,
+              }
+            }
+            testID="picker-sex-done"
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#4684c4",
+                  "fontFamily": "OpenSans-Bold",
+                  "fontSize": 15,
+                  "fontWeight": "bold",
+                  "marginLeft": 20,
+                }
+              }
+            >
+              Done
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "width": 750,
+            }
+          }
+        >
+          <RNCPicker
+            items={
+              Array [
+                Object {
+                  "label": "Male",
+                  "testID": "picker-item-Male",
+                  "textColor": undefined,
+                  "value": "m",
+                },
+                Object {
+                  "label": "Female",
+                  "testID": "picker-item-Female",
+                  "textColor": undefined,
+                  "value": "f",
+                },
+              ]
+            }
+            onChange={[Function]}
+            selectedIndex={0}
+            style={
+              Array [
+                Object {
+                  "height": 216,
+                },
+                false,
+              ]
+            }
+            testID="picker-sex"
+          />
+        </View>
+      </View>
+    </View>
+  </Modal>
+</View>
+`;

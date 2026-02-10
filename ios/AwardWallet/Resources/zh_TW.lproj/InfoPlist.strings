@@ -1,0 +1,9 @@
+NSCameraUsageDescription="以便掃瞄忠誠卡並將其儲存在 AwardWallet";
+NSPhotoLibraryUsageDescription="以便掃瞄忠誠卡並將其儲存在 AwardWallet";
+"menu.button.accounts"="帳戶";
+"menu.button.bookings"="預訂";
+"menu.button.trips"="旅程";
+"menu.button.covid19"="Covid 19 Vaccine Card";
+NSLocationAlwaysUsageDescription="需要在您來到商店時發送零售購物忠誠卡（附條碼）到您的主頁上。";
+NSLocationAlwaysAndWhenInUseUsageDescription="需要在您來到商店時發送零售購物忠誠卡（附條碼）到您的主頁上。";
+NSLocationWhenInUseUsageDescription="需要在您來到商店時發送零售購物忠誠卡（附條碼）到您的主頁上。";

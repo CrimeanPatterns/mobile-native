@@ -1,0 +1,441 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<YahooButton/>, change theme: dark 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#dfe1e6",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 48,
+        "justifyContent": "center",
+        "position": "relative",
+      },
+      Object {
+        "backgroundColor": "#1c1c1e",
+        "borderColor": "#2e2e31",
+      },
+    ]
+  }
+  testID="oauth-yahoo"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "left": 7,
+          "position": "absolute",
+          "top": 8,
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "fontFamily": "awardwallet",
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#fff",
+          },
+          Object {
+            "fontSize": 30,
+            "lineHeight": 30,
+          },
+          Object {
+            "position": "relative",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 14,
+        },
+        Object {
+          "color": "#fff",
+        },
+      ]
+    }
+  >
+    Sign in with Yahoo
+  </Text>
+</View>
+`;
+
+exports[`<YahooButton/>, change theme: light 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#dfe1e6",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 48,
+        "justifyContent": "center",
+        "position": "relative",
+      },
+      false,
+    ]
+  }
+  testID="oauth-yahoo"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "left": 7,
+          "position": "absolute",
+          "top": 8,
+        },
+        false,
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "fontFamily": "awardwallet",
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#6001D2",
+          },
+          Object {
+            "fontSize": 30,
+            "lineHeight": 30,
+          },
+          Object {
+            "position": "relative",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 14,
+        },
+        false,
+      ]
+    }
+  >
+    Sign in with Yahoo
+  </Text>
+</View>
+`;
+
+exports[`<YahooButton/>, change theme: light 2`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#dfe1e6",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 48,
+        "justifyContent": "center",
+        "position": "relative",
+      },
+      false,
+    ]
+  }
+  testID="oauth-yahoo"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "left": 7,
+          "position": "absolute",
+          "top": 8,
+        },
+        false,
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "fontFamily": "awardwallet",
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#6001D2",
+          },
+          Object {
+            "fontSize": 30,
+            "lineHeight": 30,
+          },
+          Object {
+            "position": "relative",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 14,
+        },
+        false,
+      ]
+    }
+  >
+    Sign in with Yahoo
+  </Text>
+</View>
+`;
+
+exports[`<YahooButton/>, render, dark theme 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#dfe1e6",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 48,
+        "justifyContent": "center",
+        "position": "relative",
+      },
+      Object {
+        "backgroundColor": "#1c1c1e",
+        "borderColor": "#2e2e31",
+      },
+    ]
+  }
+  testID="oauth-yahoo"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "left": 7,
+          "position": "absolute",
+          "top": 8,
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "fontFamily": "awardwallet",
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#fff",
+          },
+          Object {
+            "fontSize": 30,
+            "lineHeight": 30,
+          },
+          Object {
+            "position": "relative",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 14,
+        },
+        Object {
+          "color": "#fff",
+        },
+      ]
+    }
+  >
+    Sign in with Yahoo
+  </Text>
+</View>
+`;
+
+exports[`<YahooButton/>, renders default 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#dfe1e6",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 48,
+        "justifyContent": "center",
+        "position": "relative",
+      },
+      false,
+    ]
+  }
+  testID="oauth-yahoo"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "left": 7,
+          "position": "absolute",
+          "top": 8,
+        },
+        false,
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "fontFamily": "awardwallet",
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#6001D2",
+          },
+          Object {
+            "fontSize": 30,
+            "lineHeight": 30,
+          },
+          Object {
+            "position": "relative",
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 14,
+        },
+        false,
+      ]
+    }
+  >
+    Sign in with Yahoo
+  </Text>
+</View>
+`;

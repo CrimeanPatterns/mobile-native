@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview_notification_barcode_collapsed_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/imageview_notification_barcode_collapsed_largeicon"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textAppearance="@style/TextAppearance.Compat.Notification"/>
+
+    <ImageView
+        android:id="@+id/imageview_notification_barcode_collapsed_largeicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/notification_barcode_small_logo_width"
+        android:layout_marginStart="5dp"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:contentDescription=""/>
+
+</RelativeLayout>

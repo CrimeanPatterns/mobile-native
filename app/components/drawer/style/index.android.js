@@ -1,0 +1,130 @@
+import {StyleSheet} from 'react-native';
+
+import {Colors, DarkColors, Fonts} from '../../../styles';
+
+export default StyleSheet.create({
+    pageMenu: {
+        flex: 1,
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+        backgroundColor: '#fafafa',
+        flexWrap: 'nowrap',
+        height: '100%',
+    },
+    menu: {},
+    user: {
+        height: 172,
+        position: 'relative',
+        marginBottom: 8,
+    },
+    userPane: {
+        width: '100%',
+    },
+    userItem: {
+        position: 'absolute',
+        top: 0,
+        width: '100%',
+        height: '100%',
+        paddingHorizontal: 16,
+        paddingTop: 40,
+        paddingBottom: 16,
+    },
+    userPicture: {
+        width: 64,
+        height: 64,
+        backgroundColor: Colors.white,
+        borderRadius: 32,
+        overflow: 'hidden',
+        marginBottom: 35,
+    },
+    userDetails: {
+        flex: 1,
+        flexDirection: 'row',
+        flexWrap: 'nowrap',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+    },
+    userName: {
+        fontFamily: Fonts.bold,
+        fontSize: 16,
+        color: Colors.white,
+        fontWeight: '500',
+        maxWidth: '70%',
+    },
+    userStatus: {
+        fontFamily: Fonts.bold,
+        fontWeight: '500',
+        fontSize: 10,
+        color: Colors.white,
+    },
+    userSilver: {
+        fontSize: 10,
+        color: Colors.grayDarkLight,
+        fontFamily: Fonts.bold,
+        fontWeight: '500',
+        marginLeft: 5,
+        height: 12,
+        backgroundColor: Colors.white,
+        textAlign: 'center',
+    },
+    menuItem: {
+        height: 48,
+        flex: 1,
+        flexDirection: 'row',
+        flexWrap: 'nowrap',
+        alignContent: 'center',
+        alignItems: 'center',
+        paddingHorizontal: 16,
+    },
+    menuIcon: {
+        flex: 1,
+        width: 25,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    menuText: {
+        paddingLeft: 30,
+        fontSize: 14,
+        color: Colors.grayDark,
+        fontFamily: Fonts.bold,
+        fontWeight: '500',
+        flex: 1,
+    },
+    menuActive: {
+        backgroundColor: Colors.grayLight,
+    },
+    menuActiveDark: {
+        backgroundColor: DarkColors.bgLight,
+    },
+    menuIconActive: {
+        color: Colors.grayDark,
+    },
+    container: {
+        flexDirection: 'column',
+        flexWrap: 'nowrap',
+        borderTopWidth: 1,
+        borderTopColor: Colors.gray,
+        borderStyle: 'solid',
+        paddingVertical: 10,
+    },
+    item: {
+        height: 48,
+        flex: 1,
+        flexDirection: 'row',
+        flexWrap: 'nowrap',
+        alignContent: 'center',
+        alignItems: 'center',
+        paddingHorizontal: 16,
+    },
+    title: {
+        fontFamily: Fonts.bold,
+        color: Colors.grayDark,
+        fontSize: 14,
+        fontWeight: '500',
+        marginLeft: 30,
+    },
+    icon: {
+        color: Colors.grayDarkLight,
+    },
+    col: {},
+});

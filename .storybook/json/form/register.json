@@ -1,0 +1,104 @@
+{
+  "children": [
+    {
+      "value": {},
+      "attr": {
+        "disableLabel": true
+      },
+      "name": "user",
+      "full_name": "newapp_register_new_user[user]",
+      "disabled": false,
+      "label": null,
+      "required": true,
+      "mapped": true,
+      "submitData": false,
+      "type": "newapp_new_user",
+      "children": [
+        {
+          "value": "",
+          "attr": {
+            "textContentType": "emailAddress"
+          },
+          "name": "email",
+          "full_name": "newapp_register_new_user[user][email]",
+          "disabled": false,
+          "label": "Email",
+          "required": true,
+          "mapped": true,
+          "submitData": false,
+          "type": "email"
+        },
+        {
+          "value": "",
+          "attr": {
+            "notice": "Please enter at least 8 characters",
+            "trim": true,
+            "textContentType": "none",
+            "passwordRules": "required: upper; required: lower; required: digit; minlength: 8; maxlength: 32;",
+            "policy": true
+          },
+          "name": "pass",
+          "full_name": "newapp_register_new_user[user][pass]",
+          "disabled": false,
+          "label": "Password",
+          "required": true,
+          "mapped": true,
+          "submitData": false,
+          "type": "passwordMask"
+        },
+        {
+          "value": "",
+          "attr": {
+            "textContentType": "givenName"
+          },
+          "name": "firstname",
+          "full_name": "newapp_register_new_user[user][firstname]",
+          "disabled": false,
+          "label": "First name",
+          "required": true,
+          "mapped": true,
+          "submitData": false,
+          "type": "text"
+        },
+        {
+          "value": "",
+          "attr": {
+            "textContentType": "familyName"
+          },
+          "name": "lastname",
+          "full_name": "newapp_register_new_user[user][lastname]",
+          "disabled": false,
+          "label": "Last name",
+          "required": true,
+          "mapped": true,
+          "submitData": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "value": "By clicking \u0022Register\u0022, you agree to our \u003Ca href=\u0022https:\/\/awardwallet.com\/m\/terms\u0022 target=\u0022_blank\u0022\u003ETerms of Use\u003C\/a\u003E and \u003Ca href=\u0022https:\/\/awardwallet.com\/m\/privacy\u0022 target=\u0022_blank\u0022\u003EPrivacy Notice\u003C\/a\u003E",
+      "attr": [],
+      "name": "termsOfUse",
+      "full_name": "newapp_register_new_user[termsOfUse]",
+      "disabled": false,
+      "label": null,
+      "required": false,
+      "mapped": false,
+      "submitData": false,
+      "type": "desc"
+    },
+    {
+      "value": "bj_bnJ7X8VzdCg4otbF01gLDK2G5DcriM8QlKtuXFeI",
+      "attr": [],
+      "name": "_token",
+      "full_name": "_token",
+      "disabled": false,
+      "label": null,
+      "required": false,
+      "submitData": false,
+      "mapped": true,
+      "type": "hidden"
+    }
+  ]
+}

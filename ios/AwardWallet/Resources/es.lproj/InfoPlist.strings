@@ -1,0 +1,9 @@
+NSCameraUsageDescription="para que puedas escanear tus tarjetas de fidelización físicas y guardarlas para siempre en AwardWallet";
+NSPhotoLibraryUsageDescription="para que puedas escanear tus tarjetas de fidelización físicas y guardarlas para siempre en AwardWallet";
+"menu.button.accounts"="Cuentas";
+"menu.button.bookings"="Reservas";
+"menu.button.trips"="Viajes";
+"menu.button.covid19"="Covid 19 Vaccine Card";
+NSLocationAlwaysUsageDescription="Tienes que mostrar las tarjetas de fidelización de compras (con códigos de barras) en tu pantalla principal cuando estés cerca de la tienda.";
+NSLocationAlwaysAndWhenInUseUsageDescription="Tienes que mostrar las tarjetas de fidelización de compras (con códigos de barras) en tu pantalla principal cuando estés cerca de la tienda.";
+NSLocationWhenInUseUsageDescription="Tienes que mostrar las tarjetas de fidelización de compras (con códigos de barras) en tu pantalla principal cuando estés cerca de la tienda.";

@@ -1,0 +1,885 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GoogleButton/>, change theme: dark 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#dfe1e6",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 48,
+        "justifyContent": "center",
+        "position": "relative",
+      },
+      Object {
+        "backgroundColor": "#1c1c1e",
+        "borderColor": "#2e2e31",
+      },
+    ]
+  }
+  testID="oauth-google"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "backgroundColor": "#fff",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "height": 40,
+          "justifyContent": "center",
+          "left": 4,
+          "position": "absolute",
+          "top": 3,
+          "width": 40,
+        },
+        Object {
+          "backgroundColor": "#fff",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#4285f4",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "relative",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ea4335",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#fbbc05",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#34a853",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 14,
+        },
+        Object {
+          "color": "#fff",
+        },
+      ]
+    }
+  >
+    Sign in with Google
+  </Text>
+</View>
+`;
+
+exports[`<GoogleButton/>, change theme: light 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#dfe1e6",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 48,
+        "justifyContent": "center",
+        "position": "relative",
+      },
+      false,
+    ]
+  }
+  testID="oauth-google"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "backgroundColor": "#fff",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "height": 40,
+          "justifyContent": "center",
+          "left": 4,
+          "position": "absolute",
+          "top": 3,
+          "width": 40,
+        },
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#4285f4",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "relative",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ea4335",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#fbbc05",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#34a853",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 14,
+        },
+        false,
+      ]
+    }
+  >
+    Sign in with Google
+  </Text>
+</View>
+`;
+
+exports[`<GoogleButton/>, change theme: light 2`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#dfe1e6",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 48,
+        "justifyContent": "center",
+        "position": "relative",
+      },
+      false,
+    ]
+  }
+  testID="oauth-google"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "backgroundColor": "#fff",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "height": 40,
+          "justifyContent": "center",
+          "left": 4,
+          "position": "absolute",
+          "top": 3,
+          "width": 40,
+        },
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#4285f4",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "relative",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ea4335",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#fbbc05",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#34a853",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 14,
+        },
+        false,
+      ]
+    }
+  >
+    Sign in with Google
+  </Text>
+</View>
+`;
+
+exports[`<GoogleButton/>, render, dark theme 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#dfe1e6",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 48,
+        "justifyContent": "center",
+        "position": "relative",
+      },
+      Object {
+        "backgroundColor": "#1c1c1e",
+        "borderColor": "#2e2e31",
+      },
+    ]
+  }
+  testID="oauth-google"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "backgroundColor": "#fff",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "height": 40,
+          "justifyContent": "center",
+          "left": 4,
+          "position": "absolute",
+          "top": 3,
+          "width": 40,
+        },
+        Object {
+          "backgroundColor": "#fff",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#4285f4",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "relative",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ea4335",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#fbbc05",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#34a853",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 14,
+        },
+        Object {
+          "color": "#fff",
+        },
+      ]
+    }
+  >
+    Sign in with Google
+  </Text>
+</View>
+`;
+
+exports[`<GoogleButton/>, renders default 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#dfe1e6",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 48,
+        "justifyContent": "center",
+        "position": "relative",
+      },
+      false,
+    ]
+  }
+  testID="oauth-google"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "backgroundColor": "#fff",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "height": 40,
+          "justifyContent": "center",
+          "left": 4,
+          "position": "absolute",
+          "top": 3,
+          "width": 40,
+        },
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#4285f4",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "relative",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ea4335",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#fbbc05",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#34a853",
+            },
+            Object {
+              "fontSize": 30,
+              "lineHeight": 30,
+            },
+            Object {
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 14,
+        },
+        false,
+      ]
+    }
+  >
+    Sign in with Google
+  </Text>
+</View>
+`;

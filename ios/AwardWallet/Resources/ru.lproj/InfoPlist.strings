@@ -1,0 +1,9 @@
+NSCameraUsageDescription="чтобы Вы могли отсканировать Ваши карты лояльности и сохранить их в AwardWallet";
+NSPhotoLibraryUsageDescription="чтобы Вы могли отсканировать Ваши карты лояльности и сохранить их в AwardWallet";
+"menu.button.accounts"="Аккаунты";
+"menu.button.bookings"="Бронирование";
+"menu.button.trips"="Путешествия";
+"menu.button.covid19"="Covid 19 Vaccine Card";
+NSLocationAlwaysUsageDescription="Необходимо для выведения бонусных карт (со штрихкодом) на экран при приближении к магазину.";
+NSLocationAlwaysAndWhenInUseUsageDescription="Необходимо для выведения бонусных карт (со штрихкодом) на экран при приближении к магазину.";
+NSLocationWhenInUseUsageDescription="Необходимо для выведения бонусных карт (со штрихкодом) на экран при приближении к магазину.";

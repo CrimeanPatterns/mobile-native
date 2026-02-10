@@ -1,0 +1,445 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button, renders colored 1`] = `
+<View
+  accessibilityLabel="Save"
+  accessibilityRole="button"
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "red",
+          "marginHorizontal": 5,
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text
+      disabled={false}
+      style={
+        Object {
+          "color": "#fff",
+          "fontFamily": "OpenSans",
+          "fontSize": 13,
+          "height": 48,
+          "lineHeight": 48,
+          "paddingHorizontal": 35,
+          "textAlign": "center",
+        }
+      }
+    >
+      Save
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`button, renders custom styles: base 1`] = `
+<View
+  accessibilityLabel="Save"
+  accessibilityRole="button"
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#125da3",
+          "margin": 10,
+          "marginHorizontal": 5,
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text
+      disabled={false}
+      style={
+        Object {
+          "color": "red",
+          "fontFamily": "OpenSans",
+          "fontSize": 13,
+          "height": 48,
+          "lineHeight": 48,
+          "paddingHorizontal": 35,
+          "textAlign": "center",
+        }
+      }
+    >
+      Save
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`button, renders custom styles: disabled 1`] = `
+<View
+  accessibilityLabel="Save"
+  accessibilityRole="button"
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#1466b3",
+          "margin": 15,
+          "marginHorizontal": 5,
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text
+      disabled={true}
+      style={
+        Object {
+          "color": "green",
+          "fontFamily": "OpenSans",
+          "fontSize": 13,
+          "height": 48,
+          "lineHeight": 48,
+          "paddingHorizontal": 35,
+          "textAlign": "center",
+        }
+      }
+    >
+      Save
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`button, renders custom styles: loading 1`] = `
+<View
+  accessibilityLabel="Save"
+  accessibilityRole="button"
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#1466b3",
+          "margin": 15,
+          "marginHorizontal": 5,
+        },
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "bottom": 0,
+          "justifyContent": "center",
+          "left": 7,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <RNSpinkit
+        color={4278809817}
+        size={22}
+        style={
+          Array [
+            Object {
+              "height": 22,
+              "width": 22,
+            },
+            undefined,
+          ]
+        }
+        type="Arc"
+      />
+    </View>
+    <Text
+      disabled={true}
+      style={
+        Object {
+          "color": "green",
+          "fontFamily": "OpenSans",
+          "fontSize": 13,
+          "height": 48,
+          "lineHeight": 48,
+          "paddingHorizontal": 35,
+          "textAlign": "center",
+        }
+      }
+    >
+      Save
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`button, renders default 1`] = `
+<View
+  accessibilityLabel="Save"
+  accessibilityRole="button"
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#125da3",
+          "marginHorizontal": 5,
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text
+      disabled={false}
+      style={
+        Object {
+          "color": "#fff",
+          "fontFamily": "OpenSans",
+          "fontSize": 13,
+          "height": 48,
+          "lineHeight": 48,
+          "paddingHorizontal": 35,
+          "textAlign": "center",
+        }
+      }
+    >
+      Save
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`button, renders disabled 1`] = `
+<View
+  accessibilityLabel="Save"
+  accessibilityRole="button"
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#1466b3",
+          "marginHorizontal": 5,
+        },
+        Object {},
+      ]
+    }
+  >
+    <Text
+      disabled={true}
+      style={
+        Object {
+          "color": "#5c93cc",
+          "fontFamily": "OpenSans",
+          "fontSize": 13,
+          "height": 48,
+          "lineHeight": 48,
+          "paddingHorizontal": 35,
+          "textAlign": "center",
+        }
+      }
+    >
+      Save
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`button, renders loading 1`] = `
+<View
+  accessibilityLabel="Save"
+  accessibilityRole="button"
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#1466b3",
+          "marginHorizontal": 5,
+        },
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "bottom": 0,
+          "justifyContent": "center",
+          "left": 7,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <RNSpinkit
+        color={4278809817}
+        size={22}
+        style={
+          Array [
+            Object {
+              "height": 22,
+              "width": 22,
+            },
+            undefined,
+          ]
+        }
+        type="Arc"
+      />
+    </View>
+    <Text
+      disabled={true}
+      style={
+        Object {
+          "color": "#5c93cc",
+          "fontFamily": "OpenSans",
+          "fontSize": 13,
+          "height": 48,
+          "lineHeight": 48,
+          "paddingHorizontal": 35,
+          "textAlign": "center",
+        }
+      }
+    >
+      Save
+    </Text>
+  </View>
+</View>
+`;

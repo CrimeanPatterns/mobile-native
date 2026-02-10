@@ -1,0 +1,10 @@
+"push-notifications.native-app.call-action.button"="致电";
+"delete"="删除";
+"cancel"="取消";
+"confirm.delete.picture"="请确认您要删除这一图片";
+"camera.scan.barcode"="将您的卡片放在镜头前以扫描条形码";
+"buttons.back"="返回";
+"button.ok"="确定";
+"settings"="设置";
+"location.enable-service"="要开启对位置服务的访问，您需要在您的设置中：设置 -> 位置一项中选中“始终”。";
+"location.enable-service.title"="本应用无法访问位置服务。";

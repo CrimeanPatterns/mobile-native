@@ -1,0 +1,25 @@
+{
+  "name": "RNApiSignature",
+  "version": "1.0.0",
+  "summary": "RNApiSignature",
+  "description": "RNApiSignature",
+  "homepage": "https://gitlab.awardwallet.com/mobile/react-native-api-signature",
+  "license": "MIT",
+  "authors": {
+    "author": "AwardWallet LLC"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://gitlab.awardwallet.com/mobile/react-native-api-signature",
+    "tag": "master"
+  },
+  "source_files": "ios/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

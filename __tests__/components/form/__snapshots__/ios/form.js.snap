@@ -1,0 +1,479 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`prepare fields check state of action rest 1`] = `
+Object {
+  "Action": Object {
+    "component": [Function],
+    "focused": false,
+    "fullName": "Action",
+    "groups": Array [
+      "not_form",
+    ],
+    "name": "Action",
+    "props": Object {
+      "link": "http://",
+      "message": "Success",
+      "method": "POST",
+      "text": "Action",
+      "value": undefined,
+    },
+    "rawConfig": Object {
+      "link": "http://",
+      "method": "POST",
+      "name": "Action",
+      "notice": "Success",
+      "type": "action",
+    },
+    "resolvedAliases": Array [
+      "action",
+    ],
+    "resolvedType": "action",
+    "visibility": true,
+  },
+}
+`;
+
+exports[`prepare fields check state of checkbox field 1`] = `
+Object {
+  "agree": Object {
+    "changed": false,
+    "component": [Function],
+    "error": null,
+    "focused": false,
+    "fullName": "agree",
+    "groups": Array [],
+    "isValid": true,
+    "mapped": true,
+    "name": "agree",
+    "props": Object {
+      "label": "Agree",
+      "value": true,
+    },
+    "rawConfig": Object {
+      "label": "Agree",
+      "name": "agree",
+      "type": "checkbox",
+      "value": true,
+    },
+    "resolvedAliases": Array [
+      "checkbox",
+    ],
+    "resolvedType": "checkbox",
+    "value": true,
+    "visibility": true,
+  },
+}
+`;
+
+exports[`prepare fields check state of choice field 1`] = `
+Object {
+  "sex": Object {
+    "changed": false,
+    "component": [Function],
+    "error": null,
+    "focused": false,
+    "fullName": "sex",
+    "groups": Array [
+      "choice",
+    ],
+    "isValid": true,
+    "mapped": true,
+    "name": "sex",
+    "props": Object {
+      "choices": Array [
+        Object {
+          "label": "Male",
+          "value": "m",
+        },
+        Object {
+          "label": "Female",
+          "value": "f",
+        },
+      ],
+      "label": "Sex",
+      "value": "m",
+    },
+    "rawConfig": Object {
+      "choices": Array [
+        Object {
+          "label": "Male",
+          "value": "m",
+        },
+        Object {
+          "label": "Female",
+          "value": "f",
+        },
+      ],
+      "label": "Sex",
+      "name": "sex",
+      "type": "choice",
+      "value": "m",
+    },
+    "resolvedAliases": Array [
+      "choice",
+    ],
+    "resolvedType": "choice",
+    "value": "m",
+    "visibility": true,
+  },
+}
+`;
+
+exports[`prepare fields check state of completion field 1`] = `
+Object {
+  "firstName": Object {
+    "changed": false,
+    "component": [Function],
+    "error": null,
+    "focused": false,
+    "fullName": "firstName",
+    "groups": Array [
+      "completion",
+      "text",
+    ],
+    "isValid": true,
+    "mapped": true,
+    "name": "firstName",
+    "props": Object {
+      "autoCapitalize": "none",
+      "autoCorrect": false,
+      "completionLink": "http://",
+      "label": "First Name",
+      "multiline": false,
+      "value": "Billy",
+    },
+    "rawConfig": Object {
+      "completionLink": "http://",
+      "label": "First Name",
+      "name": "firstName",
+      "type": "text_completion",
+      "value": "Billy",
+    },
+    "resolvedAliases": Array [
+      "completion",
+      "text_completion",
+    ],
+    "resolvedType": "text_completion",
+    "value": "Billy",
+    "visibility": true,
+  },
+}
+`;
+
+exports[`prepare fields check state of date field 1`] = `
+Object {
+  "birthday": Object {
+    "changed": false,
+    "component": [Function],
+    "error": null,
+    "focused": false,
+    "fullName": "birthday",
+    "groups": Array [],
+    "isValid": true,
+    "mapped": true,
+    "name": "birthday",
+    "props": Object {
+      "label": "Birthday",
+      "value": "2018-01-01",
+    },
+    "rawConfig": Object {
+      "label": "Birthday",
+      "name": "birthday",
+      "type": "date",
+      "value": "2018-01-01",
+    },
+    "resolvedAliases": Array [
+      "date",
+    ],
+    "resolvedType": "date",
+    "value": "2018-01-01",
+    "visibility": true,
+  },
+}
+`;
+
+exports[`prepare fields check state of html rest 1`] = `
+Object {
+  "html": Object {
+    "component": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "displayName": "ForwardRefThemedHtml",
+      "render": [Function],
+    },
+    "focused": false,
+    "fullName": "html",
+    "groups": Array [
+      "not_form",
+    ],
+    "name": "html",
+    "props": Object {
+      "content": "<b>Hello, World!</b>",
+      "value": "<b>Hello, World!</b>",
+    },
+    "rawConfig": Object {
+      "name": "html",
+      "type": "html",
+      "value": "<b>Hello, World!</b>",
+    },
+    "resolvedAliases": Array [
+      "html",
+    ],
+    "resolvedType": "html",
+    "visibility": true,
+  },
+}
+`;
+
+exports[`prepare fields check state of password complexity field 1`] = `
+Object {
+  "password": Object {
+    "changed": false,
+    "component": [Function],
+    "error": null,
+    "focused": false,
+    "fullName": "password",
+    "groups": Array [
+      "password_complexity",
+      "text",
+    ],
+    "isValid": true,
+    "mapped": true,
+    "name": "password",
+    "props": Object {
+      "attr": Object {},
+      "autoCapitalize": "none",
+      "autoCorrect": false,
+      "complexityEmail": [Function],
+      "complexityLogin": [Function],
+      "label": "Password",
+      "listenFieldNames": Array [],
+      "multiline": false,
+      "secureTextEntry": true,
+      "value": undefined,
+    },
+    "rawConfig": Object {
+      "attr": Object {},
+      "complexityEmail": [Function],
+      "complexityLogin": [Function],
+      "label": "Password",
+      "name": "password",
+      "type": "passwordComplexity",
+    },
+    "resolvedAliases": Array [
+      "passwordComplexity",
+    ],
+    "resolvedType": "passwordComplexity",
+    "value": undefined,
+    "visibility": true,
+  },
+}
+`;
+
+exports[`prepare fields check state of password field 1`] = `
+Object {
+  "password": Object {
+    "changed": false,
+    "component": [Function],
+    "error": null,
+    "focused": false,
+    "fullName": "password",
+    "groups": Array [
+      "text",
+    ],
+    "isValid": true,
+    "mapped": true,
+    "name": "password",
+    "props": Object {
+      "autoCapitalize": "none",
+      "autoCorrect": false,
+      "label": "Password",
+      "multiline": false,
+      "secureTextEntry": true,
+      "value": undefined,
+    },
+    "rawConfig": Object {
+      "label": "Password",
+      "name": "password",
+      "type": "passwordEdit",
+    },
+    "resolvedAliases": Array [
+      "passwordEdit",
+    ],
+    "resolvedType": "passwordEdit",
+    "value": undefined,
+    "visibility": true,
+  },
+}
+`;
+
+exports[`prepare fields check state of switch field 1`] = `
+Object {
+  "agree": Object {
+    "changed": false,
+    "component": [Function],
+    "error": null,
+    "focused": false,
+    "fullName": "agree",
+    "groups": Array [
+      "novalidate",
+    ],
+    "isValid": true,
+    "mapped": true,
+    "name": "agree",
+    "props": Object {
+      "label": "Agree",
+      "value": true,
+    },
+    "rawConfig": Object {
+      "label": "Agree",
+      "name": "agree",
+      "type": "switch",
+      "value": true,
+    },
+    "resolvedAliases": Array [
+      "switch",
+      "switcher",
+    ],
+    "resolvedType": "switch",
+    "value": true,
+    "visibility": true,
+  },
+}
+`;
+
+exports[`prepare fields check state of text field 1`] = `
+Object {
+  "firstName": Object {
+    "changed": false,
+    "component": [Function],
+    "error": null,
+    "focused": false,
+    "fullName": "firstName",
+    "groups": Array [
+      "text",
+    ],
+    "isValid": true,
+    "mapped": true,
+    "name": "firstName",
+    "props": Object {
+      "autoCapitalize": "none",
+      "autoCorrect": false,
+      "label": "First Name",
+      "multiline": false,
+      "value": "Billy",
+    },
+    "rawConfig": Object {
+      "label": "First Name",
+      "name": "firstName",
+      "type": "text",
+      "value": "Billy",
+    },
+    "resolvedAliases": Array [
+      "text",
+      "email",
+      "textarea",
+      "password",
+      "passwordMask",
+    ],
+    "resolvedType": "text",
+    "value": "Billy",
+    "visibility": true,
+  },
+  "lastName": Object {
+    "changed": false,
+    "component": [Function],
+    "error": null,
+    "focused": false,
+    "fullName": "lastName",
+    "groups": Array [
+      "text",
+    ],
+    "isValid": true,
+    "mapped": true,
+    "name": "lastName",
+    "props": Object {
+      "autoCapitalize": "none",
+      "autoCorrect": false,
+      "label": "Last Name",
+      "multiline": false,
+      "value": "Villy",
+    },
+    "rawConfig": Object {
+      "label": "Last Name",
+      "name": "lastName",
+      "type": "text",
+      "value": "Villy",
+    },
+    "resolvedAliases": Array [
+      "text",
+      "email",
+      "textarea",
+      "password",
+      "passwordMask",
+    ],
+    "resolvedType": "text",
+    "value": "Villy",
+    "visibility": true,
+  },
+}
+`;
+
+exports[`prepare fields form, check state of alert choice field 1`] = `
+Object {
+  "sex": Object {
+    "changed": false,
+    "component": [Function],
+    "error": null,
+    "focused": false,
+    "fullName": "sex",
+    "groups": Array [
+      "choice",
+    ],
+    "isValid": true,
+    "mapped": true,
+    "name": "sex",
+    "props": Object {
+      "alerts": Object {
+        "m": "Alert message",
+      },
+      "choices": Array [
+        Object {
+          "label": "Male",
+          "value": "m",
+        },
+        Object {
+          "label": "Female",
+          "value": "f",
+        },
+      ],
+      "label": "Sex",
+      "value": "m",
+    },
+    "rawConfig": Object {
+      "alerts": Object {
+        "m": "Alert message",
+      },
+      "choices": Array [
+        Object {
+          "label": "Male",
+          "value": "m",
+        },
+        Object {
+          "label": "Female",
+          "value": "f",
+        },
+      ],
+      "label": "Sex",
+      "name": "sex",
+      "type": "choice",
+      "value": "m",
+    },
+    "resolvedAliases": Array [
+      "alertChoice",
+    ],
+    "resolvedType": "alertChoice",
+    "value": "m",
+    "visibility": true,
+  },
+}
+`;

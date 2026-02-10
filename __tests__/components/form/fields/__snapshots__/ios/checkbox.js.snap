@@ -1,0 +1,1568 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checkbox, renders checked 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 13,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 2,
+          "width": 25,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#4684c4",
+            },
+            Object {
+              "fontSize": 17,
+              "lineHeight": 17,
+            },
+            Object {
+              "backgroundColor": "white",
+              "height": 17,
+              "width": 17,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5c6373",
+              "fontFamily": "OpenSans",
+              "fontSize": 12,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "fontSize": 15,
+              "paddingHorizontal": 0,
+            },
+          ]
+        }
+      >
+        Agree
+        <Text
+          style={
+            Object {
+              "color": "#cc3d5e",
+              "fontFamily": "OpenSans",
+            }
+          }
+        >
+           *
+        </Text>
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`checkbox, renders custom styles: base 1`] = `
+<View
+  style={
+    Object {
+      "margin": 10,
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 13,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "margin": 20,
+          "marginTop": 2,
+          "width": 25,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#8e9199",
+            },
+            Object {
+              "fontSize": 17,
+              "lineHeight": 17,
+            },
+            Object {
+              "backgroundColor": "white",
+              "height": 17,
+              "width": 17,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "red",
+              "fontFamily": "OpenSans",
+              "fontSize": 12,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "fontSize": 15,
+              "paddingHorizontal": 0,
+            },
+          ]
+        }
+      >
+        Agree
+        <Text
+          style={
+            Object {
+              "color": "#cc3d5e",
+              "fontFamily": "OpenSans",
+            }
+          }
+        >
+           *
+        </Text>
+      </Text>
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "blue",
+        "fontFamily": "OpenSans",
+        "fontSize": 12,
+        "marginBottom": 5,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined hint"
+  >
+    Test hint
+  </Text>
+</View>
+`;
+
+exports[`checkbox, renders custom styles: disabled 1`] = `
+<View
+  style={
+    Object {
+      "margin": 12,
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#fff",
+        "borderBottomColor": "#cc3d5e",
+        "borderBottomWidth": 2,
+        "borderColor": "rgba(0, 0, 0, 0.12)",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 13,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "margin": 40,
+          "marginTop": 2,
+          "width": 25,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "rgba(0, 0, 0, 0.12)",
+            },
+            Object {
+              "fontSize": 17,
+              "lineHeight": 17,
+            },
+            Object {
+              "backgroundColor": "white",
+              "height": 17,
+              "width": 17,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#001123",
+              "fontFamily": "OpenSans",
+              "fontSize": 12,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "fontSize": 15,
+              "paddingHorizontal": 0,
+            },
+          ]
+        }
+      >
+        Agree
+        <Text
+          style={
+            Object {
+              "color": "#cc3d5e",
+              "fontFamily": "OpenSans",
+            }
+          }
+        >
+           *
+        </Text>
+      </Text>
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "#001123",
+        "fontFamily": "OpenSans",
+        "fontSize": 12,
+        "marginBottom": 0,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined hint"
+  >
+    Test hint
+  </Text>
+  <Text
+    accessibilityLabel="Error"
+    style={
+      Object {
+        "color": "#cc3d5e",
+        "fontSize": 25,
+        "marginVertical": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined error"
+  >
+    Error
+  </Text>
+</View>
+`;
+
+exports[`checkbox, renders custom styles: errored 1`] = `
+<View
+  style={
+    Object {
+      "margin": 11,
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#fff",
+        "borderBottomColor": "#cc3d5e",
+        "borderBottomWidth": 2,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 13,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "margin": 30,
+          "marginTop": 2,
+          "width": 25,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#8e9199",
+            },
+            Object {
+              "fontSize": 17,
+              "lineHeight": 17,
+            },
+            Object {
+              "backgroundColor": "white",
+              "height": 17,
+              "width": 17,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#001122",
+              "fontFamily": "OpenSans",
+              "fontSize": 12,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "fontSize": 15,
+              "paddingHorizontal": 0,
+            },
+          ]
+        }
+      >
+        Agree
+        <Text
+          style={
+            Object {
+              "color": "#cc3d5e",
+              "fontFamily": "OpenSans",
+            }
+          }
+        >
+           *
+        </Text>
+      </Text>
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "#001122",
+        "fontFamily": "OpenSans",
+        "fontSize": 12,
+        "marginBottom": 0,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined hint"
+  >
+    Test hint
+  </Text>
+  <Text
+    accessibilityLabel="Error"
+    style={
+      Object {
+        "color": "#cc3d5e",
+        "fontSize": 20,
+        "marginVertical": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined error"
+  >
+    Error
+  </Text>
+</View>
+`;
+
+exports[`checkbox, renders default 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 13,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 2,
+          "width": 25,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#8e9199",
+            },
+            Object {
+              "fontSize": 17,
+              "lineHeight": 17,
+            },
+            Object {
+              "backgroundColor": "white",
+              "height": 17,
+              "width": 17,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5c6373",
+              "fontFamily": "OpenSans",
+              "fontSize": 12,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "fontSize": 15,
+              "paddingHorizontal": 0,
+            },
+          ]
+        }
+      >
+        Agree
+        <Text
+          style={
+            Object {
+              "color": "#cc3d5e",
+              "fontFamily": "OpenSans",
+            }
+          }
+        >
+           *
+        </Text>
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`checkbox, renders disabled 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "rgba(0, 0, 0, 0.12)",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 13,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 2,
+          "width": 25,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "rgba(0, 0, 0, 0.12)",
+            },
+            Object {
+              "fontSize": 17,
+              "lineHeight": 17,
+            },
+            Object {
+              "backgroundColor": "white",
+              "height": 17,
+              "width": 17,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0, 0, 0, 0.12)",
+              "fontFamily": "OpenSans",
+              "fontSize": 12,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "fontSize": 15,
+              "paddingHorizontal": 0,
+            },
+          ]
+        }
+      >
+        Agree
+        <Text
+          style={
+            Object {
+              "color": "rgba(0, 0, 0, 0.12)",
+              "fontFamily": "OpenSans",
+            }
+          }
+        >
+           *
+        </Text>
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`checkbox, renders error 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#fff",
+        "borderBottomColor": "#cc3d5e",
+        "borderBottomWidth": 2,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 13,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 2,
+          "width": 25,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#8e9199",
+            },
+            Object {
+              "fontSize": 17,
+              "lineHeight": 17,
+            },
+            Object {
+              "backgroundColor": "white",
+              "height": 17,
+              "width": 17,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5c6373",
+              "fontFamily": "OpenSans",
+              "fontSize": 12,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "fontSize": 15,
+              "paddingHorizontal": 0,
+            },
+          ]
+        }
+      >
+        Agree
+        <Text
+          style={
+            Object {
+              "color": "#cc3d5e",
+              "fontFamily": "OpenSans",
+            }
+          }
+        >
+           *
+        </Text>
+      </Text>
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="This field is required!"
+    style={
+      Object {
+        "color": "#cc3d5e",
+        "fontSize": 12,
+        "marginVertical": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined error"
+  >
+    This field is required!
+  </Text>
+</View>
+`;
+
+exports[`checkbox, renders error with hint 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#fff",
+        "borderBottomColor": "#cc3d5e",
+        "borderBottomWidth": 2,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 13,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 2,
+          "width": 25,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#8e9199",
+            },
+            Object {
+              "fontSize": 17,
+              "lineHeight": 17,
+            },
+            Object {
+              "backgroundColor": "white",
+              "height": 17,
+              "width": 17,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5c6373",
+              "fontFamily": "OpenSans",
+              "fontSize": 12,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "fontSize": 15,
+              "paddingHorizontal": 0,
+            },
+          ]
+        }
+      >
+        Agree
+        <Text
+          style={
+            Object {
+              "color": "#cc3d5e",
+              "fontFamily": "OpenSans",
+            }
+          }
+        >
+           *
+        </Text>
+      </Text>
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "#5c6373",
+        "fontFamily": "OpenSans",
+        "fontSize": 12,
+        "marginBottom": 0,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined hint"
+  >
+    Test hint
+  </Text>
+  <Text
+    accessibilityLabel="This field is required!"
+    style={
+      Object {
+        "color": "#cc3d5e",
+        "fontSize": 12,
+        "marginVertical": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined error"
+  >
+    This field is required!
+  </Text>
+</View>
+`;
+
+exports[`checkbox, renders hint 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 13,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 2,
+          "width": 25,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#8e9199",
+            },
+            Object {
+              "fontSize": 17,
+              "lineHeight": 17,
+            },
+            Object {
+              "backgroundColor": "white",
+              "height": 17,
+              "width": 17,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5c6373",
+              "fontFamily": "OpenSans",
+              "fontSize": 12,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "fontSize": 15,
+              "paddingHorizontal": 0,
+            },
+          ]
+        }
+      >
+        Agree
+        <Text
+          style={
+            Object {
+              "color": "#cc3d5e",
+              "fontFamily": "OpenSans",
+            }
+          }
+        >
+           *
+        </Text>
+      </Text>
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "#5c6373",
+        "fontFamily": "OpenSans",
+        "fontSize": 12,
+        "marginBottom": 5,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined hint"
+  >
+    Test hint
+  </Text>
+</View>
+`;
+
+exports[`checkbox, renders not required 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 13,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 2,
+          "width": 25,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#8e9199",
+            },
+            Object {
+              "fontSize": 17,
+              "lineHeight": 17,
+            },
+            Object {
+              "backgroundColor": "white",
+              "height": 17,
+              "width": 17,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5c6373",
+              "fontFamily": "OpenSans",
+              "fontSize": 12,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "fontSize": 15,
+              "paddingHorizontal": 0,
+            },
+          ]
+        }
+      >
+        Agree
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`checkbox, renders required 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 13,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 2,
+          "width": 25,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#8e9199",
+            },
+            Object {
+              "fontSize": 17,
+              "lineHeight": 17,
+            },
+            Object {
+              "backgroundColor": "white",
+              "height": 17,
+              "width": 17,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5c6373",
+              "fontFamily": "OpenSans",
+              "fontSize": 12,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "fontSize": 15,
+              "paddingHorizontal": 0,
+            },
+          ]
+        }
+      >
+        Agree
+        <Text
+          style={
+            Object {
+              "color": "#cc3d5e",
+              "fontFamily": "OpenSans",
+            }
+          }
+        >
+           *
+        </Text>
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`checkbox, renders small label 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 13,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 2,
+          "width": 25,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#8e9199",
+            },
+            Object {
+              "fontSize": 17,
+              "lineHeight": 17,
+            },
+            Object {
+              "backgroundColor": "white",
+              "height": 17,
+              "width": 17,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 16,
+          "paddingTop": 4,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5c6373",
+              "fontFamily": "OpenSans",
+              "fontSize": 12,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "fontSize": 10,
+              "paddingHorizontal": 0,
+            },
+          ]
+        }
+      >
+        Agree
+        <Text
+          style={
+            Object {
+              "color": "#cc3d5e",
+              "fontFamily": "OpenSans",
+            }
+          }
+        >
+           *
+        </Text>
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`checkbox, renders unchecked 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 13,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 2,
+          "width": 25,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "fontFamily": "awardwallet",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#8e9199",
+            },
+            Object {
+              "fontSize": 17,
+              "lineHeight": 17,
+            },
+            Object {
+              "backgroundColor": "white",
+              "height": 17,
+              "width": 17,
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#5c6373",
+              "fontFamily": "OpenSans",
+              "fontSize": 12,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "fontSize": 15,
+              "paddingHorizontal": 0,
+            },
+          ]
+        }
+      >
+        Agree
+        <Text
+          style={
+            Object {
+              "color": "#cc3d5e",
+              "fontFamily": "OpenSans",
+            }
+          }
+        >
+           *
+        </Text>
+      </Text>
+    </View>
+  </View>
+</View>
+`;

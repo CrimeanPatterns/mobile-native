@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- app palette -->
+    <color name="bgColor">#131417</color>
+    <color name="refreshBgColor">#3e3e3f</color>
+    <color name="refreshColor">#ffffff</color>
+    <color name="pickerBg">#424242</color>
+    <color name="pickerText">#ffffff</color>
+    <color name="pickerSeparator">#494949</color>
+
+</resources>

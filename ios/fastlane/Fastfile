@@ -1,0 +1,55 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  version = get_version_number(xcodeproj: "AwardWallet.xcodeproj", target: "AwardWallet")
+
+  desc "Push a new release build to the App Store"
+  lane :release do
+    #increment_build_number(xcodeproj: "AwardWallet.xcodeproj")
+    app_store_connect_api_key(
+        key_id: "6752MZ6KZD",
+        issuer_id: "f00ce5ef-1129-4e7f-8988-0ef51452ccf4",
+        key_filepath: "~/AuthKey.p8"
+    )
+    build_app(workspace: "AwardWallet.xcworkspace", scheme: "AwardWallet")
+    upload_to_app_store(
+        skip_metadata: true,
+        skip_screenshots: true,
+        precheck_include_in_app_purchases: false
+    )
+    send_build_to_bugsnag
+    Dir.chdir("../..") do
+        sh("./scripts/upload-source-map.sh", "ios", version)
+    end
+  end
+
+  desc "Send build to Bugsnag"
+  lane :upload_bugsnag do
+    send_build_to_bugsnag
+    Dir.chdir("../..") do
+      sh("./scripts/upload-source-map.sh", "ios", version)
+    end
+  end
+
+  desc "Upload dSYM files to Bugsnag"
+  lane :refresh_dsyms do
+  	download_dsyms(version: version, wait_for_dsym_processing: true)       # Download dSYM files from iTC
+  	upload_symbols_to_bugsnag              # Upload them to Bugsnag
+  	clean_build_artifacts                  # Delete the local dSYM files
+  end
+end

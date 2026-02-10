@@ -1,0 +1,26 @@
+export const BarcodeTypes = {
+    CODE_11: 'code11',
+    CODE_39: 'code39',
+    CODE_93: 'code93',
+    CODE_128: 'code128',
+    CODE_128A: 'code128',
+    CODE_128B: 'code128',
+    CODE_128C: 'code128',
+    EAN_13: 'ean13',
+    EAN_8: 'ean8',
+    UPC: 'upca',
+    UPC_A: 'upca',
+    UPC_E: 'upce',
+    ITF_14: 'itf14',
+    ITF: 'interleaved2of5',
+    INT_25: 'interleaved2of5',
+    STD_25: 'interleaved2of5',
+    MSI: 'msi',
+    CODABAR: 'rationalizedCodabar',
+    PDF_417: 'pdf417',
+    PDF417: 'pdf417',
+    QR_CODE: 'qrcode',
+    AZTECCODE: 'azteccode',
+} as const;
+
+export type BarcodeType = keyof typeof BarcodeTypes;

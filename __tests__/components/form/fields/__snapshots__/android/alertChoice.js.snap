@@ -1,0 +1,612 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`alert choice, renders default 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "paddingHorizontal": 16,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    hitSlop={
+      Object {
+        "bottom": 6,
+        "left": 4,
+        "right": 4,
+        "top": 6,
+      }
+    }
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    pointerEvents="auto"
+    testID="sex"
+  >
+    <View
+      pointerEvents="auto"
+      style={
+        Array [
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "borderBottomColor": "rgba(0, 0, 0, 0.38)",
+            "borderBottomWidth": 0.5,
+            "height": 64,
+            "paddingBottom": 8,
+            "paddingTop": 32,
+            "zIndex": 1,
+          }
+        }
+      >
+        <View
+          onLayout={[Function]}
+          style={
+            Object {
+              "position": "absolute",
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+                Object {
+                  "translateY": 13.600000000000001,
+                },
+                Object {
+                  "scale": 0.75,
+                },
+              ],
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "rgba(0, 0, 0, 0.38)",
+                "fontFamily": "Roboto",
+                "fontSize": 16,
+              }
+            }
+          >
+            Sex
+            <Text
+              style={
+                Object {
+                  "color": "#cc294e",
+                }
+              }
+            >
+               
+              *
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <TextInput
+            absoluteRTLLayout={false}
+            affixTextStyle={
+              Object {
+                "fontFamily": "Roboto",
+              }
+            }
+            allowFontScaling={true}
+            autoCapitalize="sentences"
+            data={
+              Array [
+                Object {
+                  "label": "Male",
+                  "value": "m",
+                },
+                Object {
+                  "label": "Female",
+                  "value": "f",
+                },
+              ]
+            }
+            disableFullscreenUI={true}
+            disabledItemColor="rgba(0, 0, 0, 0.38)"
+            dropdownMargins={
+              Object {
+                "max": 16,
+                "min": 8,
+              }
+            }
+            dropdownOffset={
+              Object {
+                "left": 0,
+                "top": 32,
+              }
+            }
+            editable={false}
+            itemColor="rgba(0, 0, 0, .54)"
+            itemCount={4}
+            itemPadding={8}
+            itemTextStyle={
+              Object {
+                "fontFamily": "Roboto",
+              }
+            }
+            labelExtractor={[Function]}
+            multiline={true}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onChangeText={[Function]}
+            onContentSizeChange={[Function]}
+            onFocus={[Function]}
+            propsExtractor={[Function]}
+            rejectResponderTermination={true}
+            renderAccessory={[Function]}
+            rippleDuration={0}
+            selectedItemColor="rgba(0, 0, 0, 0.87)"
+            selectionColor="#1469c5"
+            shadeOpacity={0.12}
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "margin": 0,
+                  "padding": 0,
+                  "top": 2,
+                },
+                Object {
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "fontSize": 16,
+                  "height": 48,
+                  "textAlign": "left",
+                  "textAlignVertical": "top",
+                },
+                undefined,
+              ]
+            }
+            theme="light"
+            underlineColorAndroid="transparent"
+            useNativeDriver={false}
+            value="Male"
+            valueExtractor={[Function]}
+          />
+          <View
+            style={
+              Object {
+                "alignSelf": "flex-start",
+                "justifyContent": "center",
+                "top": 2,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "height": 24,
+                    "overflow": "hidden",
+                    "width": 12,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "height": 8,
+                        "transform": Array [
+                          Object {
+                            "translateY": -4,
+                          },
+                          Object {
+                            "rotate": "45deg",
+                          },
+                        ],
+                        "width": 8,
+                      },
+                      Object {
+                        "backgroundColor": "rgba(0, 0, 0, 0.38)",
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 4,
+          }
+        }
+      />
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onLayout={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onRippleAnimation={[Function]}
+      onStartShouldSetResponder={[Function]}
+      pointerEvents="box-only"
+      rippleCentered={false}
+      rippleColor="rgba(0, 0, 0, 0.38)"
+      rippleDuration={0}
+      rippleFades={true}
+      rippleOpacity={0}
+      rippleSequential={true}
+      rippleSize={0}
+      style={
+        Object {
+          "height": 48,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 16,
+          "zIndex": -1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "bottom": 0,
+              "left": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "borderRadius": 0,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <Modal
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    supportedOrientations={
+      Array [
+        "portrait",
+        "portrait-upside-down",
+        "landscape",
+        "landscape-left",
+        "landscape-right",
+      ]
+    }
+    transparent={true}
+    visible={false}
+  >
+    <View
+      onResponderRelease={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "opacity": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <View
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "rgba(255, 255, 255, 1.0)",
+              "borderRadius": 2,
+              "elevation": 2,
+              "position": "absolute",
+            },
+            Object {
+              "height": 96,
+              "left": undefined,
+              "top": undefined,
+              "transform": Array [
+                Object {
+                  "translateY": -48,
+                },
+              ],
+              "width": undefined,
+            },
+            Object {
+              "backgroundColor": "#fff",
+            },
+          ]
+        }
+      >
+        <RCTScrollView
+          contentContainerStyle={
+            Object {
+              "paddingVertical": 8,
+            }
+          }
+          data={
+            Array [
+              Object {
+                "label": "Male",
+                "value": "m",
+              },
+              Object {
+                "label": "Female",
+                "value": "f",
+              },
+            ]
+          }
+          disableVirtualization={false}
+          getItem={[Function]}
+          getItemCount={[Function]}
+          getItemLayout={[Function]}
+          horizontal={false}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          onContentSizeChange={[Function]}
+          onEndReachedThreshold={2}
+          onLayout={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={true}
+          renderItem={[Function]}
+          scrollEnabled={false}
+          scrollEventThrottle={50}
+          stickyHeaderIndices={Array []}
+          style={
+            Object {
+              "borderRadius": 2,
+              "flex": 1,
+            }
+          }
+          updateCellsBatchingPeriod={50}
+          viewabilityConfigCallbackPairs={Array []}
+          windowSize={21}
+        >
+          <View>
+            <View
+              style={null}
+            >
+              <View
+                accessible={true}
+                focusAnimation={null}
+                focusAnimationDuration={225}
+                focusable={true}
+                hitSlop={
+                  Object {
+                    "bottom": 6,
+                    "left": 4,
+                    "right": 4,
+                    "top": 6,
+                  }
+                }
+                onClick={[Function]}
+                onLayout={[Function]}
+                onPress={[Function]}
+                onPressIn={[Function]}
+                onPressOut={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                pointerEvents="box-only"
+                rippleCentered={false}
+                rippleColor="rgba(0, 0, 0, 0.38)"
+                rippleDuration={0}
+                rippleFades={true}
+                rippleOpacity={0}
+                rippleSequential={true}
+                rippleSize={0}
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 0,
+                    "height": 40,
+                    "justifyContent": "center",
+                    "paddingLeft": undefined,
+                    "paddingRight": undefined,
+                    "paddingVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "fontFamily": "Roboto",
+                      },
+                      Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontSize": 16,
+                      },
+                    ]
+                  }
+                >
+                  Male
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "rgba(0, 0, 0, 0.38)",
+                      "borderRadius": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "opacity": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "bottom": 0,
+                        "left": 0,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      },
+                      Object {
+                        "borderRadius": 0,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+            <View
+              style={null}
+            >
+              <View
+                accessible={true}
+                focusAnimation={null}
+                focusAnimationDuration={225}
+                focusable={true}
+                hitSlop={
+                  Object {
+                    "bottom": 6,
+                    "left": 4,
+                    "right": 4,
+                    "top": 6,
+                  }
+                }
+                onClick={[Function]}
+                onLayout={[Function]}
+                onPress={[Function]}
+                onPressIn={[Function]}
+                onPressOut={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                pointerEvents="box-only"
+                rippleCentered={false}
+                rippleColor="rgba(0, 0, 0, 0.38)"
+                rippleDuration={0}
+                rippleFades={true}
+                rippleOpacity={0}
+                rippleSequential={true}
+                rippleSize={0}
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 0,
+                    "height": 40,
+                    "justifyContent": "center",
+                    "paddingLeft": undefined,
+                    "paddingRight": undefined,
+                    "paddingVertical": 8,
+                  }
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "fontFamily": "Roboto",
+                      },
+                      Object {
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "fontSize": 16,
+                      },
+                    ]
+                  }
+                >
+                  Female
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "rgba(0, 0, 0, 0.38)",
+                      "borderRadius": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "opacity": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "bottom": 0,
+                        "left": 0,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      },
+                      Object {
+                        "borderRadius": 0,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </Modal>
+</View>
+`;

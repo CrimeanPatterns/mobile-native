@@ -1,0 +1,693 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`switch, renders checked 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "height": 48,
+        "justifyContent": "space-between",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 0,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={2}
+      style={
+        Array [
+          Object {
+            "color": "#5c6373",
+            "fontFamily": "OpenSans",
+            "fontSize": 12,
+            "paddingHorizontal": 16,
+          },
+          Object {
+            "flex": 1,
+            "fontSize": 15,
+            "paddingHorizontal": 0,
+          },
+        ]
+      }
+    >
+      Agree
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+          "paddingLeft": 5,
+        }
+      }
+    >
+      <RCTSwitch
+        accessibilityLabel="Agree"
+        accessibilityRole="switch"
+        accessibilityStates={
+          Array [
+            "selected",
+          ]
+        }
+        accessible={true}
+        disabled={false}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTintColor="#4dbfa2"
+        style={
+          Array [
+            Object {
+              "height": 31,
+              "width": 51,
+            },
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 16,
+            },
+          ]
+        }
+        testID="switcher"
+        tintColor=""
+        value={true}
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`switch, renders custom styles: base 1`] = `
+<View
+  style={
+    Object {
+      "margin": 10,
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "height": 48,
+        "justifyContent": "space-between",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 0,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={2}
+      style={
+        Array [
+          Object {
+            "color": "red",
+            "fontFamily": "OpenSans",
+            "fontSize": 12,
+            "paddingHorizontal": 16,
+          },
+          Object {
+            "flex": 1,
+            "fontSize": 15,
+            "paddingHorizontal": 0,
+          },
+        ]
+      }
+    >
+      Agree
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+          "paddingLeft": 5,
+        }
+      }
+    >
+      <RCTSwitch
+        accessibilityLabel="Agree"
+        accessibilityRole="switch"
+        accessibilityStates={Array []}
+        accessible={true}
+        disabled={false}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTintColor="#4dbfa2"
+        style={
+          Array [
+            Object {
+              "height": 31,
+              "width": 51,
+            },
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 16,
+            },
+          ]
+        }
+        testID="switcher"
+        tintColor=""
+        value={false}
+      />
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "blue",
+        "fontFamily": "OpenSans",
+        "fontSize": 12,
+        "marginBottom": 5,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="switcher hint"
+  >
+    Test hint
+  </Text>
+</View>
+`;
+
+exports[`switch, renders custom styles: disabled 1`] = `
+<View
+  style={
+    Object {
+      "margin": 11,
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "rgba(0, 0, 0, 0.12)",
+        "borderTopWidth": 1,
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "height": 48,
+        "justifyContent": "space-between",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 0,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={2}
+      style={
+        Array [
+          Object {
+            "color": "#001122",
+            "fontFamily": "OpenSans",
+            "fontSize": 12,
+            "paddingHorizontal": 16,
+          },
+          Object {
+            "flex": 1,
+            "fontSize": 15,
+            "paddingHorizontal": 0,
+          },
+        ]
+      }
+    >
+      Agree
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+          "paddingLeft": 5,
+        }
+      }
+    >
+      <RCTSwitch
+        accessibilityLabel="Agree"
+        accessibilityRole="switch"
+        accessibilityStates={
+          Array [
+            "disabled",
+          ]
+        }
+        accessible={true}
+        disabled={true}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTintColor="#4dbfa2"
+        style={
+          Array [
+            Object {
+              "height": 31,
+              "width": 51,
+            },
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 16,
+            },
+          ]
+        }
+        testID="switcher"
+        tintColor=""
+        value={false}
+      />
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "#001122",
+        "fontFamily": "OpenSans",
+        "fontSize": 12,
+        "marginBottom": 5,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="switcher hint"
+  >
+    Test hint
+  </Text>
+</View>
+`;
+
+exports[`switch, renders default 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "height": 48,
+        "justifyContent": "space-between",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 0,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={2}
+      style={
+        Array [
+          Object {
+            "color": "#5c6373",
+            "fontFamily": "OpenSans",
+            "fontSize": 12,
+            "paddingHorizontal": 16,
+          },
+          Object {
+            "flex": 1,
+            "fontSize": 15,
+            "paddingHorizontal": 0,
+          },
+        ]
+      }
+    >
+      Agree
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+          "paddingLeft": 5,
+        }
+      }
+    >
+      <RCTSwitch
+        accessibilityLabel="Agree"
+        accessibilityRole="switch"
+        accessibilityStates={Array []}
+        accessible={true}
+        disabled={false}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTintColor="#4dbfa2"
+        style={
+          Array [
+            Object {
+              "height": 31,
+              "width": 51,
+            },
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 16,
+            },
+          ]
+        }
+        testID="switcher"
+        tintColor=""
+        value={false}
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`switch, renders disabled 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "rgba(0, 0, 0, 0.12)",
+        "borderTopWidth": 1,
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "height": 48,
+        "justifyContent": "space-between",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 0,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={2}
+      style={
+        Array [
+          Object {
+            "color": "rgba(0, 0, 0, 0.12)",
+            "fontFamily": "OpenSans",
+            "fontSize": 12,
+            "paddingHorizontal": 16,
+          },
+          Object {
+            "flex": 1,
+            "fontSize": 15,
+            "paddingHorizontal": 0,
+          },
+        ]
+      }
+    >
+      Agree
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+          "paddingLeft": 5,
+        }
+      }
+    >
+      <RCTSwitch
+        accessibilityLabel="Agree"
+        accessibilityRole="switch"
+        accessibilityStates={
+          Array [
+            "disabled",
+          ]
+        }
+        accessible={true}
+        disabled={true}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTintColor="#4dbfa2"
+        style={
+          Array [
+            Object {
+              "height": 31,
+              "width": 51,
+            },
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 16,
+            },
+          ]
+        }
+        testID="switcher"
+        tintColor=""
+        value={false}
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`switch, renders hint 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "height": 48,
+        "justifyContent": "space-between",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 0,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={2}
+      style={
+        Array [
+          Object {
+            "color": "#5c6373",
+            "fontFamily": "OpenSans",
+            "fontSize": 12,
+            "paddingHorizontal": 16,
+          },
+          Object {
+            "flex": 1,
+            "fontSize": 15,
+            "paddingHorizontal": 0,
+          },
+        ]
+      }
+    >
+      Agree
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+          "paddingLeft": 5,
+        }
+      }
+    >
+      <RCTSwitch
+        accessibilityLabel="Agree"
+        accessibilityRole="switch"
+        accessibilityStates={Array []}
+        accessible={true}
+        disabled={false}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTintColor="#4dbfa2"
+        style={
+          Array [
+            Object {
+              "height": 31,
+              "width": 51,
+            },
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 16,
+            },
+          ]
+        }
+        testID="switcher"
+        tintColor=""
+        value={false}
+      />
+    </View>
+  </View>
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "#5c6373",
+        "fontFamily": "OpenSans",
+        "fontSize": 12,
+        "marginBottom": 5,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="switcher hint"
+  >
+    Test hint
+  </Text>
+</View>
+`;
+
+exports[`switch, renders unchecked 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 1,
+        "borderColor": "#d6dae6",
+        "borderTopWidth": 1,
+        "flex": 1,
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "height": 48,
+        "justifyContent": "space-between",
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+        "paddingVertical": 0,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={2}
+      style={
+        Array [
+          Object {
+            "color": "#5c6373",
+            "fontFamily": "OpenSans",
+            "fontSize": 12,
+            "paddingHorizontal": 16,
+          },
+          Object {
+            "flex": 1,
+            "fontSize": 15,
+            "paddingHorizontal": 0,
+          },
+        ]
+      }
+    >
+      Agree
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+          "paddingLeft": 5,
+        }
+      }
+    >
+      <RCTSwitch
+        accessibilityLabel="Agree"
+        accessibilityRole="switch"
+        accessibilityStates={Array []}
+        accessible={true}
+        disabled={false}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTintColor="#4dbfa2"
+        style={
+          Array [
+            Object {
+              "height": 31,
+              "width": 51,
+            },
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 16,
+            },
+          ]
+        }
+        testID="switcher"
+        tintColor=""
+        value={false}
+      />
+    </View>
+  </View>
+</View>
+`;

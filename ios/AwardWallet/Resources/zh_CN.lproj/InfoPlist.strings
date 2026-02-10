@@ -1,0 +1,9 @@
+NSCameraUsageDescription="这样您就可以扫描您的实体会员卡片并将其存储在AwardWallet中";
+NSPhotoLibraryUsageDescription="这样您就可以扫描您的实体会员卡片并将其存储在AwardWallet中";
+"menu.button.accounts"="账户";
+"menu.button.bookings"="预定";
+"menu.button.trips"="旅行";
+"menu.button.covid19"="Covid 19 Vaccine Card";
+NSLocationAlwaysUsageDescription="需要在您抵达这家商店时在您的手机主屏幕上显示零售忠诚度卡片（带有条码）。";
+NSLocationAlwaysAndWhenInUseUsageDescription="需要在您抵达这家商店时在您的手机主屏幕上显示零售忠诚度卡片（带有条码）。";
+NSLocationWhenInUseUsageDescription="需要在您抵达这家商店时在您的手机主屏幕上显示零售忠诚度卡片（带有条码）。";

@@ -1,0 +1,1321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`text, renders additional hint 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    FIRST NAME
+    <Text
+      style={
+        Object {
+          "color": "#cc3d5e",
+          "fontFamily": "OpenSans",
+        }
+      }
+    >
+       *
+    </Text>
+  </Text>
+  <TextInput
+    accessible={false}
+    additionalHint={[Function]}
+    allowFontScaling={true}
+    editable={true}
+    innerRef={[Function]}
+    label="First Name"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onChangeValue={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#5c6373"
+    rejectResponderTermination={true}
+    required={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 1,
+          "borderColor": "#d6dae6",
+          "borderTopWidth": 1,
+          "marginTop": 5,
+          "paddingHorizontal": 16,
+          "paddingVertical": 13,
+        },
+        Object {
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "OpenSans",
+          "fontSize": 15,
+        },
+        Object {
+          "height": 48,
+          "maxHeight": 48,
+        },
+      ]
+    }
+    textContentType="none"
+    theme="light"
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text>
+    additional hint
+  </Text>
+</View>
+`;
+
+exports[`text, renders custom styles: base 1`] = `
+<View
+  style={
+    Object {
+      "margin": 10,
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 16,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    FIRST NAME
+    <Text
+      style={
+        Object {
+          "color": "#cc3d5e",
+          "fontFamily": "OpenSans",
+        }
+      }
+    >
+       *
+    </Text>
+  </Text>
+  <TextInput
+    accessible={false}
+    allowFontScaling={true}
+    customStyle={
+      Object {
+        "container": Object {
+          "base": Object {
+            "margin": 10,
+          },
+        },
+        "error": Object {
+          "base": Object {
+            "color": "blue",
+          },
+        },
+        "errorContainer": Object {
+          "base": Object {
+            "margin": 11,
+          },
+        },
+        "hint": Object {
+          "base": Object {
+            "fontSize": 15,
+          },
+        },
+        "input": Object {
+          "base": Object {
+            "color": "blue",
+          },
+        },
+        "inputContainer": Object {
+          "base": Object {
+            "marginVertical": 0,
+          },
+        },
+        "label": Object {
+          "base": Object {
+            "fontSize": 16,
+          },
+        },
+      }
+    }
+    editable={true}
+    hint="Test hint"
+    innerRef={[Function]}
+    label="First Name"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onChangeValue={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#5c6373"
+    rejectResponderTermination={true}
+    required={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 1,
+          "borderColor": "#d6dae6",
+          "borderTopWidth": 1,
+          "marginTop": 5,
+          "paddingHorizontal": 16,
+          "paddingVertical": 13,
+        },
+        Object {
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "OpenSans",
+          "fontSize": 15,
+        },
+        Object {
+          "height": 48,
+          "maxHeight": 48,
+        },
+      ]
+    }
+    textContentType="none"
+    theme="light"
+    underlineColorAndroid="transparent"
+    value="Test"
+  />
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "#5c6373",
+        "fontFamily": "OpenSans",
+        "fontSize": 15,
+        "marginBottom": 5,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined hint"
+  >
+    Test hint
+  </Text>
+</View>
+`;
+
+exports[`text, renders custom styles: disabled 1`] = `
+<View
+  style={
+    Object {
+      "margin": 12,
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(0, 0, 0, 0.12)",
+          "fontFamily": "OpenSans",
+          "fontSize": 18,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    FIRST NAME
+    <Text
+      style={
+        Object {
+          "color": "#cc3d5e",
+          "fontFamily": "OpenSans",
+        }
+      }
+    >
+       *
+    </Text>
+  </Text>
+  <TextInput
+    accessible={false}
+    allowFontScaling={true}
+    customStyle={
+      Object {
+        "container": Object {
+          "base": Object {
+            "margin": 10,
+          },
+          "disabled": Object {
+            "margin": 12,
+          },
+          "errored": Object {
+            "margin": 11,
+          },
+        },
+        "error": Object {
+          "base": Object {
+            "color": "blue",
+          },
+          "disabled": Object {
+            "color": "blue",
+          },
+          "errored": Object {
+            "color": "red",
+          },
+        },
+        "errorContainer": Object {
+          "base": Object {
+            "margin": 11,
+          },
+          "disabled": Object {
+            "margin": 13,
+          },
+          "errored": Object {
+            "margin": 12,
+          },
+        },
+        "hint": Object {
+          "base": Object {
+            "fontSize": 15,
+          },
+          "disabled": Object {
+            "fontSize": 17,
+          },
+          "errored": Object {
+            "fontSize": 16,
+          },
+        },
+        "input": Object {
+          "base": Object {
+            "color": "blue",
+          },
+          "disabled": Object {
+            "color": "red",
+          },
+          "errored": Object {
+            "color": "orange",
+          },
+        },
+        "inputContainer": Object {
+          "base": Object {
+            "marginVertical": 0,
+          },
+          "disabled": Object {
+            "marginVertical": 2,
+          },
+          "errored": Object {
+            "marginVertical": 1,
+          },
+        },
+        "label": Object {
+          "base": Object {
+            "fontSize": 16,
+          },
+          "disabled": Object {
+            "fontSize": 18,
+          },
+          "errored": Object {
+            "fontSize": 17,
+          },
+        },
+      }
+    }
+    editable={false}
+    error="Error"
+    hint="Test hint"
+    innerRef={[Function]}
+    label="First Name"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onChangeValue={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="rgba(0, 0, 0, 0.12)"
+    rejectResponderTermination={true}
+    required={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomColor": "#cc3d5e",
+          "borderBottomWidth": 2,
+          "borderColor": "rgba(0, 0, 0, 0.12)",
+          "borderTopWidth": 1,
+          "marginTop": 5,
+          "paddingHorizontal": 16,
+          "paddingVertical": 13,
+        },
+        Object {
+          "color": "rgba(0, 0, 0, 0.12)",
+          "fontFamily": "OpenSans",
+          "fontSize": 15,
+        },
+        Object {
+          "height": 48,
+          "maxHeight": 48,
+        },
+      ]
+    }
+    textContentType="none"
+    theme="light"
+    underlineColorAndroid="transparent"
+    value="Test"
+  />
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "rgba(0, 0, 0, 0.12)",
+        "fontFamily": "OpenSans",
+        "fontSize": 17,
+        "marginBottom": 0,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined hint"
+  >
+    Test hint
+  </Text>
+  <Text
+    accessibilityLabel="Error"
+    style={
+      Object {
+        "color": "blue",
+        "fontSize": 12,
+        "marginVertical": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined error"
+  >
+    Error
+  </Text>
+</View>
+`;
+
+exports[`text, renders custom styles: errored 1`] = `
+<View
+  style={
+    Object {
+      "margin": 11,
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 17,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    FIRST NAME
+    <Text
+      style={
+        Object {
+          "color": "#cc3d5e",
+          "fontFamily": "OpenSans",
+        }
+      }
+    >
+       *
+    </Text>
+  </Text>
+  <TextInput
+    accessible={false}
+    allowFontScaling={true}
+    customStyle={
+      Object {
+        "container": Object {
+          "base": Object {
+            "margin": 10,
+          },
+          "errored": Object {
+            "margin": 11,
+          },
+        },
+        "error": Object {
+          "base": Object {
+            "color": "blue",
+          },
+          "errored": Object {
+            "color": "red",
+          },
+        },
+        "errorContainer": Object {
+          "base": Object {
+            "margin": 11,
+          },
+          "errored": Object {
+            "margin": 12,
+          },
+        },
+        "hint": Object {
+          "base": Object {
+            "fontSize": 15,
+          },
+          "errored": Object {
+            "fontSize": 16,
+          },
+        },
+        "input": Object {
+          "base": Object {
+            "color": "blue",
+          },
+          "errored": Object {
+            "color": "orange",
+          },
+        },
+        "inputContainer": Object {
+          "base": Object {
+            "marginVertical": 0,
+          },
+          "errored": Object {
+            "marginVertical": 1,
+          },
+        },
+        "label": Object {
+          "base": Object {
+            "fontSize": 16,
+          },
+          "errored": Object {
+            "fontSize": 17,
+          },
+        },
+      }
+    }
+    editable={true}
+    error="Error"
+    hint="Test hint"
+    innerRef={[Function]}
+    label="First Name"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onChangeValue={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#5c6373"
+    rejectResponderTermination={true}
+    required={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomColor": "#cc3d5e",
+          "borderBottomWidth": 2,
+          "borderColor": "#d6dae6",
+          "borderTopWidth": 1,
+          "marginTop": 5,
+          "paddingHorizontal": 16,
+          "paddingVertical": 13,
+        },
+        Object {
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "OpenSans",
+          "fontSize": 15,
+        },
+        Object {
+          "height": 48,
+          "maxHeight": 48,
+        },
+      ]
+    }
+    textContentType="none"
+    theme="light"
+    underlineColorAndroid="transparent"
+    value="Test"
+  />
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "#5c6373",
+        "fontFamily": "OpenSans",
+        "fontSize": 16,
+        "marginBottom": 0,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined hint"
+  >
+    Test hint
+  </Text>
+  <Text
+    accessibilityLabel="Error"
+    style={
+      Object {
+        "color": "red",
+        "fontSize": 12,
+        "marginVertical": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined error"
+  >
+    Error
+  </Text>
+</View>
+`;
+
+exports[`text, renders custom styles: focused 1`] = `ShallowWrapper {}`;
+
+exports[`text, renders default 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    FIRST NAME
+    <Text
+      style={
+        Object {
+          "color": "#cc3d5e",
+          "fontFamily": "OpenSans",
+        }
+      }
+    >
+       *
+    </Text>
+  </Text>
+  <TextInput
+    accessible={false}
+    allowFontScaling={true}
+    editable={true}
+    innerRef={[Function]}
+    label="First Name"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onChangeValue={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#5c6373"
+    rejectResponderTermination={true}
+    required={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 1,
+          "borderColor": "#d6dae6",
+          "borderTopWidth": 1,
+          "marginTop": 5,
+          "paddingHorizontal": 16,
+          "paddingVertical": 13,
+        },
+        Object {
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "OpenSans",
+          "fontSize": 15,
+        },
+        Object {
+          "height": 48,
+          "maxHeight": 48,
+        },
+      ]
+    }
+    textContentType="none"
+    theme="light"
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</View>
+`;
+
+exports[`text, renders disabled 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "rgba(0, 0, 0, 0.12)",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    FIRST NAME
+    <Text
+      style={
+        Object {
+          "color": "rgba(0, 0, 0, 0.12)",
+          "fontFamily": "OpenSans",
+        }
+      }
+    >
+       *
+    </Text>
+  </Text>
+  <TextInput
+    accessible={false}
+    allowFontScaling={true}
+    editable={false}
+    innerRef={[Function]}
+    label="First Name"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onChangeValue={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="rgba(0, 0, 0, 0.12)"
+    rejectResponderTermination={true}
+    required={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 1,
+          "borderColor": "rgba(0, 0, 0, 0.12)",
+          "borderTopWidth": 1,
+          "marginTop": 5,
+          "paddingHorizontal": 16,
+          "paddingVertical": 13,
+        },
+        Object {
+          "color": "rgba(0, 0, 0, 0.12)",
+          "fontFamily": "OpenSans",
+          "fontSize": 15,
+        },
+        Object {
+          "height": 48,
+          "maxHeight": 48,
+        },
+      ]
+    }
+    textContentType="none"
+    theme="light"
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</View>
+`;
+
+exports[`text, renders error 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    FIRST NAME
+    <Text
+      style={
+        Object {
+          "color": "#cc3d5e",
+          "fontFamily": "OpenSans",
+        }
+      }
+    >
+       *
+    </Text>
+  </Text>
+  <TextInput
+    accessible={false}
+    allowFontScaling={true}
+    editable={true}
+    error="This field is required!"
+    innerRef={[Function]}
+    label="First Name"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onChangeValue={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#5c6373"
+    rejectResponderTermination={true}
+    required={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomColor": "#cc3d5e",
+          "borderBottomWidth": 2,
+          "borderColor": "#d6dae6",
+          "borderTopWidth": 1,
+          "marginTop": 5,
+          "paddingHorizontal": 16,
+          "paddingVertical": 13,
+        },
+        Object {
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "OpenSans",
+          "fontSize": 15,
+        },
+        Object {
+          "height": 48,
+          "maxHeight": 48,
+        },
+      ]
+    }
+    textContentType="none"
+    theme="light"
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text
+    accessibilityLabel="This field is required!"
+    style={
+      Object {
+        "color": "#cc3d5e",
+        "fontSize": 12,
+        "marginVertical": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined error"
+  >
+    This field is required!
+  </Text>
+</View>
+`;
+
+exports[`text, renders error with hint 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    FIRST NAME
+    <Text
+      style={
+        Object {
+          "color": "#cc3d5e",
+          "fontFamily": "OpenSans",
+        }
+      }
+    >
+       *
+    </Text>
+  </Text>
+  <TextInput
+    accessible={false}
+    allowFontScaling={true}
+    editable={true}
+    error="This field is required!"
+    hint="Test hint"
+    innerRef={[Function]}
+    label="First Name"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onChangeValue={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#5c6373"
+    rejectResponderTermination={true}
+    required={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomColor": "#cc3d5e",
+          "borderBottomWidth": 2,
+          "borderColor": "#d6dae6",
+          "borderTopWidth": 1,
+          "marginTop": 5,
+          "paddingHorizontal": 16,
+          "paddingVertical": 13,
+        },
+        Object {
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "OpenSans",
+          "fontSize": 15,
+        },
+        Object {
+          "height": 48,
+          "maxHeight": 48,
+        },
+      ]
+    }
+    textContentType="none"
+    theme="light"
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "#5c6373",
+        "fontFamily": "OpenSans",
+        "fontSize": 12,
+        "marginBottom": 0,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined hint"
+  >
+    Test hint
+  </Text>
+  <Text
+    accessibilityLabel="This field is required!"
+    style={
+      Object {
+        "color": "#cc3d5e",
+        "fontSize": 12,
+        "marginVertical": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined error"
+  >
+    This field is required!
+  </Text>
+</View>
+`;
+
+exports[`text, renders footer component 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    FIRST NAME
+    <Text
+      style={
+        Object {
+          "color": "#cc3d5e",
+          "fontFamily": "OpenSans",
+        }
+      }
+    >
+       *
+    </Text>
+  </Text>
+  <TextInput
+    accessible={false}
+    allowFontScaling={true}
+    editable={true}
+    footerComponent={[Function]}
+    innerRef={[Function]}
+    label="First Name"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onChangeValue={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#5c6373"
+    rejectResponderTermination={true}
+    required={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 1,
+          "borderColor": "#d6dae6",
+          "borderTopWidth": 1,
+          "marginTop": 5,
+          "paddingHorizontal": 16,
+          "paddingVertical": 13,
+        },
+        Object {
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "OpenSans",
+          "fontSize": 15,
+        },
+        Object {
+          "height": 48,
+          "maxHeight": 48,
+        },
+      ]
+    }
+    textContentType="none"
+    theme="light"
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text>
+    footer component
+  </Text>
+</View>
+`;
+
+exports[`text, renders hint 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    FIRST NAME
+    <Text
+      style={
+        Object {
+          "color": "#cc3d5e",
+          "fontFamily": "OpenSans",
+        }
+      }
+    >
+       *
+    </Text>
+  </Text>
+  <TextInput
+    accessible={false}
+    allowFontScaling={true}
+    editable={true}
+    hint="Test hint"
+    innerRef={[Function]}
+    label="First Name"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onChangeValue={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#5c6373"
+    rejectResponderTermination={true}
+    required={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 1,
+          "borderColor": "#d6dae6",
+          "borderTopWidth": 1,
+          "marginTop": 5,
+          "paddingHorizontal": 16,
+          "paddingVertical": 13,
+        },
+        Object {
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "OpenSans",
+          "fontSize": 15,
+        },
+        Object {
+          "height": 48,
+          "maxHeight": 48,
+        },
+      ]
+    }
+    textContentType="none"
+    theme="light"
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text
+    accessibilityLabel="Test hint"
+    style={
+      Object {
+        "color": "#5c6373",
+        "fontFamily": "OpenSans",
+        "fontSize": 12,
+        "marginBottom": 5,
+        "marginTop": 5,
+        "paddingHorizontal": 16,
+      }
+    }
+    testID="undefined hint"
+  >
+    Test hint
+  </Text>
+</View>
+`;
+
+exports[`text, renders not required 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    FIRST NAME
+  </Text>
+  <TextInput
+    accessible={false}
+    allowFontScaling={true}
+    editable={true}
+    innerRef={[Function]}
+    label="First Name"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onChangeValue={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#5c6373"
+    rejectResponderTermination={true}
+    required={false}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 1,
+          "borderColor": "#d6dae6",
+          "borderTopWidth": 1,
+          "marginTop": 5,
+          "paddingHorizontal": 16,
+          "paddingVertical": 13,
+        },
+        Object {
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "OpenSans",
+          "fontSize": 15,
+        },
+        Object {
+          "height": 48,
+          "maxHeight": 48,
+        },
+      ]
+    }
+    textContentType="none"
+    theme="light"
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</View>
+`;
+
+exports[`text, renders required 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    FIRST NAME
+    <Text
+      style={
+        Object {
+          "color": "#cc3d5e",
+          "fontFamily": "OpenSans",
+        }
+      }
+    >
+       *
+    </Text>
+  </Text>
+  <TextInput
+    accessible={false}
+    allowFontScaling={true}
+    editable={true}
+    innerRef={[Function]}
+    label="First Name"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onChangeValue={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#5c6373"
+    rejectResponderTermination={true}
+    required={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 1,
+          "borderColor": "#d6dae6",
+          "borderTopWidth": 1,
+          "marginTop": 5,
+          "paddingHorizontal": 16,
+          "paddingVertical": 13,
+        },
+        Object {
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "OpenSans",
+          "fontSize": 15,
+        },
+        Object {
+          "height": 48,
+          "maxHeight": 48,
+        },
+      ]
+    }
+    textContentType="none"
+    theme="light"
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</View>
+`;
+
+exports[`text, renders value 1`] = `
+<View
+  style={
+    Object {
+      "marginVertical": 12,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#5c6373",
+          "fontFamily": "OpenSans",
+          "fontSize": 12,
+          "paddingHorizontal": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    FIRST NAME
+    <Text
+      style={
+        Object {
+          "color": "#cc3d5e",
+          "fontFamily": "OpenSans",
+        }
+      }
+    >
+       *
+    </Text>
+  </Text>
+  <TextInput
+    accessible={false}
+    allowFontScaling={true}
+    editable={true}
+    innerRef={[Function]}
+    label="First Name"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onChangeValue={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#5c6373"
+    rejectResponderTermination={true}
+    required={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 1,
+          "borderColor": "#d6dae6",
+          "borderTopWidth": 1,
+          "marginTop": 5,
+          "paddingHorizontal": 16,
+          "paddingVertical": 13,
+        },
+        Object {
+          "color": "rgba(0, 0, 0, 0.87)",
+          "fontFamily": "OpenSans",
+          "fontSize": 15,
+        },
+        Object {
+          "height": 48,
+          "maxHeight": 48,
+        },
+      ]
+    }
+    textContentType="none"
+    theme="light"
+    underlineColorAndroid="transparent"
+    value="John"
+  />
+</View>
+`;

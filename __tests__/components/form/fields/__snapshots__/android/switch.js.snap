@@ -1,0 +1,622 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`switch, renders checked 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  nativeBackgroundAndroid={
+    Object {
+      "attribute": "selectableItemBackground",
+      "rippleRadius": undefined,
+      "type": "ThemeAttrAndroid",
+    }
+  }
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={
+    Object {
+      "paddingHorizontal": 16,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginRight": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#212121",
+              "fontFamily": "Roboto",
+              "fontSize": 16,
+              "marginBottom": 5,
+            },
+            false,
+          ]
+        }
+      >
+        Agree
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <AndroidSwitch
+        accessibilityRole="switch"
+        enabled={true}
+        on={true}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        thumbTintColor="#146ac4"
+        trackColorForFalse="rgba(224, 224, 224, 0.6)"
+        trackColorForTrue="rgba(20, 106, 196, 0.6)"
+        trackTintColor="rgba(20, 106, 196, 0.6)"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`switch, renders custom styles: base 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  nativeBackgroundAndroid={
+    Object {
+      "attribute": "selectableItemBackground",
+      "rippleRadius": undefined,
+      "type": "ThemeAttrAndroid",
+    }
+  }
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={
+    Object {
+      "margin": 10,
+      "paddingHorizontal": 16,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginRight": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "red",
+              "fontFamily": "Roboto",
+              "fontSize": 16,
+              "marginBottom": 5,
+            },
+            false,
+          ]
+        }
+      >
+        Agree
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "blue",
+              "fontFamily": "Roboto",
+              "fontSize": 12,
+            },
+            false,
+          ]
+        }
+      >
+        Test hint
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <AndroidSwitch
+        accessibilityRole="switch"
+        enabled={true}
+        on={false}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        thumbTintColor="#e0e0e0"
+        trackColorForFalse="rgba(224, 224, 224, 0.6)"
+        trackColorForTrue="rgba(20, 106, 196, 0.6)"
+        trackTintColor="rgba(224, 224, 224, 0.6)"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`switch, renders custom styles: disabled 1`] = `
+<View
+  pointerEvents="box-only"
+  style={
+    Object {
+      "margin": 11,
+      "paddingHorizontal": 16,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginRight": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#001122",
+              "fontFamily": "Roboto",
+              "fontSize": 16,
+              "marginBottom": 5,
+            },
+            false,
+          ]
+        }
+      >
+        Agree
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#001122",
+              "fontFamily": "Roboto",
+              "fontSize": 12,
+            },
+            false,
+          ]
+        }
+      >
+        Test hint
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <AndroidSwitch
+        accessibilityRole="switch"
+        enabled={false}
+        on={false}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        thumbTintColor="#e0e0e0"
+        trackColorForFalse="rgba(224, 224, 224, 0.6)"
+        trackColorForTrue="rgba(20, 106, 196, 0.6)"
+        trackTintColor="rgba(224, 224, 224, 0.6)"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`switch, renders default 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  nativeBackgroundAndroid={
+    Object {
+      "attribute": "selectableItemBackground",
+      "rippleRadius": undefined,
+      "type": "ThemeAttrAndroid",
+    }
+  }
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={
+    Object {
+      "paddingHorizontal": 16,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginRight": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#212121",
+              "fontFamily": "Roboto",
+              "fontSize": 16,
+              "marginBottom": 5,
+            },
+            false,
+          ]
+        }
+      >
+        Agree
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <AndroidSwitch
+        accessibilityRole="switch"
+        enabled={true}
+        on={false}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        thumbTintColor="#e0e0e0"
+        trackColorForFalse="rgba(224, 224, 224, 0.6)"
+        trackColorForTrue="rgba(20, 106, 196, 0.6)"
+        trackTintColor="rgba(224, 224, 224, 0.6)"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`switch, renders disabled 1`] = `
+<View
+  pointerEvents="box-only"
+  style={
+    Object {
+      "paddingHorizontal": 16,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginRight": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0, 0, 0, 0.12)",
+              "fontFamily": "Roboto",
+              "fontSize": 16,
+              "marginBottom": 5,
+            },
+            false,
+          ]
+        }
+      >
+        Agree
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <AndroidSwitch
+        accessibilityRole="switch"
+        enabled={false}
+        on={false}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        thumbTintColor="#e0e0e0"
+        trackColorForFalse="rgba(224, 224, 224, 0.6)"
+        trackColorForTrue="rgba(20, 106, 196, 0.6)"
+        trackTintColor="rgba(224, 224, 224, 0.6)"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`switch, renders hint 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  nativeBackgroundAndroid={
+    Object {
+      "attribute": "selectableItemBackground",
+      "rippleRadius": undefined,
+      "type": "ThemeAttrAndroid",
+    }
+  }
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={
+    Object {
+      "paddingHorizontal": 16,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginRight": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#212121",
+              "fontFamily": "Roboto",
+              "fontSize": 16,
+              "marginBottom": 5,
+            },
+            false,
+          ]
+        }
+      >
+        Agree
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "rgba(0, 0, 0, 0.38)",
+              "fontFamily": "Roboto",
+              "fontSize": 12,
+            },
+            false,
+          ]
+        }
+      >
+        Test hint
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <AndroidSwitch
+        accessibilityRole="switch"
+        enabled={true}
+        on={false}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        thumbTintColor="#e0e0e0"
+        trackColorForFalse="rgba(224, 224, 224, 0.6)"
+        trackColorForTrue="rgba(20, 106, 196, 0.6)"
+        trackTintColor="rgba(224, 224, 224, 0.6)"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`switch, renders unchecked 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  nativeBackgroundAndroid={
+    Object {
+      "attribute": "selectableItemBackground",
+      "rippleRadius": undefined,
+      "type": "ThemeAttrAndroid",
+    }
+  }
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={
+    Object {
+      "paddingHorizontal": 16,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginRight": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#212121",
+              "fontFamily": "Roboto",
+              "fontSize": 16,
+              "marginBottom": 5,
+            },
+            false,
+          ]
+        }
+      >
+        Agree
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <AndroidSwitch
+        accessibilityRole="switch"
+        enabled={true}
+        on={false}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        thumbTintColor="#e0e0e0"
+        trackColorForFalse="rgba(224, 224, 224, 0.6)"
+        trackColorForTrue="rgba(20, 106, 196, 0.6)"
+        trackTintColor="rgba(224, 224, 224, 0.6)"
+      />
+    </View>
+  </View>
+</View>
+`;

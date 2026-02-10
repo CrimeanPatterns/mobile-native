@@ -1,0 +1,30 @@
+{
+  "name": "react-native-popover-menu",
+  "version": "0.0.22",
+  "summary": "RNPopoverMenu",
+  "description": "This library is a React Native bridge around native popover libraries. It allows show/guide beautiful popover menus.",
+  "homepage": "https://github.com/prscX/react-native-popover-menu",
+  "license": {
+    "type": "Apache License",
+    "file": "./LICENSE"
+  },
+  "authors": {
+    "author": "Pranav Raj Singh Chauhan"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/author/RNPopoverMenu.git"
+  },
+  "source_files": "ios/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "React-Core": [
+
+    ],
+    "FTPopOverMenu": [
+      "~> 2.1.1"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "react-native-geofencing-notification",
+  "version": "1.0.0",
+  "summary": "react native geofencing notification",
+  "authors": "AwardWallet LLC",
+  "homepage": "https://gitlab.awardwallet.com/mobile/react-native-geofencing-notification",
+  "license": "",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://gitlab.awardwallet.com/mobile/react-native-geofencing-notification",
+    "tag": "1.0.0"
+  },
+  "source_files": "ios/*.{h,m}",
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

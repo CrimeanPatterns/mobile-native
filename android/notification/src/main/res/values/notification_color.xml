@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification_icon">#828b99</color>
+    <color name="notification_barcode_stroke">#bdc1cc</color>
+    <color name="notification_barcode_bg">#ffffff</color>
+    <color name="notification_barcode_property_name">#8e9199</color>
+    <color name="notification_barcode_property_value">#535457</color>
+    <color name="notification_barcode_balanceup">#4dbfa2</color>
+    <color name="notification_barcode_balancedown">#4684c4</color>
+    <color name="notification_barcode_data">#535457</color>
+</resources>

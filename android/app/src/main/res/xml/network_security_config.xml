@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true"/>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">awardwallet.com</domain>
+        <domain includeSubdomains="true">bugsnag.com</domain>
+        <domain includeSubdomains="true">googleapis.com</domain>
+        <domain includeSubdomains="true">app-measurement.com</domain>
+        <domain includeSubdomains="true">facebook.com</domain>
+        <domain includeSubdomains="true">yahoo.com</domain>
+        <domain includeSubdomains="true">microsoft.com</domain>
+        <domain includeSubdomains="true">capitalone.com</domain>
+        <domain includeSubdomains="true">bankofamerica.com</domain>
+    </domain-config>
+</network-security-config>

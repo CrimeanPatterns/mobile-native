@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="RNB_GOOGLE_PLAY_LICENSE_KEY">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAraWeGGiVyXlDMJ/hC0BR6UsnMDRclaU4EzT0Z5pY7skgh0nC7A0eGyV5GKQnLaT/wJLvyphT5ewJR9yr88mKyp6eBNWlfnadPB6LTPoZT0ViTtROIvmpuwlAFDp9eaEiL47NrJsXTocpQVvdYhle4lAvPd8gXdEJ2QtYsOw95YCcQrIicNh2ArtOhelKQ3CBslke4bToRz05AtLxsYED4oVmWlAo/5WSHkfVvN552GUQ6fo60YcjQ+z0bqsZRlEFMZRILCqDwoEjfGtcV4EmDHIb16IqAtOf1kyDiqRABal4mGKaWSEDAUHYDld+uRcUDXSrOFqYEENWv0xZhXUTNQIDAQAB</string>
+    <string name="default_notification_channel_id">rewards_activity</string>
+    <string name="facebook_app_id">75330755697</string>
+    <string name="facebook_client_token">209bb09a19aea3673c99afe875e6e28a</string>
+</resources>
