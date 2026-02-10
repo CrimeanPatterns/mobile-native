@@ -1,0 +1,15 @@
+{
+    "transDir": "translations",
+    "include": [
+        "app"
+    ],
+    "exclude": [
+        "app/assets/languages",
+        "app/vendor/crashlytics",
+        "app/vendor/intl"
+    ],
+    "dumpDomains": [
+        "mobile-native"
+    ],
+    "frontendDir": "/Users/aanikin/docker/frontend/"
+}

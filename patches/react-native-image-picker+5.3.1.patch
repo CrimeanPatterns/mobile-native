@@ -1,0 +1,17 @@
+diff --git a/node_modules/react-native-image-picker/ios/ImagePickerManager.mm b/node_modules/react-native-image-picker/ios/ImagePickerManager.mm
+index 80998a1..a9046b5 100644
+--- a/node_modules/react-native-image-picker/ios/ImagePickerManager.mm
++++ b/node_modules/react-native-image-picker/ios/ImagePickerManager.mm
+@@ -180,7 +180,11 @@ -(NSMutableDictionary *)mapImageToAsset:(UIImage *)image data:(NSData *)data phA
+     }
+
+     NSMutableDictionary *asset = [[NSMutableDictionary alloc] init];
+-    asset[@"type"] = [@"image/" stringByAppendingString:fileType];
++    if ([fileType isEqualToString:@"jpg"]) {
++       asset[@"type"] = [@"image/" stringByAppendingString:@"jpeg"];
++    } else {
++       asset[@"type"] = [@"image/" stringByAppendingString:fileType];
++    }
+
+     NSString *fileName = [self getImageFileName:fileType];
+     NSString *path = [[NSTemporaryDirectory() stringByStandardizingPath] stringByAppendingPathComponent:fileName];

@@ -1,0 +1,6 @@
+__tests__/components/form/fields/text.js
+app/services/notification/barcode/utils.js
+app/assets/languages/
+scripts/
+!/.storybook
+storybook.requires.js

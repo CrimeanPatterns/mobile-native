@@ -1,0 +1,69 @@
+diff --git a/node_modules/@react-navigation/material-top-tabs/src/views/MaterialTopTabView.tsx b/node_modules/@react-navigation/material-top-tabs/src/views/MaterialTopTabView.tsx
+index 5b27598..b0e457d 100644
+--- a/node_modules/@react-navigation/material-top-tabs/src/views/MaterialTopTabView.tsx
++++ b/node_modules/@react-navigation/material-top-tabs/src/views/MaterialTopTabView.tsx
+@@ -1,9 +1,9 @@
+ import {
+-  CommonActions,
+-  ParamListBase,
+-  Route,
+-  TabNavigationState,
+-  useTheme,
++    CommonActions,
++    ParamListBase,
++    Route,
++    TabNavigationState, useIsFocused,
++    useTheme,
+ } from '@react-navigation/native';
+ import * as React from 'react';
+ import { SceneRendererProps, TabView } from 'react-native-tab-view';
+@@ -15,6 +15,7 @@ import type {
+   MaterialTopTabNavigationHelpers,
+ } from '../types';
+ import MaterialTopTabBar from './MaterialTopTabBar';
++import {useCallback} from "react";
+
+ type Props = MaterialTopTabNavigationConfig & {
+   state: TabNavigationState<ParamListBase>;
+@@ -31,6 +32,7 @@ export default function MaterialTopTabView({
+   ...rest
+ }: Props) {
+   const { colors } = useTheme();
++  const isFocused = useIsFocused();
+
+   const renderTabBar = (props: SceneRendererProps) => {
+     return tabBar({
+@@ -41,20 +43,24 @@ export default function MaterialTopTabView({
+     });
+   };
+
++  const onIndexChange = useCallback((index) => {
++      if (isFocused) {
++          navigation.dispatch({
++              ...CommonActions.navigate({
++                  name: state.routes[index].name,
++                  merge: true,
++              }),
++              target: state.key,
++          });
++      }
++  }, [navigation, state.key, state.routes, isFocused]);
++
+   const focusedOptions = descriptors[state.routes[state.index].key].options;
+
+   return (
+     <TabView<Route<string>>
+       {...rest}
+-      onIndexChange={(index) =>
+-        navigation.dispatch({
+-          ...CommonActions.navigate({
+-            name: state.routes[index].name,
+-            merge: true,
+-          }),
+-          target: state.key,
+-        })
+-      }
++      onIndexChange={onIndexChange}
+       renderScene={({ route }) => descriptors[route.key].render()}
+       navigationState={state}
+       renderTabBar={renderTabBar}

@@ -1,0 +1,21 @@
+diff --git a/node_modules/@react-native-community/eslint-config/index.js b/node_modules/@react-native-community/eslint-config/index.js
+index bb5e2e3..1883ea6 100644
+--- a/node_modules/@react-native-community/eslint-config/index.js
++++ b/node_modules/@react-native-community/eslint-config/index.js
+@@ -36,15 +36,7 @@ module.exports = {
+   overrides: [
+     {
+       files: ['*.js'],
+-      parser: '@babel/eslint-parser',
+-      plugins: ['ft-flow'],
+-      rules: {
+-        // Flow Plugin
+-        // The following rules are made available via `eslint-plugin-ft-flow`
+-
+-        'ft-flow/define-flow-type': 1,
+-        'ft-flow/use-flow-type': 1,
+-      },
++      parser: '@babel/eslint-parser'
+     },
+     {
+       files: ['*.ts', '*.tsx'],

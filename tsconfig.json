@@ -1,0 +1,46 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowImportingTsExtensions": false,
+    "declaration": true,
+    "declarationMap": true,
+    "noStrictGenericChecks": false,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "noImplicitUseStrict": false,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "allowJs": false,
+    "checkJs": false,
+    "typeRoots": [
+      "./app/types"
+    ],
+    "moduleSuffixes": [
+      ".android",
+      ".ios",
+      ""
+    ],
+    "paths": {
+      "@assets/*": ["./app/assets/*"],
+      "@components/*": ["./app/components/*"],
+      "@hooks/*": ["./app/hooks/*"],
+      "@screens/*": ["./app/screens/*"],
+      "@services/*": ["./app/services/*"],
+      "@stacks/*": ["./app/stacks/*"],
+      "@theme/*": ["./app/theme/*"],
+      "@styles/*": ["./app/styles/*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.setup.js",
+    "jest.config.js",
+    "jest.snapshot.resolver.js",
+    "react-native.config.js",
+    "rn-cli.config.js",
+    ".eslintrc.js"
+  ]
+}

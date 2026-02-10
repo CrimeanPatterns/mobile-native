@@ -1,0 +1,108 @@
+{
+    "keys": [
+        {
+            "source_key": "push-notifications.native-app.location-always-usage-description",
+            "source_domain": "mobile",
+            "target": "plist",
+            "target_key": "NSLocationAlwaysUsageDescription",
+            "constant": true
+        },
+        {
+            "source_key": "camera.usage",
+            "source_domain": "mobile",
+            "target": "plist",
+            "target_key": "NSCameraUsageDescription",
+            "constant": true
+        },
+        {
+            "source_key": "camera.usage",
+            "source_domain": "mobile",
+            "target": "plist",
+            "target_key": "NSPhotoLibraryUsageDescription",
+            "constant": true
+        },
+        {
+            "source_key": "menu.button.accounts",
+            "source_domain": "menu",
+            "target": "plist"
+        },
+        {
+            "source_key": "menu.button.bookings",
+            "source_domain": "menu",
+            "target": "plist"
+        },
+        {
+            "source_key": "menu.button.trips",
+            "source_domain": "menu",
+            "target": "plist"
+        },
+        "push-notifications.native-app.call-action.button",
+        {
+            "source_key": "button.delete",
+            "source_domain": "messages",
+            "target_key": "delete"
+        },
+        {
+            "source_key": "cancel",
+            "source_domain": "messages"
+        },
+        "confirm.delete.picture",
+        {
+            "source_key": "camera.scan.barcode",
+            "source_domain": "mobile"
+        },
+        {
+            "source_key": "camera.tooltip",
+            "source_domain": "mobile"
+        },
+        {
+          "source_key": "buttons.back",
+          "source_domain": "mobile"
+        },
+        {
+            "source_key": "button.ok",
+            "source_domain": "messages"
+        },
+        {
+            "source_key": "settings",
+            "source_domain": "messages"
+        },
+        {
+            "source_key": "location.enable-service",
+            "source_domain": "mobile"
+        },
+        {
+            "source_key": "location.enable-service.title",
+            "source_domain": "mobile"
+        },
+        {
+            "source_key": "location.always-usage",
+            "source_domain": "mobile",
+            "target": "plist",
+            "target_key": "NSLocationAlwaysUsageDescription",
+            "constant": true
+        },
+        {
+            "source_key": "location.always-usage",
+            "source_domain": "mobile",
+            "target": "plist",
+            "target_key": "NSLocationAlwaysAndWhenInUseUsageDescription",
+            "constant": true
+        },
+        {
+            "source_key": "location.when-in-use",
+            "source_domain": "mobile",
+            "target": "plist",
+            "target_key": "NSLocationWhenInUseUsageDescription",
+            "constant": true
+        }
+    ],
+    "locales": [
+        "en",
+        "pt",
+        "es",
+        "ru",
+        "zh_CN",
+        "zh_TW"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+  "keys": [
+    {
+      "source_key": "location.android.finder.enable_service",
+      "source_domain": "mobile-native",
+      "modules": [
+        "react-native-geofencing-notification/android/src/main"
+      ]
+    },
+    {
+      "source_key": "location.android.finder_disabled",
+      "source_domain": "mobile-native",
+      "modules": [
+        "react-native-geofencing-notification/android/src/main"
+      ]
+    },
+    {
+      "source_key": "location.android.finder_enabled",
+      "source_domain": "mobile-native",
+      "modules": [
+        "react-native-geofencing-notification/android/src/main"
+      ]
+    },
+    {
+      "source_key": "location.android.finder.title",
+      "source_domain": "mobile-native",
+      "modules": [
+        "react-native-geofencing-notification/android/src/main"
+      ]
+    },
+    {
+      "source_key": "location.android.finder.start_tracking",
+      "source_domain": "mobile-native",
+      "modules": [
+        "react-native-geofencing-notification/android/src/main"
+      ]
+    },
+    {
+      "source_key": "location.android.location-settings.button",
+      "source_domain": "mobile",
+      "modules": [
+        "react-native-geofencing-notification/android/src/main"
+      ]
+    },
+    {
+      "source_key": "location.android.finder.list",
+      "source_domain": "mobile-native",
+      "modules": [
+        "react-native-geofencing-notification/android/src/main"
+      ]
+    },
+    {
+      "source_key": "confirm.delete.picture",
+      "source_domain": "mobile",
+      "modules": [
+        "react-native-photo-viewer/android/src/main"
+      ]
+    },
+    {
+      "source_key": "button.delete",
+      "source_domain": "messages",
+      "modules": [
+        "react-native-photo-viewer/android/src/main"
+      ]
+    },
+    {
+      "source_key": "cancel",
+      "source_domain": "messages",
+      "modules": [
+        "react-native-photo-viewer/android/src/main"
+      ]
+    }
+  ],
+  "locales": [
+    "en",
+    "pt",
+    "es",
+    "ru",
+    {"zh_CN": "zh-rCN"},
+    {"zh_TW": "zh-rTW"}
+  ]
+}

@@ -1,0 +1,47 @@
+diff --git a/node_modules/react-native-material-buttons/src/components/button/index.js b/node_modules/react-native-material-buttons/src/components/button/index.js
+index 40d89e6..dd8badc 100644
+--- a/node_modules/react-native-material-buttons/src/components/button/index.js
++++ b/node_modules/react-native-material-buttons/src/components/button/index.js
+@@ -86,7 +86,7 @@ export default class Button extends PureComponent {
+       .start();
+   }
+ 
+-  componentWillReceiveProps(props) {
++  UNSAFE_componentWillReceiveProps(props) {
+     let { focusAnimation } = props;
+ 
+     if (focusAnimation && focusAnimation !== this.state.focusAnimation) {
+diff --git a/node_modules/react-native-material-buttons/src/components/raised-text-button/index.js b/node_modules/react-native-material-buttons/src/components/raised-text-button/index.js
+index 54cf4b9..d7fd4fa 100644
+--- a/node_modules/react-native-material-buttons/src/components/raised-text-button/index.js
++++ b/node_modules/react-native-material-buttons/src/components/raised-text-button/index.js
+@@ -16,7 +16,7 @@ export default class RaisedTextButton extends PureComponent {
+ 
+     title: PropTypes.string.isRequired,
+     titleColor: PropTypes.string,
+-    titleStyle: Text.propTypes.style,
++    titleStyle: PropTypes.any,
+     disabledTitleColor: PropTypes.string,
+   };
+ 
+diff --git a/node_modules/react-native-material-buttons/src/components/text-button/index.js b/node_modules/react-native-material-buttons/src/components/text-button/index.js
+index 8b26f47..66cb246 100644
+--- a/node_modules/react-native-material-buttons/src/components/text-button/index.js
++++ b/node_modules/react-native-material-buttons/src/components/text-button/index.js
+@@ -4,6 +4,7 @@ import { Text } from 'react-native';
+ 
+ import Button from '../button';
+ import { styles } from './styles';
++import {TextPropTypes} from 'deprecated-react-native-prop-types';
+ 
+ export default class TextButton extends PureComponent {
+   static defaultProps = {
+@@ -21,7 +22,7 @@ export default class TextButton extends PureComponent {
+ 
+     title: PropTypes.string.isRequired,
+     titleColor: PropTypes.string,
+-    titleStyle: Text.propTypes.style,
++    titleStyle: TextPropTypes.style,
+     disabledTitleColor: PropTypes.string,
+   };
+ 

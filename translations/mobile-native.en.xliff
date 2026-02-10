@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="not.available" datatype="plaintext" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="c62b08ac3661b7466461c29a54dd2cfa130eff00" resname="account-add">
+        <source>Add to AwardWallet</source>
+        <target>Add to AwardWallet</target>
+        <jms:reference-file>app/screens/accounts/account/add.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6350c79737c5ae79e8edc73b505eceeccf04d434" resname="account.buttons.update-all">
+        <source>Update all Accounts</source>
+        <target>Update all Accounts</target>
+        <jms:reference-file>app/components/accounts/list/button-bar/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f2e7543b046f4bddd2cbb4fabedfb91460bc3c9b" resname="adding-an-account">
+        <source>Adding an account</source>
+        <target>Adding an account</target>
+        <jms:reference-file>app/screens/accounts/account/add.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c662180230cad14787d4ab7e77aa08681ce783fa" resname="address">
+        <source>Address</source>
+        <target>Address</target>
+        <jms:reference-file>app/screens/store-locations/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a45c66d37d34d57f5df99de73bc24f4997b02461" resname="agents.connect.email.notice">
+        <source>Please enter email. We will search through our database and add this user to your profile.</source>
+        <target>Please enter email. We will search through our database and add this user to your profile.</target>
+        <jms:reference-file>app/screens/connections/connection/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="daa53b71b3e017a4f2683b48d279618450e55e67" resname="ai-reservation.warning">
+        <source>This reservation was processed using AI. Please check the details below for accuracy. If there's a problem, please %href_on%remove this reservation%href_off% from your timeline.</source>
+        <target>This reservation was processed using AI. Please check the details below for accuracy. If there's a problem, please %href_on%remove this reservation%href_off% from your timeline.</target>
+        <jms:reference-file>app/components/trips/details/list/aiReservation.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d8424737ea7a2db34c87162d928474c2466d6fd0" resname="ai-reservation.warning-without-permission">
+        <source>This reservation was processed using AI. Please check the details below for accuracy.</source>
+        <target>This reservation was processed using AI. Please check the details below for accuracy.</target>
+        <jms:reference-file>app/components/trips/details/list/aiReservation.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="148eea92dff973b3745a699dd599dca5db37dfd2" resname="alternative-flight.custom-value.form-title">
+        <source>alternatively, enter a custom value</source>
+        <target>alternatively, enter a custom value</target>
+        <jms:reference-file>app/components/trips/details/alternative-flight/customValue.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="499e12503d54ab4e71f4043db103859a822c4933" resname="alternative-flight.custom-value.title">
+        <source>Custom Value</source>
+        <target>Custom Value</target>
+        <jms:reference-file>app/components/trips/details/alternative-flight/customValue.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ad7f994affabcb7813ebc66a4f2928fa0186f92f" resname="alternative-flight.layover">
+        <source>Layover in</source>
+        <target>Layover in</target>
+        <jms:reference-file>app/components/trips/details/alternative-flight/details/layover.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5596a5ec306641bd2d92c0a20fd40c276d4689c2" resname="alternative-flight.savings-hint">
+        <source>We estimated your savings based on a similar flight, tap here to view it or to set your own value of an alternative flight</source>
+        <target>We estimated your savings based on a similar flight, tap here to view it or to set your own value of an alternative flight</target>
+        <jms:reference-file>app/components/trips/details/list/savings.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e2729e27d80f90c8edb0bf4d066c4dc9d32f3d36" resname="analysis.stub.add-accounts">
+        <source>To view your report, please add one or more of the following accounts:</source>
+        <target>To view your report, please add one or more of the following accounts:</target>
+        <jms:reference-file>app/screens/spend-analysis/stub.js</jms:reference-file>
+        <jms:reference-file>app/screens/transaction-analyzer/stub.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ee4ad7ba838d2e224c80db23d74d3825a549274e" resname="analysis.stub.add-more">
+        <source>You can add some more credit cards:</source>
+        <target>You can add some more credit cards:</target>
+        <jms:reference-file>app/screens/spend-analysis/stub.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="dc781b6a4fc9be3c37ac6d891036a7ac74209afe" resname="analysis.stub.come-back">
+        <source>Once you have added one or more of these accounts, please come back to this screen to see your personal Credit Card Spend Analysis report!</source>
+        <target>Once you have added one or more of these accounts, please come back to this screen to see your personal Credit Card Spend Analysis report!</target>
+        <jms:reference-file>app/screens/spend-analysis/stub.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f8015bf775f92b6d510db62cbdac3e803e757fdb" resname="analysis.stub.no-analytics">
+        <source>None of your credit card accounts have any valid transactions that can be analyzed for this report. If you have other banking accounts, please add them and then come back to view the report.</source>
+        <target>None of your credit card accounts have any valid transactions that can be analyzed for this report. If you have other banking accounts, please add them and then come back to view the report.</target>
+        <jms:reference-file>app/screens/spend-analysis/stub.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="26fef0b660f38081f6da4e3ca3dca2774cdcaa53" resname="available-credits">
+        <source>Available Credits</source>
+        <target>Available Credits</target>
+        <jms:reference-file>app/screens/profile/balanceWatchCredit/payment.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8446f4b058cb0ec7d00c292a657af6af52a2891a" resname="award.account.list.totals.estimated">
+        <source>Total Estimated Value</source>
+        <target>Total Estimated Value</target>
+        <jms:reference-file>app/components/accounts/list/total-bar/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c68fb7e8fdea831b01ea5ca1c654eb5fbb9e2c9e" resname="award.account.list.totals.multiple">
+        <source>Multiple Users</source>
+        <target>Multiple Users</target>
+        <jms:reference-file>app/screens/accounts/totals/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9e52d2b7e6a29242a09e05b1731f46ae6f2b59c7" resname="award.account.list.totals.points">
+        <source>Total Points</source>
+        <target>Total Points</target>
+        <jms:reference-file>app/components/accounts/list/total-bar/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5cb4ad80e6bec05f8d8b596a61475e5c27fcf4f1" resname="background-location-permission">
+        <source>Background Location Permission</source>
+        <target>Background Location Permission</target>
+        <jms:reference-file>app/components/intro/locationIntro/background.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f558a6197568ddc4621696fb4e28236a90d76ba1" resname="balance-chart">
+        <source>Balance Chart</source>
+        <target>Balance Chart</target>
+        <jms:reference-file>app/screens/accounts/account/details/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="87779df63299d59ca4a72607341019ccbd654987" resname="balance-watch-desc">
+        <source>Balance Watch Credits allow you to schedule frequent updating of an account until we detect the desired change in balance. You can read more about this feature %link_on%here%link_off%.</source>
+        <target>Balance Watch Credits allow you to schedule frequent updating of an account until we detect the desired change in balance. You can read more about this feature %link_on%here%link_off%.</target>
+        <jms:reference-file>app/screens/profile/balanceWatchCredit/payment.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="83395b2c9bea3a7cecc16b70b7ed560e32a7fd85" resname="button.apply">
+        <source>Apply</source>
+        <target>Apply</target>
+        <jms:reference-file>app/components/spend-analysis/settings.js</jms:reference-file>
+        <jms:reference-file>app/components/transaction-analyzer/filters/modal.tsx</jms:reference-file>
+        <jms:reference-file>app/components/trips/details/alternative-flight/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="18df226b4714169972b0ec643d12fdadd5d52901" resname="button.done">
+        <source>Done</source>
+        <target>Done</target>
+        <jms:reference-file>app/screens/profile/two-factor-authentication/completeSetup.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="901a4db4c02a099767ab5d8a5fc0939812484fb2" resname="button.rename">
+        <source>Rename</source>
+        <target>Rename</target>
+        <jms:reference-file>app/components/trips/list/planStart.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6771ca3183b75c620414a57aa1cf0c13f8bcc426" resname="buy_watch_credits.button">
+        <source>Buy Balance Watch Credits</source>
+        <target>Buy Balance Watch Credits</target>
+        <jms:reference-file>app/components/profile/overview/balanceCredits.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c7d415a0c667ca1cbc52fefe165d096351bf7684" resname="buy-more">
+        <source>Buy more</source>
+        <target>Buy more</target>
+        <jms:reference-file>app/screens/profile/balanceWatchCredit/payment.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c8d3756e45b644ce8b817869739736d39c31e30e" resname="cards">
+        <source>Cards</source>
+        <target>Cards</target>
+        <jms:reference-file>app/stacks/inside/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ea88fbaa99b73225752e2ef67593f775848160ad" resname="closed">
+        <source>Closed</source>
+        <target>Closed</target>
+        <jms:reference-file>app/components/trips/details/list/loungeListItem.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ebbe7267a6debe47b35192bbe2aaa8e600ee8a0d" resname="closing-in">
+        <source>Closing in</source>
+        <target>Closing in</target>
+        <jms:reference-file>app/components/trips/details/list/loungeListItem.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ce5170c6db5fc86fa65d07614142fbc67ef60ec8" resname="confirm-delete">
+        <source>Please confirm you want to delete this %subject%</source>
+        <target>Please confirm you want to delete this %subject%</target>
+        <jms:reference-file>app/components/accounts/details/cardImages/cardImage.tsx</jms:reference-file>
+        <jms:reference-file>app/screens/accounts/account/pictures/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0b43c22dec90a87fd0632c05fd3664e17d40fd1f" resname="confirm-delete.many">
+        <source>Please confirm you want to delete %num% %subject%</source>
+        <target>Please confirm you want to delete %num% %subject%</target>
+        <jms:reference-file>app/screens/accounts/account/pictures/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="245f08e30a2806897070de343343aea9626e22d8" resname="connected.users">
+        <source>Connected Users</source>
+        <target>Connected Users</target>
+        <jms:reference-file>app/screens/connections/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="874971a350bf83324e5b0186efa566d16f039004" resname="connections.delete">
+        <source>You are about to delete %name%`s name from your profile, please note that since %name% is not a connected user with a separate AwardWallet account all of the loyalty accounts (if any) that belong to this user will be transferred to you automatically?</source>
+        <target>You are about to delete %name%`s name from your profile, please note that since %name% is not a connected user with a separate AwardWallet account all of the loyalty accounts (if any) that belong to this user will be transferred to you automatically?</target>
+        <jms:reference-file>app/screens/connections/connection/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5c64fbae11af26dee293e1a0e883f5c3bc4be44d" resname="credits-count">
+        <source>%count% credit|%count% credits</source>
+        <target>%count% credit|%count% credits</target>
+        <jms:reference-file>app/screens/profile/balanceWatchCredit/payment.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e74889ca5bd4c9f54a2b0af8af58d72ca5d1592a" resname="delete-mailbox">
+        <source>Are you sure, you want to delete %email% mailbox?</source>
+        <target>Are you sure, you want to delete %email% mailbox?</target>
+        <jms:reference-file>app/screens/mailboxes/mailbox.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="868550928b8466a7ff6081b252404e08933c88fc" resname="delete-qrcode">
+        <source>Please confirm you want to delete this QR code</source>
+        <target>Please confirm you want to delete this QR code</target>
+        <jms:reference-file>app/screens/accounts/account/barcode.tsx</jms:reference-file>
+        <jms:reference-file>app/screens/barcode/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e9711657b066fc8697f6f46ac6be9ce246e43aac" resname="details">
+        <source>Details</source>
+        <target>Details</target>
+        <jms:reference-file>app/screens/bookings/details/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4ecbd8b7f8c62d15687fc58c11d2e4bda7e1753b" resname="discovered-accounts">
+        <source>Discovered Accounts</source>
+        <target>Discovered Accounts</target>
+        <jms:reference-file>app/screens/accounts/discovered/list.tsx</jms:reference-file>
+        <jms:reference-file>app/screens/accounts/list/index.tsx</jms:reference-file>
+        <jms:reference-file>app/screens/accounts/list/swipeableList.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5cee108577dd5b38ffe6c1327394691b1db45b70" resname="discovered-accounts.review-more">
+        <source>Review More Discovered Accounts</source>
+        <target>Review More Discovered Accounts</target>
+        <jms:reference-file>app/screens/accounts/list/swipeableList.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c418d591f1fe796d6db7af9cf83a7e40e5a68b6a" resname="discovered.add-other">
+        <source>Add Other Loyalty Accounts</source>
+        <target>Add Other Loyalty Accounts</target>
+        <jms:reference-file>app/components/accounts/discovered/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="fb6981780e85ca2c3a5875b78039907e7abe213b" resname="discovered.confirm-delete-accounts">
+        <source>Are you sure you want to delete all discovered loyalty accounts?</source>
+        <target>Are you sure you want to delete all discovered loyalty accounts?</target>
+        <jms:reference-file>app/components/accounts/discovered/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7111b9766d8ae33135c002d9157697a73e376b9b" resname="discovered.delete-accounts">
+        <source>Delete All Discovered Loyalty Accounts</source>
+        <target>Delete All Discovered Loyalty Accounts</target>
+        <jms:reference-file>app/components/accounts/discovered/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="98eb5d381e3dcf12b37dfe97f134891d7a6efd8c" resname="discovered.set-up">
+        <source>The following loyalty accounts were found via your mailbox; please tar each account to set in up. Swipe left to delete or tap "Add Other Loyalty Accounts" at the top to add other accounts.</source>
+        <target>The following loyalty accounts were found via your mailbox; please tar each account to set in up. Swipe left to delete or tap "Add Other Loyalty Accounts" at the top to add other accounts.</target>
+        <jms:reference-file>app/components/accounts/discovered/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cb21b1e66ce553b1842132d89a3ab3be8f47f642" resname="edit-mailbox">
+        <source>Edit Mailbox</source>
+        <target>Edit Mailbox</target>
+        <jms:reference-file>app/screens/mailboxes/details.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a14d85ec1978a18928cccae2d865f7eda1dc994e" resname="enable_all_locations">
+        <source>Enable All Retail Cards Notifications</source>
+        <target>Enable All Retail Cards Notifications</target>
+        <jms:reference-file>app/screens/store-locations/list.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="978a51ddf0322862581ad2273f532f53093ba797" resname="family.members">
+        <source>Family Members</source>
+        <target>Family Members</target>
+        <jms:reference-file>app/screens/connections/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2fa65cc7e77bb15109f8f4e3270d5aad5f945954" resname="fees-cards.attention">
+        <source>These cards don’t charge a foreign transaction fee for purchases made overseas.</source>
+        <target>These cards don’t charge a foreign transaction fee for purchases made overseas.</target>
+        <jms:reference-file>app/components/trips/details/list/feesCards.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a4b052d69073298b45c709fd57dd8115b7253c22" resname="fees-cards.business">
+        <source>Business %cards%</source>
+        <target>Business %cards%</target>
+        <jms:reference-file>app/components/trips/details/list/feesCards.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="42f3fc73e0d27acb626ccaa7accc63e44ab0ce1e" resname="fees-cards.cards">
+        <source>Card|Cards</source>
+        <target>Card|Cards</target>
+        <jms:reference-file>app/components/trips/details/list/feesCards.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="668fc51e4ca0359a774aa96ce127d83052ee75eb" resname="fees-cards.no-fees">
+        <source>No Foreign-Transaction Fees</source>
+        <target>No Foreign-Transaction Fees</target>
+        <jms:reference-file>app/components/trips/details/list/feesCards.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1ac545215c495c548ef141350ab874e36d0b3f94" resname="fees-cards.personal">
+        <source>Personal %cards%</source>
+        <target>Personal %cards%</target>
+        <jms:reference-file>app/components/trips/details/list/feesCards.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="afbc8977a5b6889e860a2ebaa28518a82b0e9846" resname="fees-cards.responsibility">
+        <source>* According to our records, you have all these credit cards. We make the best effort to verify which cards don't have foreign transaction fees, but ultimately you need to confirm it with your bank. AwardWallet is not liable if you get charged a fee by your bank.</source>
+        <target>* According to our records, you have all these credit cards. We make the best effort to verify which cards don't have foreign transaction fees, but ultimately you need to confirm it with your bank. AwardWallet is not liable if you get charged a fee by your bank.</target>
+        <jms:reference-file>app/components/trips/details/list/feesCards.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2b4e4f3bd0778d387947a1c70cf0093435b0686f" resname="fingerprint.auth-not-match">
+        <source>The fingerprint didn't match, please try again.</source>
+        <target>The fingerprint didn't match, please try again.</target>
+        <jms:reference-file>app/screens/passcode/access.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8df08482124624ba9ba4847618ea8d7043e439e4" resname="fingerprint.device-locked">
+        <source>The authentication was not successful, the device is currently locked out. Please try again later.</source>
+        <target>The authentication was not successful, the device is currently locked out. Please try again later.</target>
+        <jms:reference-file>app/screens/passcode/access.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ff3fefa7a1857b7101cdd970710f54f11ea03202" resname="full-control">
+        <source>Full Control</source>
+        <target>Full Control</target>
+        <jms:reference-file>app/screens/connections/connection/grantAccess.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e57efe8a3385d79a412490b860949906471dc57d" resname="group.itinerarie">
+        <source>Group into a Trip</source>
+        <target>Group into a Trip</target>
+        <jms:reference-file>app/components/trips/list/trip.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ce1ecd4e8f66f71f6653f664b98ed632f59a7679" resname="image.download-error">
+        <source>Image could not be downloaded, please try again.</source>
+        <target>Image could not be downloaded, please try again.</target>
+        <jms:reference-file>app/components/accounts/pictures/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="45cfc24a968bc19ac63d47ecf34b84df076ad393" resname="image.upload-error">
+        <source>Image failed to upload, please try again.</source>
+        <target>Image failed to upload, please try again.</target>
+        <jms:reference-file>app/screens/accounts/account/pictures/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ec2b9dc811c2784f09a7eafe1abb8769a41ea39e" resname="intro.location-permission-title">
+        <source>Location Permission</source>
+        <target>Location Permission</target>
+        <jms:reference-file>app/components/intro/locationIntro/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="450fd0f828e3706a8b6d3a756b794246d51a0b62" resname="intro.notifications-button.ios">
+        <source>Enable Push Notifications</source>
+        <target>Enable Push Notifications</target>
+        <jms:reference-file>app/components/intro/notificationsIntro/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e1b91436a83b94afb7564ea279d940dc98d1a149" resname="intro.notifications-title">
+        <source>Notifications Permission</source>
+        <target>Notifications Permission</target>
+        <jms:reference-file>app/components/intro/notificationsIntro/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="65c22a13286fc858567ceeb9a05af3a677195409" resname="invite.message">
+        <source>Connection invite was sent.</source>
+        <target>Connection invite was sent.</target>
+        <jms:reference-file>app/screens/connections/connection/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="faf86f3ac9bd564e280d70ef59a4578ff406722a" resname="linking-mailbox">
+        <source>Linking Your Mailbox</source>
+        <target>Linking Your Mailbox</target>
+        <jms:reference-file>app/screens/mailboxes/add.tsx</jms:reference-file>
+        <jms:reference-file>app/screens/mailboxes/imap.js</jms:reference-file>
+        <jms:reference-file>app/screens/mailboxes/list.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="14b85fa8e87f846f757eaccda09761641b397f01" resname="loading">
+        <source>Loading...</source>
+        <target>Loading...</target>
+        <jms:reference-file>app/screens/bookings/notVerified.tsx</jms:reference-file>
+        <jms:reference-file>app/screens/profile/subscription/payment.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="97d777c094ddaeb2ffbc270652b4543e546c0bd9" resname="location.android.finder_disabled">
+        <source>The service is disabled. If you turn it on we will be able to deliver your bonus card with the barcode right to your home screen when you come close to your favorite grocery store or a restaurant.</source>
+        <target>The service is disabled. If you turn it on we will be able to deliver your bonus card with the barcode right to your home screen when you come close to your favorite grocery store or a restaurant.</target>
+        <jms:reference-file>app/services/notification/provider/index.android.ts</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0f3397e48866a0f5d2b347fc1017fe4db0a37b7b" resname="location.android.finder_enabled">
+        <source>The service is enabled. When you come close to the location of a grocery store or a restaurant the bonus card and the barcode will appear on your home screen. You can set up all of your favorite grocery store and restaurant locations inside the AwardWallet app</source>
+        <target>The service is enabled. When you come close to the location of a grocery store or a restaurant the bonus card and the barcode will appear on your home screen. You can set up all of your favorite grocery store and restaurant locations inside the AwardWallet app</target>
+        <jms:reference-file>app/services/notification/provider/index.android.ts</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="244da02bd9c18ed0f82dde752fcd75b2e33018f3" resname="location.android.finder.enable_service">
+        <source>You need to activate the Location Service to use this feature. Please turn on the "High Accuracy" mode in the location settings</source>
+        <target>You need to activate the Location Service to use this feature. Please turn on the "High Accuracy" mode in the location settings</target>
+        <jms:reference-file>app/services/notification/provider/index.android.ts</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="892613041c5fc11f6ba651bb167dee8b21208f0b" resname="location.android.finder.list">
+        <source>View the list of all subscribed locations</source>
+        <target>View the list of all subscribed locations</target>
+        <jms:reference-file>app/services/notification/provider/index.android.ts</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ccf7c640bd95556e6076200787654bc21ef4bd0d" resname="location.android.finder.start_tracking">
+        <source>Enable Location Tracking</source>
+        <target>Enable Location Tracking</target>
+        <jms:reference-file>app/services/notification/provider/index.android.ts</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b8a0f851dbd0137b9d59f51f7b1e51ec61732dab" resname="location.android.finder.title">
+        <source>Retail Store Locator</source>
+        <target>Retail Store Locator</target>
+        <jms:reference-file>app/services/notification/provider/index.android.ts</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cc2decb4291a24bf44c41ff9fd5cea7a4ad92024" resname="mailbox_lost_connection_popup">
+        <source>Please re-authenticate your mailbox now.%br%Alternatively, if this mailbox no longer exists you can delete it from AwardWallet.</source>
+        <target>Please re-authenticate your mailbox now.%br%Alternatively, if this mailbox no longer exists you can delete it from AwardWallet.</target>
+        <jms:reference-file>app/components/mailboxes/checkStatus.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6af5558275db0580d8f870ba5dfbcd3241711ae5" resname="mailbox_lost_connection_popup.title">
+        <source>We've lost the connection to your mailbox:</source>
+        <target>We've lost the connection to your mailbox:</target>
+        <jms:reference-file>app/components/mailboxes/checkStatus.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f98777d60ab010811a30b368b28005a854469c3d" resname="mailboxes">
+        <source>Mailboxes</source>
+        <target>Mailboxes</target>
+        <jms:reference-file>app/screens/mailboxes/list.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4bf081f43bf3d09599443242d279184dc7c4e091" resname="mailboxes.intro.1">
+        <source>Please link your mailbox to your AwardWallet account so that we can do all the work for you! Specifically, we will scan you mailbox for the loyalty programs you participate in and will add them to your profile automatically.</source>
+        <target>Please link your mailbox to your AwardWallet account so that we can do all the work for you! Specifically, we will scan you mailbox for the loyalty programs you participate in and will add them to your profile automatically.</target>
+        <jms:reference-file>app/screens/mailboxes/add.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9113460526c6f86bf981d10bb37db6ac10bd5a99" resname="mailboxes.intro.2">
+        <source>If we find upcoming travel plans in your inbox we will also have them imported into AwardWallet. This is the easiest way to get set up with AwardWallet. We will not be gathering any of your contacts or sending any of them any emails. This step is needed only to get your AwardWallet account set up.</source>
+        <target>If we find upcoming travel plans in your inbox we will also have them imported into AwardWallet. This is the easiest way to get set up with AwardWallet. We will not be gathering any of your contacts or sending any of them any emails. This step is needed only to get your AwardWallet account set up.</target>
+        <jms:reference-file>app/screens/mailboxes/add.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e89c5b4b2b44cce05486e0164d0500ea0d988459" resname="merchant.lookup-tool">
+        <source>Lookup Tool</source>
+        <target>Lookup Tool</target>
+        <jms:reference-file>app/screens/merchant/lookup.tsx</jms:reference-file>
+        <jms:reference-file>app/stacks/inside/cards.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="94094613fadf120c0e5062fd7f8e8dfa6d9d9e74" resname="merchant.reverse-tool">
+        <source>Reverse Lookup Tool</source>
+        <target>Reverse Lookup Tool</target>
+        <jms:reference-file>app/screens/merchant/reverse.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8ab083df90d72ba7338e7add6445f48c034502b5" resname="mile-value-bar.message">
+        <source>We estimate the value of points based on travel redemptions.</source>
+        <target>We estimate the value of points based on travel redemptions.</target>
+        <jms:reference-file>app/components/mile-value/mileValueCardBar.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ce02e0fe3e49bbbbe6e059b58eb089b32d8e1086" resname="mile-value-bar.more-value">
+        <source>Tap to see more values, or set your own.</source>
+        <target>Tap to see more values, or set your own.</target>
+        <jms:reference-file>app/components/mile-value/mileValueCardBar.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5ca2200bff21b403fadeea7bc2a61b1dad3f21f2" resname="mile-value.massage">
+        <source>To calculate the value of your %programName% miles, please specify what a single %programName% mile is worth to you in US cents.</source>
+        <target>To calculate the value of your %programName% miles, please specify what a single %programName% mile is worth to you in US cents.</target>
+        <jms:reference-file>app/components/accounts/details/mile-value/modal.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a28ac2fa44719fe4da1d4d936334ea2b8da1c4d4" resname="mile-value.override">
+        <source>Override the value with your own estimate</source>
+        <target>Override the value with your own estimate</target>
+        <jms:reference-file>app/screens/mile-value/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="919d1338bc740eb674e39155a88077400e42559b" resname="move-plan.notice">
+        <source>In order to control where the trip ends or begins just touch and hold the beginning or the end of the trip and move that border up or down.</source>
+        <target>In order to control where the trip ends or begins just touch and hold the beginning or the end of the trip and move that border up or down.</target>
+        <jms:reference-file>app/components/trips/list/planStart.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0feca720e2c29dafb2c900713ba560e03b758711" resname="nothing">
+        <source>Nothing</source>
+        <target>Nothing</target>
+        <jms:reference-file>app/screens/connections/connection/grantAccess.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="64b85c8e99470a18d693332853f2f9253d6f8323" resname="notifications.barcode.desc">
+        <source>Long press this notification to instantly scan the bar code</source>
+        <target>Long press this notification to instantly scan the bar code</target>
+        <jms:reference-file>app/services/notification/barcode/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ed4c12d9997656c832a654a1456ebe8d922b860b" resname="notifications.enable-service">
+        <source>Please enable Notifications by tapping "Settings" and choosing "Allow Notifications" under the "Notifications" settings.</source>
+        <target>Please enable Notifications by tapping "Settings" and choosing "Allow Notifications" under the "Notifications" settings.</target>
+        <jms:reference-file>app/services/notification/provider/base.ts</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8ee7095d0f1333ef92afd868e3c84de898e222c3" resname="notifications.enable-service.title">
+        <source>AwardWallet does not have the ability to send notifications</source>
+        <target>AwardWallet does not have the ability to send notifications</target>
+        <jms:reference-file>app/services/notification/provider/base.ts</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="590abaace41bdb1047b7713b47b0a4c3489ca80f" resname="opened">
+        <source>Opened</source>
+        <target>Opened</target>
+        <jms:reference-file>app/components/trips/details/list/loungeListItem.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3b95730fc824dcef2f7ccba1cfd851bd04bc1f48" resname="opening-in">
+        <source>Opening in</source>
+        <target>Opening in</target>
+        <jms:reference-file>app/components/trips/details/list/loungeListItem.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0a3c157920563b7680ef6f6d2f7736d3e5a75212" resname="pictures">
+        <source>picture|pictures</source>
+        <target>picture|pictures</target>
+        <jms:reference-file>app/components/accounts/details/cardImages/cardImage.tsx</jms:reference-file>
+        <jms:reference-file>app/screens/accounts/account/pictures/index.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f1567013b8c7358a63a628e5bc31b4f2451a396f" resname="plan.rename">
+        <source>Change the name</source>
+        <target>Change the name</target>
+        <jms:reference-file>app/components/trips/list/planStart.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1d8d39a6e91a5d579d831544fb5c2b08d7ea8d5d" resname="read-only">
+        <source>Read-only</source>
+        <target>Read-only</target>
+        <jms:reference-file>app/screens/connections/connection/grantAccess.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0ca02250ad088bb467fa35bdf246c42be1ebec46" resname="scan-qrcode">
+        <source>Scan New QR Code</source>
+        <target>Scan New QR Code</target>
+        <jms:reference-file>app/screens/accounts/account/barcode.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c6db2ee73b033fdb04b6d38b46d307d823f0cd4f" resname="scan.qrcode">
+        <source>Scan QR code</source>
+        <target>Scan QR code</target>
+        <jms:reference-file>app/screens/barcode/scan.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="28ab2b7393003fafbad3438ece34c2c1074830da" resname="select-from-files">
+        <source>Select from files</source>
+        <target>Select from files</target>
+        <jms:reference-file>app/components/trips/rich-editor/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cb0e4208b1fadb20756ca7f868211410b0346945" resname="select-from-gallery">
+        <source>Select from gallery</source>
+        <target>Select from gallery</target>
+        <jms:reference-file>app/components/trips/rich-editor/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="39c5debc0291d71102a8f8025378edbf8ab246ad" resname="select-traveler">
+        <source>Select traveler</source>
+        <target>Select traveler</target>
+        <jms:reference-file>app/components/travel-summary/buttons.tsx</jms:reference-file>
+        <jms:reference-file>app/screens/trips/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="14d1e56ee93981a52f4a01a1ca2c3a862450172d" resname="set-up-now">
+        <source>Set Up Now</source>
+        <target>Set Up Now</target>
+        <jms:reference-file>app/components/accounts/discovered/row.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="588a9114faaeccef1ac3c7c5960312a02e1a6414" resname="share-undo">
+        <source>If you did this by mistake you can undo this by pressing the "Undo" button below.</source>
+        <target>If you did this by mistake you can undo this by pressing the "Undo" button below.</target>
+        <jms:reference-file>app/screens/connections/connection/share.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8ca5f44e72938552d42b79af6678d3b5fef6e17c" resname="spend-analysis">
+        <source>Spend Analysis</source>
+        <target>Spend Analysis</target>
+        <jms:reference-file>app/screens/spend-analysis/index.js</jms:reference-file>
+        <jms:reference-file>app/stacks/inside/cards.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b002018f1cc8716199f6a3d1d186c3cdffdb987c" resname="spend-analysis.settings">
+        <source>Spend Analysis Settings</source>
+        <target>Spend Analysis Settings</target>
+        <jms:reference-file>app/components/spend-analysis/settings.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ed3786021de3bd3dd7028541b28b102b4d990dbf" resname="subscription.billing">
+        <source>Recurring Billing ~ Cancel anytime</source>
+        <target>Recurring Billing ~ Cancel anytime</target>
+        <jms:reference-file>app/components/subscription/awplus.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8a1cb3c1dfd88b13482a903181344f7b1badfc9b" resname="subscription.button">
+        <source>Try It Free for 3 Months</source>
+        <target>Try It Free for 3 Months</target>
+        <jms:reference-file>app/components/subscription/awplus.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="143d6ad667a8eb629e0ea06876ff83da5ca4ba32" resname="subscription.expirations.description">
+        <source>Showing all of your loyalty account expirations where expiration is known</source>
+        <target>Showing all of your loyalty account expirations where expiration is known</target>
+        <jms:reference-file>app/components/subscription/awplus.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a1d81f4705a458b8a0625f48ddcf191fad818199" resname="subscription.expirations.title">
+        <source>All Expirations</source>
+        <target>All Expirations</target>
+        <jms:reference-file>app/components/subscription/awplus.js</jms:reference-file>
+        <jms:reference-file>app/components/tools/cards/subscriptionPlus.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4205a3d60b6b0e7ad8b5de80b49bbfa1895a2fc1" resname="subscription.monitoring.description">
+        <source>More comprehensive monitoring and tracking of your flights</source>
+        <target>More comprehensive monitoring and tracking of your flights</target>
+        <jms:reference-file>app/components/subscription/awplus.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="45352f12e19176d811e8a739a2e67073fad4114f" resname="subscription.monitoring.title">
+        <source>Monitoring Flights</source>
+        <target>Monitoring Flights</target>
+        <jms:reference-file>app/components/subscription/awplus.js</jms:reference-file>
+        <jms:reference-file>app/components/tools/cards/subscriptionPlus.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cd791f7ea88ffa8c4ad276d5c68138eb4322009a" resname="subscription.properties.description">
+        <source>Displaying additional reward account properties</source>
+        <target>Displaying additional reward account properties</target>
+        <jms:reference-file>app/components/subscription/awplus.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3993b7ceda73353d701c6e2e2c1332c9a84a8de6" resname="subscription.properties.title">
+        <source>Additional Properties</source>
+        <target>Additional Properties</target>
+        <jms:reference-file>app/components/subscription/awplus.js</jms:reference-file>
+        <jms:reference-file>app/components/tools/cards/subscriptionPlus.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="03a6ed021e220bcad391ba1f831116df4f15f56c" resname="subscription.subscribe">
+        <source>Subscribe for %price% per year</source>
+        <target>Subscribe for %price% per year</target>
+        <jms:reference-file>app/screens/profile/subscription/payment.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b28643b331e7484c88f8013bff2c157c73b6426b" resname="subscription.terms">
+        <source>%p_on%AwardWallet Plus is a subscription-based service, the subscription length is 1 year and when you subscribe it will be set to auto-renew every year thereafter. The cost of the subscription is $29.99 per year without a an early supporter discount, and $9.99 per year with an early supporter discount.%p_off%%p_on%AwardWallet Plus subscriptions purchased from the app will be charged to your %store% account and will automatically renew within 24 hours prior to the end of the current subscription period, unless auto-renewal is disabled beforehand. To manage your subscriptions or to disable auto-renewal, after purchase, go to your %store% account settings. No refunds will be issued after the annual subscription fee has been charged. Any unused portion of a free trial period will be forfeited once a subscription is purchased.%p_off%%p_on%For more details please feel free to review our %link_1%Terms of Use%link_off% and our %link_2%Privacy Policy%link_off%.%p_off%</source>
+        <target>%p_on%AwardWallet Plus is a subscription-based service, the subscription length is 1 year and when you subscribe it will be set to auto-renew every year thereafter. The cost of the subscription is $29.99 per year without a an early supporter discount, and $9.99 per year with an early supporter discount.%p_off%%p_on%AwardWallet Plus subscriptions purchased from the app will be charged to your %store% account and will automatically renew within 24 hours prior to the end of the current subscription period, unless auto-renewal is disabled beforehand. To manage your subscriptions or to disable auto-renewal, after purchase, go to your %store% account settings. No refunds will be issued after the annual subscription fee has been charged. Any unused portion of a free trial period will be forfeited once a subscription is purchased.%p_off%%p_on%For more details please feel free to review our %link_1%Terms of Use%link_off% and our %link_2%Privacy Policy%link_off%.%p_off%</target>
+        <jms:reference-file>app/components/subscription/message.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7b8af788984b973a5bd140fd767a00ba03df59f5" resname="subscription.trial">
+        <source>3 Months Free Trial ~ Then $29.99/year</source>
+        <target>3 Months Free Trial ~ Then $29.99/year</target>
+        <jms:reference-file>app/components/subscription/awplus.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2cc6e387d09148ecbee5562fbfd9b2eb5abe8304" resname="subscription.update.description">
+        <source>When your update all of your accounts they are updated in parallel, up to 5x faster</source>
+        <target>When your update all of your accounts they are updated in parallel, up to 5x faster</target>
+        <jms:reference-file>app/components/subscription/awplus.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="857c0a6ef2f77d13dd8df8c783f0b39cfb2c376e" resname="subscription.update.title">
+        <source>5x Faster Update</source>
+        <target>5x Faster Update</target>
+        <jms:reference-file>app/components/subscription/awplus.js</jms:reference-file>
+        <jms:reference-file>app/components/tools/cards/subscriptionPlus.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="30941afc32bd88ba02827c5940585856a318481e" resname="success-paid">
+        <source>Successfully paid</source>
+        <target>Successfully paid</target>
+        <jms:reference-file>app/components/subscription/invoice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="da353ef5278f1b5d384c098f9a510f6ae5fcd1a4" resname="switcher.off">
+        <source>Off</source>
+        <target>Off</target>
+        <jms:reference-file>app/screens/store-locations/list.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4c49afb8ea58885f62e11d0850802a071b7cf4b8" resname="switcher.on">
+        <source>On</source>
+        <target>On</target>
+        <jms:reference-file>app/screens/store-locations/list.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="557ccaf368a5d73ee5584095bc124a8e0bcf780f" resname="timeline.lounge">
+        <source>Lounge|Lounges</source>
+        <target>Lounge|Lounges</target>
+        <jms:reference-file>app/components/trips/details/list/location.tsx</jms:reference-file>
+        <jms:reference-file>app/components/trips/list-view/layover.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="95142d9a69fe18e04b200ae666cc9044e8705137" resname="timeline.select-cards">
+        <source>Select the Cards You Have</source>
+        <target>Select the Cards You Have</target>
+        <jms:reference-file>app/components/trips/modal-select-cards/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0284c6ac58cb47bb52e427007beee58e0132bf71" resname="tools">
+        <source>Tools</source>
+        <target>Tools</target>
+        <jms:reference-file>app/stacks/inside/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="735f5ce88b49a8fa6eb86d4ed2aca80967248ad0" resname="transaction-analyzer-filter.all">
+        <source>All</source>
+        <target>All</target>
+        <jms:reference-file>app/components/transaction-analyzer/filters/filter-bar/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3f1f42b614efe6e97e1665eb1be810c97f678b5b" resname="transaction-analyzer-filter.amount.exact">
+        <source>Exact Amount $</source>
+        <target>Exact Amount $</target>
+        <jms:reference-file>app/components/transaction-analyzer/filters/filter-bar/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="68af7c6d45086c632ba8e42cb7d879be0ad820d8" resname="transaction-analyzer-filter.amount.greater">
+        <source>Greater than $</source>
+        <target>Greater than $</target>
+        <jms:reference-file>app/components/transaction-analyzer/filters/filter-bar/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5a098adcaaa93d4ad4f1d324f4998d13810c5bcb" resname="transaction-analyzer-filter.amount.less">
+        <source>Less than $</source>
+        <target>Less than $</target>
+        <jms:reference-file>app/components/transaction-analyzer/filters/filter-bar/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="411c15df59e4bd45f9e9127176653b062bde24c6" resname="transaction-analyzer-filter.any">
+        <source>Any</source>
+        <target>Any</target>
+        <jms:reference-file>app/components/transaction-analyzer/filters/filter-bar/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="bcfa84d54df62667c29f492791717dc890540c14" resname="transaction-analyzer-filter.multiple-selected">
+        <source>Multiple Options Selected</source>
+        <target>Multiple Options Selected</target>
+        <jms:reference-file>app/components/transaction-analyzer/filters/filter-bar/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3fc4d5342b75288cc1cd8d5ea581ca16d8c50982" resname="trips.segment.trip-for">
+        <source>Trip for</source>
+        <target>Trip for</target>
+        <jms:reference-file>app/components/trips/list/planStart.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="17a935937ecffc603407517c4983833b61f7f4d4" resname="two-factor.confirmation-code">
+        <source>Confirmation Code</source>
+        <target>Confirmation Code</target>
+        <jms:reference-file>app/screens/profile/two-factor-authentication/setupCode.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9cf1fe4f810d9c8295d1fe284a5a42ab06d04e1e" resname="two-factor.copy-key">
+        <source>Copy Key</source>
+        <target>Copy Key</target>
+        <jms:reference-file>app/screens/profile/two-factor-authentication/completeSetup.tsx</jms:reference-file>
+        <jms:reference-file>app/screens/profile/two-factor-authentication/manualSetup.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9f391a1c8bb9e452e1c9009e2d628de1413f7e8b" resname="two-factor.enter-code">
+        <source>Enter Code</source>
+        <target>Enter Code</target>
+        <jms:reference-file>app/screens/profile/two-factor-authentication/setupCode.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7351606539e5f1efeb276f8edcfe0e3c2999c668" resname="two-factor.instruction">
+        <source>To set up two-factor authentication manually, please copy the key above and paste it into the authentication app of your choice, such as 1Password, Google Authenticator, Authy, Duo Mobile, etc. Once done your app will start generating a random one-time code every 30 seconds, please copy this code and press Next below.</source>
+        <target>To set up two-factor authentication manually, please copy the key above and paste it into the authentication app of your choice, such as 1Password, Google Authenticator, Authy, Duo Mobile, etc. Once done your app will start generating a random one-time code every 30 seconds, please copy this code and press Next below.</target>
+        <jms:reference-file>app/screens/profile/two-factor-authentication/manualSetup.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="08b85cbfcd9b409e6743c8a47b5deebba73f7fdd" resname="two-factor.ios-password-manager">
+        <source>Set Up via iOS Password Manager</source>
+        <target>Set Up via iOS Password Manager</target>
+        <jms:reference-file>app/screens/profile/two-factor-authentication/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="02b542b8d3795ccd6f9097f9102417b3191b007f" resname="two-factor.login-code">
+        <source>Enter the 6-digit login code generated by your authentication app</source>
+        <target>Enter the 6-digit login code generated by your authentication app</target>
+        <jms:reference-file>app/screens/profile/two-factor-authentication/setupCode.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6ac91f280676043bf07e02b629729796a052b3ba" resname="two-factor.message.what-is-two-factor">
+        <source>Two-factor authentication adds an extra layer of security to your account by requiring a unique one-time code when you log in to AwardWallet. A separate app will generate this one-time code outside of AwardWallet, such as 1Password, Google Authenticator, Authy, Duo Mobile, etc.</source>
+        <target>Two-factor authentication adds an extra layer of security to your account by requiring a unique one-time code when you log in to AwardWallet. A separate app will generate this one-time code outside of AwardWallet, such as 1Password, Google Authenticator, Authy, Duo Mobile, etc.</target>
+        <jms:reference-file>app/screens/profile/two-factor-authentication/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3e10c8fa78876ad5850800c1ac01a5eddf8c0d17" resname="two-factor.recovery-key">
+        <source>Recovery Key</source>
+        <target>Recovery Key</target>
+        <jms:reference-file>app/screens/profile/two-factor-authentication/completeSetup.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d1c20ffd866b4a88002e85a3da7f768d30397afc" resname="two-factor.save-key">
+        <source>Save Recovery Key</source>
+        <target>Save Recovery Key</target>
+        <jms:reference-file>app/screens/profile/two-factor-authentication/completeSetup.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f697cd8d3e139d31b717a887a078372d7a8be0b8" resname="two-factor.third-party-app">
+        <source>Set Up via Third-Party App</source>
+        <target>Set Up via Third-Party App</target>
+        <jms:reference-file>app/screens/profile/two-factor-authentication/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e2696e7ee2c27f61c8d29347af24d4a9eb30135a" resname="two-factor.title">
+        <source>Add Extra Security%br%To Your Account!</source>
+        <target>Add Extra Security%br%To Your Account!</target>
+        <jms:reference-file>app/screens/profile/two-factor-authentication/index.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5c6fa26f4938297f3faec24b512673f0ba5875d3" resname="undo">
+        <source>Undo</source>
+        <target>Undo</target>
+        <jms:reference-file>app/screens/connections/connection/share.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7b91025887687e8951f32135d89cf33a54553e45" resname="unlink">
+        <source>Unlink</source>
+        <target>Unlink</target>
+        <jms:reference-file>app/components/profile/overview/linkedAccount.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e7709be1f92d1e83d410f97cc459a027a44de74a" resname="update-accounts.description-non-outdated">
+        <source>Are you sure you want to update all of your accounts?</source>
+        <target>Are you sure you want to update all of your accounts?</target>
+        <jms:reference-file>app/components/accounts/list/bottomSheet/accountsUpdate.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8c9274c29c60f63b3c253d23374e729ba1540f73" resname="update-accounts.description-outdated">
+        <source>Choose to update either all of your accounts or just the enabled accounts that haven't been updated in the last 30 days.</source>
+        <target>Choose to update either all of your accounts or just the enabled accounts that haven't been updated in the last 30 days.</target>
+        <jms:reference-file>app/components/accounts/list/bottomSheet/accountsUpdate.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="17284b0255583e247f93ff0a56e2b055175e1d69" resname="update-accounts.outdated-accounts">
+        <source>Accounts Not Updated in 30 Days</source>
+        <target>Accounts Not Updated in 30 Days</target>
+        <jms:reference-file>app/components/accounts/list/bottomSheet/accountsUpdate.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="aa4eb6d8ecec01856931e14ec475fea90a963fb0" resname="update-accounts.outdated-accounts-counter">
+        <source>Update %counter% Outdated Accounts</source>
+        <target>Update %counter% Outdated Accounts</target>
+        <jms:reference-file>app/components/accounts/list/bottomSheet/accountsUpdate.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="160fb974693cd0f947e1b77c4f07f906985e8808" resname="update-accounts.title-empty">
+        <source>You don't have any accounts that can be updated.</source>
+        <target>You don't have any accounts that can be updated.</target>
+        <jms:reference-file>app/components/accounts/list/bottomSheet/accountsUpdate.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f7847c9cd3ea1d227c09732dab873296b928b0df" resname="update-accounts.title-non-outdated">
+        <source>Update All Accounts</source>
+        <target>Update All Accounts</target>
+        <jms:reference-file>app/components/accounts/list/bottomSheet/accountsUpdate.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e356b97011480cd8dbfb8945c54dc6c65d06e42e" resname="update-accounts.title-outdated">
+        <source>Update Your Accounts</source>
+        <target>Update Your Accounts</target>
+        <jms:reference-file>app/components/accounts/list/bottomSheet/accountsUpdate.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0ae326d7bd5687cdbbabad6d4dcbeafe9e21b685" resname="update-accounts.total-accounts">
+        <source>Total Accounts</source>
+        <target>Total Accounts</target>
+        <jms:reference-file>app/components/accounts/list/bottomSheet/accountsUpdate.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cf914b5e6de891cc5dbb8cd21d9018686c650246" resname="update-accounts.total-accounts-counter">
+        <source>Update All %counter% Accounts</source>
+        <target>Update All %counter% Accounts</target>
+        <jms:reference-file>app/components/accounts/list/bottomSheet/accountsUpdate.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f04210b8ed36caf70dcc34683361a0f694e4f3a3" resname="upgrade-to">
+        <source>Upgrade to</source>
+        <target>Upgrade to</target>
+        <jms:reference-file>app/components/tools/cards/subscriptionPlus.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9e213765bb5dc198e26cd1ee50a88c627d548840" resname="upload-fail">
+        <source>Upload failed</source>
+        <target>Upload failed</target>
+        <jms:reference-file>app/components/trips/details/list/attachments/row.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="01bbc2357c2a36056d1c3d4f086ca676deb46a84" resname="user.delete.enter.feedback">
+        <source>Please Enter Your Feedback</source>
+        <target>Please Enter Your Feedback</target>
+        <jms:reference-file>app/screens/profile/userDelete.tsx</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="415d473f9b8277a03f54d0fdf3638bb22b4ea1b6" resname="user.delete.popup-text2">
+        <source>If you delete your personal account all of the programs that are assigned to you will be deleted. In addition to that you will lose access to the business</source>
+        <target>If you delete your personal account all of the programs that are assigned to you will be deleted. In addition to that you will lose access to the business</target>
+        <jms:reference-file>app/components/profile/bottomSheet/businessWarning.tsx</jms:reference-file>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
